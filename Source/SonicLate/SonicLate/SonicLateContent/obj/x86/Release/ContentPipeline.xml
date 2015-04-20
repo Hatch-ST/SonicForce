@@ -1,0 +1,4066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Audio\bgm_stage_w.wav</Source>
+      <Name>Audio\bgm_stage_w</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_stage_w.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_stage_w.wma</Extra>
+      <Time>2014-01-17T21:48:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreA.wav</Source>
+      <Name>Audio\Se\ScoreA</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreA.xnb</Output>
+      <Time>2014-01-16T20:38:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\attack02.wav</Source>
+      <Name>Audio\Se\attack02</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\attack02.xnb</Output>
+      <Time>2013-11-15T20:20:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreB.wav</Source>
+      <Name>Audio\Se\ScoreB</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreB.xnb</Output>
+      <Time>2014-01-15T16:12:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreC.wav</Source>
+      <Name>Audio\Se\ScoreC</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreC.xnb</Output>
+      <Time>2014-01-16T20:58:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\decision.wav</Source>
+      <Name>Audio\Se\decision</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\decision.xnb</Output>
+      <Time>2014-01-19T00:11:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\die.wav</Source>
+      <Name>Audio\Se\die</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\die.xnb</Output>
+      <Time>2013-12-14T14:56:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\excellent.wav</Source>
+      <Name>Audio\Se\excellent</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\excellent.xnb</Output>
+      <Time>2014-01-20T08:34:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\fantastic.wav</Source>
+      <Name>Audio\Se\fantastic</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\fantastic.xnb</Output>
+      <Time>2014-01-20T08:14:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\good.wav</Source>
+      <Name>Audio\Se\good</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\good.xnb</Output>
+      <Time>2014-01-20T08:44:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\great.wav</Source>
+      <Name>Audio\Se\great</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\great.xnb</Output>
+      <Time>2014-01-20T08:44:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\marvelous.wav</Source>
+      <Name>Audio\Se\marvelous</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\marvelous.xnb</Output>
+      <Time>2014-01-20T08:40:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreS.wav</Source>
+      <Name>Audio\Se\ScoreS</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreS.xnb</Output>
+      <Time>2014-01-20T08:26:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\score1.wav</Source>
+      <Name>Audio\Se\score1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\score1.xnb</Output>
+      <Time>2014-01-15T20:26:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\score2.wav</Source>
+      <Name>Audio\Se\score2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\score2.xnb</Output>
+      <Time>2014-01-16T21:02:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\se.wav</Source>
+      <Name>Audio\Se\se</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\se.xnb</Output>
+      <Time>2011-07-11T20:23:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\shark.wav</Source>
+      <Name>Audio\Se\shark</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\shark.xnb</Output>
+      <Time>2014-01-20T08:17:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreSS.wav</Source>
+      <Name>Audio\Se\ScoreSS</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreSS.xnb</Output>
+      <Time>2014-01-20T08:26:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreSSS.wav</Source>
+      <Name>Audio\Se\ScoreSSS</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreSSS.xnb</Output>
+      <Time>2014-01-20T08:27:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\start1.wav</Source>
+      <Name>Audio\Se\start1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\start1.xnb</Output>
+      <Time>2014-01-07T17:06:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\start2.wav</Source>
+      <Name>Audio\Se\start2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\start2.xnb</Output>
+      <Time>2014-01-15T16:05:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\thanks.wav</Source>
+      <Name>Audio\Se\thanks</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\thanks.xnb</Output>
+      <Time>2014-01-15T17:38:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\title.wav</Source>
+      <Name>Audio\Se\title</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\title.xnb</Output>
+      <Time>2013-12-10T17:53:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\topgear.wav</Source>
+      <Name>Audio\Se\topgear</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\topgear.xnb</Output>
+      <Time>2014-01-15T20:40:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\unbelievable.wav</Source>
+      <Name>Audio\Se\unbelievable</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\unbelievable.xnb</Output>
+      <Time>2014-01-20T08:19:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\whale.wav</Source>
+      <Name>Audio\Se\whale</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\whale.xnb</Output>
+      <Time>2014-01-20T08:18:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\wonderful.wav</Source>
+      <Name>Audio\Se\wonderful</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\wonderful.xnb</Output>
+      <Time>2014-01-20T08:39:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\ScoreZ.wav</Source>
+      <Name>Audio\Se\ScoreZ</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\ScoreZ.xnb</Output>
+      <Time>2014-01-16T21:06:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Se\zafter.wav</Source>
+      <Name>Audio\Se\zafter</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\Se\zafter.xnb</Output>
+      <Time>2014-01-20T08:16:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bgm_Title_w.wav</Source>
+      <Name>Audio\bgm_Title_w</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Title_w.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Title_w.wma</Extra>
+      <Time>2014-01-17T21:46:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bgm_stage_B_w.wav</Source>
+      <Name>Audio\bgm_stage_B_w</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_stage_B_w.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_stage_B_w.wma</Extra>
+      <Time>2014-01-18T17:47:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\pause.png</Source>
+      <Name>Image\pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\pause.xnb</Output>
+      <Time>2014-01-10T18:36:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\pause_menu_1.png</Source>
+      <Name>Image\pause_menu_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\pause_menu_1.xnb</Output>
+      <Time>2014-01-10T18:37:22+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\pause_menu_2.png</Source>
+      <Name>Image\pause_menu_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\pause_menu_2.xnb</Output>
+      <Time>2014-01-10T18:38:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_1.png</Source>
+      <Name>Image\score\num_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_1.xnb</Output>
+      <Time>2014-01-07T17:23:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_10.png</Source>
+      <Name>Image\score\num_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_10.xnb</Output>
+      <Time>2014-01-07T17:22:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_2.png</Source>
+      <Name>Image\score\num_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_2.xnb</Output>
+      <Time>2014-01-07T17:23:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_3.png</Source>
+      <Name>Image\score\num_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_3.xnb</Output>
+      <Time>2014-01-07T17:23:22+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_4.png</Source>
+      <Name>Image\score\num_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_4.xnb</Output>
+      <Time>2014-01-07T17:23:46+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_5.png</Source>
+      <Name>Image\score\num_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_5.xnb</Output>
+      <Time>2014-01-07T17:23:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_6.png</Source>
+      <Name>Image\score\num_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_6.xnb</Output>
+      <Time>2014-01-07T17:23:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_7.png</Source>
+      <Name>Image\score\num_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_7.xnb</Output>
+      <Time>2014-01-07T17:22:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_8.png</Source>
+      <Name>Image\score\num_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_8.xnb</Output>
+      <Time>2014-01-07T17:22:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_9.png</Source>
+      <Name>Image\score\num_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_9.xnb</Output>
+      <Time>2014-01-07T17:22:46+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\score_main.png</Source>
+      <Name>Image\score\score_main</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\score_main.xnb</Output>
+      <Time>2014-01-14T16:08:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\score_main_Z.png</Source>
+      <Name>Image\score\score_main_Z</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\score_main_Z.xnb</Output>
+      <Time>2014-01-14T16:08:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\score_nami.png</Source>
+      <Name>Image\score\score_nami</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\score_nami.xnb</Output>
+      <Time>2014-01-14T16:08:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_1.png</Source>
+      <Name>Image\score\valuation_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_1.xnb</Output>
+      <Time>2013-12-25T19:23:46+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_2.png</Source>
+      <Name>Image\score\valuation_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_2.xnb</Output>
+      <Time>2013-12-25T19:23:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_3.png</Source>
+      <Name>Image\score\valuation_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_3.xnb</Output>
+      <Time>2013-12-25T19:23:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_4.png</Source>
+      <Name>Image\score\valuation_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_4.xnb</Output>
+      <Time>2013-12-25T19:22:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_5.png</Source>
+      <Name>Image\score\valuation_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_5.xnb</Output>
+      <Time>2013-12-25T19:22:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_6.png</Source>
+      <Name>Image\score\valuation_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_6.xnb</Output>
+      <Time>2013-12-25T19:23:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\valuation_7.png</Source>
+      <Name>Image\score\valuation_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\valuation_7.xnb</Output>
+      <Time>2013-12-25T19:23:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_avoid.png</Source>
+      <Name>Image\tutorial\tutorial_avoid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_avoid.xnb</Output>
+      <Time>2014-01-18T17:18:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_avoid_end.png</Source>
+      <Name>Image\tutorial\tutorial_avoid_end</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_avoid_end.xnb</Output>
+      <Time>2014-01-10T19:07:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_combo.png</Source>
+      <Name>Image\tutorial\tutorial_combo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_combo.xnb</Output>
+      <Time>2014-01-18T17:19:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_combo_end.png</Source>
+      <Name>Image\tutorial\tutorial_combo_end</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_combo_end.xnb</Output>
+      <Time>2014-01-10T19:08:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_hanase.png</Source>
+      <Name>Image\tutorial\tutorial_hanase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_hanase.xnb</Output>
+      <Time>2014-01-18T17:20:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_highcombo.png</Source>
+      <Name>Image\tutorial\tutorial_highcombo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_highcombo.xnb</Output>
+      <Time>2014-01-10T19:09:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_highcombo_end.png</Source>
+      <Name>Image\tutorial\tutorial_highcombo_end</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_highcombo_end.xnb</Output>
+      <Time>2014-01-10T19:09:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_move.png</Source>
+      <Name>Image\tutorial\tutorial_move</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_move.xnb</Output>
+      <Time>2014-01-18T17:21:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_move_end.png</Source>
+      <Name>Image\tutorial\tutorial_move_end</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_move_end.xnb</Output>
+      <Time>2014-01-10T19:10:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_start.png</Source>
+      <Name>Image\tutorial\tutorial_start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_start.xnb</Output>
+      <Time>2014-01-10T19:10:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_tilt.png</Source>
+      <Name>Image\tutorial\tutorial_tilt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_tilt.xnb</Output>
+      <Time>2014-01-18T17:23:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_tilt_end.png</Source>
+      <Name>Image\tutorial\tutorial_tilt_end</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_tilt_end.xnb</Output>
+      <Time>2014-01-10T19:10:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_zone.png</Source>
+      <Name>Image\tutorial\tutorial_zone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_zone.xnb</Output>
+      <Time>2014-01-18T17:24:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_zone_end.png</Source>
+      <Name>Image\tutorial\tutorial_zone_end</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_zone_end.xnb</Output>
+      <Time>2014-01-10T19:11:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_1.png</Source>
+      <Name>Image\ZoneEffect_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_1.xnb</Output>
+      <Time>2013-11-05T07:39:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_10.png</Source>
+      <Name>Image\ZoneEffect_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_10.xnb</Output>
+      <Time>2013-11-05T07:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_11.png</Source>
+      <Name>Image\ZoneEffect_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_11.xnb</Output>
+      <Time>2013-11-05T07:39:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_12.png</Source>
+      <Name>Image\ZoneEffect_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_12.xnb</Output>
+      <Time>2013-11-05T07:39:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_13.png</Source>
+      <Name>Image\ZoneEffect_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_13.xnb</Output>
+      <Time>2013-11-05T07:39:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_14.png</Source>
+      <Name>Image\ZoneEffect_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_14.xnb</Output>
+      <Time>2013-11-05T07:39:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_15.png</Source>
+      <Name>Image\ZoneEffect_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_15.xnb</Output>
+      <Time>2013-11-05T07:39:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_16.png</Source>
+      <Name>Image\ZoneEffect_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_16.xnb</Output>
+      <Time>2013-11-05T07:39:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_17.png</Source>
+      <Name>Image\ZoneEffect_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_17.xnb</Output>
+      <Time>2013-11-05T07:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_18.png</Source>
+      <Name>Image\ZoneEffect_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_18.xnb</Output>
+      <Time>2013-11-05T07:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_19.png</Source>
+      <Name>Image\ZoneEffect_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_19.xnb</Output>
+      <Time>2013-11-05T07:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_2.png</Source>
+      <Name>Image\ZoneEffect_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_2.xnb</Output>
+      <Time>2013-11-05T07:39:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_20.png</Source>
+      <Name>Image\ZoneEffect_20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_20.xnb</Output>
+      <Time>2013-11-05T07:39:36+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_3.png</Source>
+      <Name>Image\ZoneEffect_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_3.xnb</Output>
+      <Time>2013-11-05T07:39:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_4.png</Source>
+      <Name>Image\ZoneEffect_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_4.xnb</Output>
+      <Time>2013-11-05T07:39:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_5.png</Source>
+      <Name>Image\ZoneEffect_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_5.xnb</Output>
+      <Time>2013-11-05T07:39:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_6.png</Source>
+      <Name>Image\ZoneEffect_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_6.xnb</Output>
+      <Time>2013-11-05T07:39:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_7.png</Source>
+      <Name>Image\ZoneEffect_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_7.xnb</Output>
+      <Time>2013-11-05T07:39:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_8.png</Source>
+      <Name>Image\ZoneEffect_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_8.xnb</Output>
+      <Time>2013-11-05T07:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_9.png</Source>
+      <Name>Image\ZoneEffect_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\ZoneEffect_9.xnb</Output>
+      <Time>2013-11-05T07:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\texture.png</Source>
+      <Name>Image\texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\texture.xnb</Output>
+      <Time>2013-09-27T17:17:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_1.png</Source>
+      <Name>Image\awa_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\awa_1.xnb</Output>
+      <Time>2013-10-29T18:01:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_2.png</Source>
+      <Name>Image\awa_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\awa_2.xnb</Output>
+      <Time>2013-10-29T18:01:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_3.png</Source>
+      <Name>Image\awa_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\awa_3.xnb</Output>
+      <Time>2013-10-29T17:59:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_4.png</Source>
+      <Name>Image\awa_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\awa_4.xnb</Output>
+      <Time>2013-10-29T18:02:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\circle.png</Source>
+      <Name>Image\circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\circle.xnb</Output>
+      <Time>2013-11-14T19:01:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge.png</Source>
+      <Name>Image\UI_gauge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge.xnb</Output>
+      <Time>2013-11-26T17:11:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_stone.png</Source>
+      <Name>Image\UI_gauge_stone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_stone.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_1.png</Source>
+      <Name>Image\UI_gauge_top_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_1.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_10.png</Source>
+      <Name>Image\UI_gauge_top_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_10.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_11.png</Source>
+      <Name>Image\UI_gauge_top_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_11.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_2.png</Source>
+      <Name>Image\UI_gauge_top_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_2.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_3.png</Source>
+      <Name>Image\UI_gauge_top_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_3.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_4.png</Source>
+      <Name>Image\UI_gauge_top_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_4.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_5.png</Source>
+      <Name>Image\UI_gauge_top_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_5.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_6.png</Source>
+      <Name>Image\UI_gauge_top_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_6.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_7.png</Source>
+      <Name>Image\UI_gauge_top_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_7.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_8.png</Source>
+      <Name>Image\UI_gauge_top_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_8.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_top_9.png</Source>
+      <Name>Image\UI_gauge_top_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_top_9.xnb</Output>
+      <Time>2013-11-15T15:24:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\UI_gauge_zone.png</Source>
+      <Name>Image\UI_gauge_zone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\UI_gauge_zone.xnb</Output>
+      <Time>2013-11-26T17:11:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\light.png</Source>
+      <Name>Image\light</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\light.xnb</Output>
+      <Time>2013-12-05T18:07:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\light_2.png</Source>
+      <Name>Image\light_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\light_2.xnb</Output>
+      <Time>2013-11-23T00:03:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\light_3.png</Source>
+      <Name>Image\light_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\light_3.xnb</Output>
+      <Time>2013-11-23T00:05:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_1.png</Source>
+      <Name>Image\Compliment_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_1.xnb</Output>
+      <Time>2013-11-05T17:44:36+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_2.png</Source>
+      <Name>Image\Compliment_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_2.xnb</Output>
+      <Time>2014-01-16T09:39:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_3.png</Source>
+      <Name>Image\Compliment_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_3.xnb</Output>
+      <Time>2013-11-05T17:46:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_4.png</Source>
+      <Name>Image\Compliment_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_4.xnb</Output>
+      <Time>2013-11-05T17:46:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_5.png</Source>
+      <Name>Image\Compliment_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_5.xnb</Output>
+      <Time>2013-11-05T17:47:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_logo.png</Source>
+      <Name>Image\title_logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_logo.xnb</Output>
+      <Time>2013-12-10T20:22:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\icon_hitode.png</Source>
+      <Name>Image\icon_hitode</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\icon_hitode.xnb</Output>
+      <Time>2013-12-03T19:51:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\play_gameclear.png</Source>
+      <Name>Image\play_gameclear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\play_gameclear.xnb</Output>
+      <Time>2014-01-16T21:23:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\play_gameover.png</Source>
+      <Name>Image\play_gameover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\play_gameover.xnb</Output>
+      <Time>2013-12-03T19:17:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\play_gamestart.png</Source>
+      <Name>Image\play_gamestart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\play_gamestart.xnb</Output>
+      <Time>2014-01-16T19:38:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_menu_1.png</Source>
+      <Name>Image\title_menu_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_menu_1.xnb</Output>
+      <Time>2014-01-16T05:19:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_menu_2.png</Source>
+      <Name>Image\title_menu_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_menu_2.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_menu_3.png</Source>
+      <Name>Image\title_menu_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_menu_3.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_menu_4.png</Source>
+      <Name>Image\title_menu_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_menu_4.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_push_1.png</Source>
+      <Name>Image\title_push_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_push_1.xnb</Output>
+      <Time>2014-01-07T17:45:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\title_push_2.png</Source>
+      <Name>Image\title_push_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\title_push_2.xnb</Output>
+      <Time>2014-01-07T17:44:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\black.png</Source>
+      <Name>Image\black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\black.xnb</Output>
+      <Time>2013-12-11T22:38:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\blackwhole.png</Source>
+      <Name>Image\blackwhole</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\blackwhole.xnb</Output>
+      <Time>2013-12-11T22:32:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\wall.png</Source>
+      <Name>Model\object\wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall.xnb</Output>
+      <Time>2014-01-16T21:31:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_1.png</Source>
+      <Name>Image\TopEffect\TopEffect_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_1.xnb</Output>
+      <Time>2014-01-14T19:03:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_10.png</Source>
+      <Name>Image\TopEffect\TopEffect_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_10.xnb</Output>
+      <Time>2014-01-14T18:49:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_11.png</Source>
+      <Name>Image\TopEffect\TopEffect_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_11.xnb</Output>
+      <Time>2014-01-14T18:49:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_12.png</Source>
+      <Name>Image\TopEffect\TopEffect_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_12.xnb</Output>
+      <Time>2014-01-14T18:49:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_13.png</Source>
+      <Name>Image\TopEffect\TopEffect_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_13.xnb</Output>
+      <Time>2014-01-14T18:50:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_14.png</Source>
+      <Name>Image\TopEffect\TopEffect_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_14.xnb</Output>
+      <Time>2014-01-14T18:50:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_15.png</Source>
+      <Name>Image\TopEffect\TopEffect_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_15.xnb</Output>
+      <Time>2014-01-14T18:50:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_16.png</Source>
+      <Name>Image\TopEffect\TopEffect_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_16.xnb</Output>
+      <Time>2014-01-14T18:50:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_17.png</Source>
+      <Name>Image\TopEffect\TopEffect_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_17.xnb</Output>
+      <Time>2014-01-14T18:50:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_18.png</Source>
+      <Name>Image\TopEffect\TopEffect_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_18.xnb</Output>
+      <Time>2014-01-14T18:51:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_19.png</Source>
+      <Name>Image\TopEffect\TopEffect_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_19.xnb</Output>
+      <Time>2014-01-14T18:51:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_2.png</Source>
+      <Name>Image\TopEffect\TopEffect_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_2.xnb</Output>
+      <Time>2014-01-14T18:51:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_20.png</Source>
+      <Name>Image\TopEffect\TopEffect_20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_20.xnb</Output>
+      <Time>2014-01-14T18:51:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_3.png</Source>
+      <Name>Image\TopEffect\TopEffect_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_3.xnb</Output>
+      <Time>2014-01-14T18:52:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_4.png</Source>
+      <Name>Image\TopEffect\TopEffect_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_4.xnb</Output>
+      <Time>2014-01-14T18:52:22+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_5.png</Source>
+      <Name>Image\TopEffect\TopEffect_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_5.xnb</Output>
+      <Time>2014-01-14T18:52:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_6.png</Source>
+      <Name>Image\TopEffect\TopEffect_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_6.xnb</Output>
+      <Time>2014-01-14T18:49:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_7.png</Source>
+      <Name>Image\TopEffect\TopEffect_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_7.xnb</Output>
+      <Time>2014-01-14T18:49:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_8.png</Source>
+      <Name>Image\TopEffect\TopEffect_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_8.xnb</Output>
+      <Time>2014-01-14T18:48:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\TopEffect\TopEffect_9.png</Source>
+      <Name>Image\TopEffect\TopEffect_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\TopEffect\TopEffect_9.xnb</Output>
+      <Time>2014-01-14T18:48:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_1.png</Source>
+      <Name>Image\score_num\num_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_1.xnb</Output>
+      <Time>2014-01-10T19:19:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_10.png</Source>
+      <Name>Image\score_num\num_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_10.xnb</Output>
+      <Time>2014-01-10T19:21:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_2.png</Source>
+      <Name>Image\score_num\num_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_2.xnb</Output>
+      <Time>2014-01-10T19:19:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_3.png</Source>
+      <Name>Image\score_num\num_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_3.xnb</Output>
+      <Time>2014-01-10T19:19:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_4.png</Source>
+      <Name>Image\score_num\num_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_4.xnb</Output>
+      <Time>2014-01-10T19:20:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_5.png</Source>
+      <Name>Image\score_num\num_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_5.xnb</Output>
+      <Time>2014-01-10T19:20:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_6.png</Source>
+      <Name>Image\score_num\num_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_6.xnb</Output>
+      <Time>2014-01-10T19:20:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_7.png</Source>
+      <Name>Image\score_num\num_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_7.xnb</Output>
+      <Time>2014-01-10T19:20:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_8.png</Source>
+      <Name>Image\score_num\num_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_8.xnb</Output>
+      <Time>2014-01-10T19:20:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score_num\num_9.png</Source>
+      <Name>Image\score_num\num_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score_num\num_9.xnb</Output>
+      <Time>2014-01-10T19:21:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\playscore.png</Source>
+      <Name>Image\playscore</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\playscore.xnb</Output>
+      <Time>2014-01-10T18:31:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_gage_top.png</Source>
+      <Name>Image\tutorial\tutorial_gage_top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_gage_top.xnb</Output>
+      <Time>2014-01-10T19:26:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_gage_zone.png</Source>
+      <Name>Image\tutorial\tutorial_gage_zone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_gage_zone.xnb</Output>
+      <Time>2014-01-10T19:27:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_ganbare.png</Source>
+      <Name>Image\tutorial\tutorial_ganbare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_ganbare.xnb</Output>
+      <Time>2014-01-10T19:12:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\tutorial\tutorial_hetakuso.png</Source>
+      <Name>Image\tutorial\tutorial_hetakuso</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\tutorial\tutorial_hetakuso.xnb</Output>
+      <Time>2014-01-10T19:12:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\pause_check.png</Source>
+      <Name>Image\pause_check</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\pause_check.xnb</Output>
+      <Time>2014-01-10T18:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\pause_yesno_2.png</Source>
+      <Name>Image\pause_yesno_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\pause_yesno_2.xnb</Output>
+      <Time>2014-01-10T18:43:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\pause_yesno_1.png</Source>
+      <Name>Image\pause_yesno_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\pause_yesno_1.xnb</Output>
+      <Time>2014-01-10T18:43:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\now_loading_1.png</Source>
+      <Name>Image\now_loading_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\now_loading_1.xnb</Output>
+      <Time>2013-12-25T12:35:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\now_loading_2.png</Source>
+      <Name>Image\now_loading_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\now_loading_2.xnb</Output>
+      <Time>2013-12-25T12:34:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\now_loading_3.png</Source>
+      <Name>Image\now_loading_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\now_loading_3.xnb</Output>
+      <Time>2013-12-25T12:34:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\now_loading_4.png</Source>
+      <Name>Image\now_loading_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\now_loading_4.xnb</Output>
+      <Time>2013-12-25T12:34:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\option_back.png</Source>
+      <Name>Image\option_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\option_back.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\option_menu.png</Source>
+      <Name>Image\option_menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\option_menu.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\option_sankaku.png</Source>
+      <Name>Image\option_sankaku</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\option_sankaku.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\option_sen.png</Source>
+      <Name>Image\option_sen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\option_sen.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\option_volume.png</Source>
+      <Name>Image\option_volume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\option_volume.xnb</Output>
+      <Time>2014-01-16T05:19:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_6.png</Source>
+      <Name>Image\Compliment_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_6.xnb</Output>
+      <Time>2014-01-16T18:34:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Compliment_7.png</Source>
+      <Name>Image\Compliment_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\Compliment_7.xnb</Output>
+      <Time>2014-01-16T18:34:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_1.png</Source>
+      <Name>Image\point_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_1.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_10.png</Source>
+      <Name>Image\point_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_10.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_2.png</Source>
+      <Name>Image\point_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_2.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_3.png</Source>
+      <Name>Image\point_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_3.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_4.png</Source>
+      <Name>Image\point_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_4.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_5.png</Source>
+      <Name>Image\point_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_5.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_6.png</Source>
+      <Name>Image\point_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_6.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_7.png</Source>
+      <Name>Image\point_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_7.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_8.png</Source>
+      <Name>Image\point_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_8.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\point_9.png</Source>
+      <Name>Image\point_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\point_9.xnb</Output>
+      <Time>2014-01-16T16:41:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\option_background.jpg</Source>
+      <Name>Image\option_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\option_background.xnb</Output>
+      <Time>2014-01-16T21:53:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\credit_command.png</Source>
+      <Name>Image\credit_command</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\credit_command.xnb</Output>
+      <Time>2014-01-16T19:48:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\main_Player_top.png</Source>
+      <Name>Image\main_Player_top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\main_Player_top.xnb</Output>
+      <Time>2014-01-18T17:07:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\main_Player_injure.png</Source>
+      <Name>Image\main_Player_injure</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\main_Player_injure.xnb</Output>
+      <Time>2013-12-13T21:49:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\light_g.png</Source>
+      <Name>Image\light_g</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\light_g.xnb</Output>
+      <Time>2014-01-17T22:27:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_1.png</Source>
+      <Name>Image\score\num_red_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_1.xnb</Output>
+      <Time>2014-01-17T23:37:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_10.png</Source>
+      <Name>Image\score\num_red_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_10.xnb</Output>
+      <Time>2014-01-17T23:37:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_2.png</Source>
+      <Name>Image\score\num_red_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_2.xnb</Output>
+      <Time>2014-01-17T23:37:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_3.png</Source>
+      <Name>Image\score\num_red_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_3.xnb</Output>
+      <Time>2014-01-17T23:37:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_4.png</Source>
+      <Name>Image\score\num_red_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_4.xnb</Output>
+      <Time>2014-01-17T23:37:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_5.png</Source>
+      <Name>Image\score\num_red_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_5.xnb</Output>
+      <Time>2014-01-17T23:37:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_6.png</Source>
+      <Name>Image\score\num_red_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_6.xnb</Output>
+      <Time>2014-01-17T23:36:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_7.png</Source>
+      <Name>Image\score\num_red_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_7.xnb</Output>
+      <Time>2014-01-17T23:36:46+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_8.png</Source>
+      <Name>Image\score\num_red_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_8.xnb</Output>
+      <Time>2014-01-17T23:36:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\score\num_red_9.png</Source>
+      <Name>Image\score\num_red_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Image\score\num_red_9.xnb</Output>
+      <Time>2014-01-17T23:36:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago.fbx</Source>
+      <Name>Model\Chinanago</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Chinanago.xnb</Output>
+      <Time>2013-10-01T15:49:52+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Chinanago_0.xml</Key>
+        <Value>2014-01-21T13:48:31.6884003+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Chinanago\Chinanago_M_Take_001_0.xml</Key>
+        <Value>2014-01-21T13:48:31.7819985+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Chinanago\Chinanago_M_teishi_0.xml</Key>
+        <Value>2014-01-21T13:48:31.8755967+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_chinanago_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\EndingObject.fbx</Source>
+      <Name>Model\EndingObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\EndingObject.xnb</Output>
+      <Time>2014-01-16T20:40:50+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\EndingObject_0.xml</Key>
+        <Value>2014-01-21T13:48:33.107973+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\color_name_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon.fbx</Source>
+      <Name>Model\harisenbon</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\harisenbon.xnb</Output>
+      <Time>2013-10-15T15:33:12+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\harisenbon_0.xml</Key>
+        <Value>2014-01-21T13:48:34.3679489+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\harisenbon\harisenbon_M_Take_001_0.xml</Key>
+        <Value>2014-01-21T13:48:34.4615471+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_harisenbon_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\hitode.fbx</Source>
+      <Name>Model\hitode</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\hitode.xnb</Output>
+      <Time>2013-10-01T15:50:36+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\hitode_0.xml</Key>
+        <Value>2014-01-21T13:48:34.8047405+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\hitode\hitode_M_Take_001_0.xml</Key>
+        <Value>2014-01-21T13:48:34.8671393+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_hitode_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\kani.fbx</Source>
+      <Name>Model\kani</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\kani.xnb</Output>
+      <Time>2013-10-29T15:31:00+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kani_0.xml</Key>
+        <Value>2014-01-21T13:48:35.1323342+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kani\kani_M_attack_0.xml</Key>
+        <Value>2014-01-21T13:48:35.2425321+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kani_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\kurage.fbx</Source>
+      <Name>Model\kurage</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\kurage.xnb</Output>
+      <Time>2013-11-12T16:47:08+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kurage_0.xml</Key>
+        <Value>2014-01-21T13:48:35.6823236+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kurage\kurage_M_Rotation_0.xml</Key>
+        <Value>2014-01-21T13:48:36.3219113+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kurage_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\player.fbx</Source>
+      <Name>Model\player</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\player.xnb</Output>
+      <Time>2013-10-15T18:32:40+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player_0.xml</Key>
+        <Value>2014-01-21T13:48:37.0394979+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M1_2_Take_001_0.xml</Key>
+        <Value>2014-01-21T13:48:37.242294+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M2_Left_0.xml</Key>
+        <Value>2014-01-21T13:48:37.3670916+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M2_Right_0.xml</Key>
+        <Value>2014-01-21T13:48:37.5074889+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\Player_M4_Dead_0.xml</Key>
+        <Value>2014-01-21T13:48:37.7882835+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M5_top_0.xml</Key>
+        <Value>2014-01-21T13:48:37.880282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Player_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\atari.fbx</Source>
+      <Name>Model\Stage\atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\atari.xnb</Output>
+      <Time>2014-01-16T19:09:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\atari_0.xml</Key>
+        <Value>2014-01-21T13:48:38.451282+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Stage\back.fbx</Source>
+      <Name>Model\Stage\back</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\back.xnb</Output>
+      <Time>2014-01-18T16:21:18+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\back_0.xml</Key>
+        <Value>2014-01-21T13:48:38.522282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\BackScreen.fbx</Source>
+      <Name>Model\Stage\BackScreen</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\BackScreen.xnb</Output>
+      <Time>2013-12-10T11:00:14+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\BackScreen_0.xml</Key>
+        <Value>2014-01-21T13:48:39.092282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage1.fbx</Source>
+      <Name>Model\Stage\stage1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage1.xnb</Output>
+      <Time>2013-12-10T11:00:14+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage1_0.xml</Key>
+        <Value>2014-01-21T13:48:39.660282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage2.fbx</Source>
+      <Name>Model\Stage\stage2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage2.xnb</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage2_0.xml</Key>
+        <Value>2014-01-21T13:48:40.918282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage3.fbx</Source>
+      <Name>Model\Stage\stage3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage3.xnb</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage3_0.xml</Key>
+        <Value>2014-01-21T13:48:41.277282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage4.fbx</Source>
+      <Name>Model\Stage\stage4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage4.xnb</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage4_0.xml</Key>
+        <Value>2014-01-21T13:48:41.795282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage5.fbx</Source>
+      <Name>Model\Stage\stage5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage5.xnb</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage5_0.xml</Key>
+        <Value>2014-01-21T13:48:42.294282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage6.fbx</Source>
+      <Name>Model\Stage\stage6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage6.xnb</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage6_0.xml</Key>
+        <Value>2014-01-21T13:48:42.766282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage7.fbx</Source>
+      <Name>Model\Stage\stage7</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage7.xnb</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage7_0.xml</Key>
+        <Value>2014-01-21T13:48:43.338282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\tako.fbx</Source>
+      <Name>Model\tako</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\tako.xnb</Output>
+      <Time>2013-10-01T15:51:14+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\tako_0.xml</Key>
+        <Value>2014-01-21T13:48:43.565282+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\tako\tako_M_Attack_0.xml</Key>
+        <Value>2014-01-21T13:48:43.682282+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\tako\tako_M_Screw_0.xml</Key>
+        <Value>2014-01-21T13:48:43.892282+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Tako_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon.fbx</Source>
+      <Name>Model\togesenbon</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\togesenbon.xnb</Output>
+      <Time>2013-11-05T15:56:02+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\togesenbon_0.xml</Key>
+        <Value>2014-01-21T13:48:44.4224808+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\togesenbon\togesenbon_M_Take_001_0.xml</Key>
+        <Value>2014-01-21T13:48:44.516079+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_togesenbon_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage.fbx</Source>
+      <Name>Model\stage</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\stage.xnb</Output>
+      <Time>2013-10-29T17:39:34+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\stage_0.xml</Key>
+        <Value>2014-01-21T13:48:45.1244673+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\kurage_core.fbx</Source>
+      <Name>Model\kurage_core</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\kurage_core.xnb</Output>
+      <Time>2013-11-05T17:11:54+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kurage_core_0.xml</Key>
+        <Value>2014-01-21T13:48:46.3724433+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kurage_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\hani.fbx</Source>
+      <Name>Model\hani</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\hani.xnb</Output>
+      <Time>2014-01-18T21:48:28+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\hani_0.xml</Key>
+        <Value>2014-01-21T13:48:46.4192424+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\hani_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_title.fbx</Source>
+      <Name>Model\stage_title</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\stage_title.xnb</Output>
+      <Time>2013-10-29T17:39:34+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\stage_title_0.xml</Key>
+        <Value>2014-01-21T13:48:47.0276307+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\kujira.fbx</Source>
+      <Name>Model\kujira</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\kujira.xnb</Output>
+      <Time>2013-12-10T15:35:30+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kujira_0.xml</Key>
+        <Value>2014-01-21T13:48:47.1992274+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kujira\kujira_M1_Bite_0.xml</Key>
+        <Value>2014-01-21T13:48:47.3396247+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kujira_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\same.fbx</Source>
+      <Name>Model\same</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\same.xnb</Output>
+      <Time>2013-12-10T15:36:00+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same_0.xml</Key>
+        <Value>2014-01-21T13:48:48.2288076+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\Same_M1_Bite_0.xml</Key>
+        <Value>2014-01-21T13:48:48.3536052+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\same_M2_bite2_0.xml</Key>
+        <Value>2014-01-21T13:48:48.4316037+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\same_M3_CloseSwim_0.xml</Key>
+        <Value>2014-01-21T13:48:48.5564013+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\same_M4_OpenSwim_0.xml</Key>
+        <Value>2014-01-21T13:48:48.6811989+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_same_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\whole.fbx</Source>
+      <Name>Model\whole</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\whole.xnb</Output>
+      <Time>2013-12-09T00:53:08+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\whole_0.xml</Key>
+        <Value>2014-01-21T13:48:49.5235827+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\whole_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\Stage\kujira_atari.fbx</Source>
+      <Name>Model\Stage\kujira_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\kujira_atari.xnb</Output>
+      <Time>2013-12-10T20:46:34+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\kujira_atari_0.xml</Key>
+        <Value>2014-01-21T13:48:49.8973773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage8.fbx</Source>
+      <Name>Model\Stage\stage8</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\stage8.xnb</Output>
+      <Time>2013-12-10T20:48:48+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Stage\stage8_0.xml</Key>
+        <Value>2014-01-21T13:48:50.2033773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\tainai_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\main_kujira_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_1.fbx</Source>
+      <Name>Model\object\obj_1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_1.xnb</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_1_0.xml</Key>
+        <Value>2014-01-21T13:48:51.5753773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_2.fbx</Source>
+      <Name>Model\object\obj_2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_2.xnb</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_2_0.xml</Key>
+        <Value>2014-01-21T13:48:52.2173773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_3.fbx</Source>
+      <Name>Model\object\obj_3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_3.xnb</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_3_0.xml</Key>
+        <Value>2014-01-21T13:48:52.3343773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_4.fbx</Source>
+      <Name>Model\object\obj_4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_4.xnb</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_4_0.xml</Key>
+        <Value>2014-01-21T13:48:52.5223773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_5.fbx</Source>
+      <Name>Model\object\obj_5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_5.xnb</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_5_0.xml</Key>
+        <Value>2014-01-21T13:48:52.6533773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_1.fbx</Source>
+      <Name>Model\object\obj_atari_1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_atari_1.xnb</Output>
+      <Time>2014-01-18T01:02:10+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_atari_1_0.xml</Key>
+        <Value>2014-01-21T13:48:52.7403773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_2.fbx</Source>
+      <Name>Model\object\obj_atari_2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_atari_2.xnb</Output>
+      <Time>2014-01-18T01:02:44+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_atari_2_0.xml</Key>
+        <Value>2014-01-21T13:48:52.8183773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_3.fbx</Source>
+      <Name>Model\object\obj_atari_3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_atari_3.xnb</Output>
+      <Time>2014-01-18T01:03:12+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_atari_3_0.xml</Key>
+        <Value>2014-01-21T13:48:52.9003773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_4.fbx</Source>
+      <Name>Model\object\obj_atari_4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_atari_4.xnb</Output>
+      <Time>2014-01-18T01:03:40+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_atari_4_0.xml</Key>
+        <Value>2014-01-21T13:48:52.9813773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_5.fbx</Source>
+      <Name>Model\object\obj_atari_5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\obj_atari_5.xnb</Output>
+      <Time>2014-01-18T01:04:02+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\obj_atari_5_0.xml</Key>
+        <Value>2014-01-21T13:48:53.0663773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\object\OldShip.fbx</Source>
+      <Name>Model\object\OldShip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\OldShip.xnb</Output>
+      <Time>2013-12-10T16:14:56+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\OldShip_0.xml</Key>
+        <Value>2014-01-21T13:48:53.4073773+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_OldShip_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\OldShip_atari.fbx</Source>
+      <Name>Model\object\OldShip_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\OldShip_atari.xnb</Output>
+      <Time>2013-12-24T18:26:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\OldShip_atari_0.xml</Key>
+        <Value>2014-01-21T13:48:55.6573773+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Gaia.fbx</Source>
+      <Name>Model\Gaia</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Gaia.xnb</Output>
+      <Time>2014-01-07T13:56:50+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Gaia_0.xml</Key>
+        <Value>2014-01-21T13:48:56.0661743+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Gaia_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\fish1.fbx</Source>
+      <Name>Model\object\fish1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\fish1.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\fish1_0.xml</Key>
+        <Value>2014-01-21T13:48:56.7993602+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\fish2.fbx</Source>
+      <Name>Model\object\fish2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\fish2.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\fish2_0.xml</Key>
+        <Value>2014-01-21T13:48:57.5821503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\fish3.fbx</Source>
+      <Name>Model\object\fish3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\fish3.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\fish3_0.xml</Key>
+        <Value>2014-01-21T13:48:57.7421503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\fish4.fbx</Source>
+      <Name>Model\object\fish4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\fish4.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\fish4_0.xml</Key>
+        <Value>2014-01-21T13:48:57.9361503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\fish5.fbx</Source>
+      <Name>Model\object\fish5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\fish5.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\fish5_0.xml</Key>
+        <Value>2014-01-21T13:48:58.1161503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\fish6.fbx</Source>
+      <Name>Model\object\fish6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\fish6.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\fish6_0.xml</Key>
+        <Value>2014-01-21T13:48:58.2881503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\object\sango.fbx</Source>
+      <Name>Model\object\sango</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\sango.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\object\sango_0.xml</Key>
+        <Value>2014-01-21T13:48:58.4051503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_sango_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\BoneFish.fbx</Source>
+      <Name>Model\BoneFish</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\BoneFish.xnb</Output>
+      <Time>2014-01-07T15:40:30+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\BoneFish_0.xml</Key>
+        <Value>2014-01-21T13:48:59.1251503+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\BoneFish\BoneFish_M_swim_0.xml</Key>
+        <Value>2014-01-21T13:48:59.3141503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Bfish_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\TitleObject.fbx</Source>
+      <Name>Model\TitleObject</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\TitleObject.xnb</Output>
+      <Time>2014-01-16T16:34:48+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\TitleObject_0.xml</Key>
+        <Value>2014-01-21T13:48:59.6421503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\title_logo_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\player_load.fbx</Source>
+      <Name>Model\player_load</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\player_load.xnb</Output>
+      <Time>2013-10-15T18:32:40+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player_load_0.xml</Key>
+        <Value>2014-01-21T13:49:00.5491503+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player_load\player_M1_2_Take_001_0.xml</Key>
+        <Value>2014-01-21T13:49:00.8011503+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Player_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Effect\Basic.fx</Source>
+      <Name>Effect\Basic</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\Basic.xnb</Output>
+      <Time>2013-11-10T04:01:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Board.fx</Source>
+      <Name>Effect\Board</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\Board.xnb</Output>
+      <Time>2013-12-08T16:30:22+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Phong.fx</Source>
+      <Name>Effect\Phong</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\Phong.xnb</Output>
+      <Time>2013-11-15T16:53:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Sprite.fx</Source>
+      <Name>Effect\Sprite</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\Sprite.xnb</Output>
+      <Time>2014-01-18T19:39:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\WrappedDiffuse.fx</Source>
+      <Name>Effect\WrappedDiffuse</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\WrappedDiffuse.xnb</Output>
+      <Time>2013-11-03T12:44:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Fog.fx</Source>
+      <Name>Effect\Fog</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\Fog.xnb</Output>
+      <Time>2014-01-18T16:58:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\DepthMap.fx</Source>
+      <Name>Effect\DepthMap</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\DepthMap.xnb</Output>
+      <Time>2013-11-10T04:25:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\DepthShadow.fx</Source>
+      <Name>Effect\DepthShadow</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Effect\DepthShadow.xnb</Output>
+      <Time>2014-01-18T17:03:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>enemyData.xml</Source>
+      <Name>enemyData</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\enemyData.xnb</Output>
+      <Time>2014-01-19T00:21:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>cameraData.xml</Source>
+      <Name>cameraData</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\cameraData.xnb</Output>
+      <Time>2014-01-19T04:57:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>collisionModelStage.xml</Source>
+      <Name>collisionModelStage</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\collisionModelStage.xnb</Output>
+      <Time>2014-01-16T19:09:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>cameraData_sub.xml</Source>
+      <Name>cameraData_sub</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\cameraData_sub.xnb</Output>
+      <Time>2014-01-16T03:46:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>objectData.xml</Source>
+      <Name>objectData</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\objectData.xnb</Output>
+      <Time>2014-01-18T19:14:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>collisionModelObjects.xml</Source>
+      <Name>collisionModelObjects</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\collisionModelObjects.xnb</Output>
+      <Time>2014-01-18T19:07:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>cameraData_tutorial.xml</Source>
+      <Name>cameraData_tutorial</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\cameraData_tutorial.xnb</Output>
+      <Time>2014-01-16T03:46:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>objectData_tutorial.xml</Source>
+      <Name>objectData_tutorial</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\objectData_tutorial.xnb</Output>
+      <Time>2014-01-16T04:56:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>collisionModelObjects_tutorial.xml</Source>
+      <Name>collisionModelObjects_tutorial</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\collisionModelObjects_tutorial.xnb</Output>
+      <Time>2014-01-18T01:08:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>enemyData_tutorial_1.xml</Source>
+      <Name>enemyData_tutorial_1</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\enemyData_tutorial_1.xnb</Output>
+      <Time>2014-01-16T03:45:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>enemyData_tutorial_2.xml</Source>
+      <Name>enemyData_tutorial_2</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\enemyData_tutorial_2.xnb</Output>
+      <Time>2014-01-16T03:45:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>enemyData_tutorial_3.xml</Source>
+      <Name>enemyData_tutorial_3</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\enemyData_tutorial_3.xnb</Output>
+      <Time>2014-01-16T03:45:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Spritefont.spritefont</Source>
+      <Name>Spritefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Spritefont.xnb</Output>
+      <Time>2013-11-14T18:43:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bgm_Clear.mp3</Source>
+      <Name>Audio\bgm_Clear</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Clear.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Clear.wma</Extra>
+      <Time>2014-01-15T18:37:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bgm_Ending.mp3</Source>
+      <Name>Audio\bgm_Ending</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Ending.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Ending.wma</Extra>
+      <Time>2014-01-17T20:34:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bgm_stage.mp3</Source>
+      <Name>Audio\bgm_stage</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_stage.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_stage.wma</Extra>
+      <Time>2014-01-15T18:37:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bgm_Title.mp3</Source>
+      <Name>Audio\bgm_Title</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Title.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Audio\bgm_Title.wma</Extra>
+      <Time>2014-01-15T18:37:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Chinanago_0.xml</Output>
+      <Time>2013-10-01T15:49:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\Chinanago\Chinanago_M_Take_001_0.xml</Output>
+      <Time>2014-01-07T15:49:04+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Chinanago\Chinanago_M_Take_001_1.xml</Key>
+        <Value>2014-01-21T13:48:31.7819985+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Chinanago\Chinanago_M_Take_001_1.xml</Output>
+      <Time>2014-01-07T15:49:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_teishi.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\Chinanago\Chinanago_M_teishi_0.xml</Output>
+      <Time>2013-11-14T19:11:42+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\Chinanago\Chinanago_M_teishi_1.xml</Key>
+        <Value>2014-01-21T13:48:31.859997+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_teishi.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Chinanago\Chinanago_M_teishi_1.xml</Output>
+      <Time>2013-11-14T19:11:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_chinanago.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_chinanago_0.xnb</Output>
+      <Time>2013-12-24T17:11:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\EndingObject.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\EndingObject_0.xml</Output>
+      <Time>2014-01-16T20:40:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\color_name.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\color_name_0.xnb</Output>
+      <Time>2013-12-24T18:13:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\harisenbon_0.xml</Output>
+      <Time>2013-10-15T15:33:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon\harisenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\harisenbon\harisenbon_M_Take_001_0.xml</Output>
+      <Time>2013-10-15T15:57:10+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\harisenbon\harisenbon_M_Take_001_1.xml</Key>
+        <Value>2014-01-21T13:48:34.4615471+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon\harisenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\harisenbon\harisenbon_M_Take_001_1.xml</Output>
+      <Time>2013-10-15T15:57:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_harisenbon.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_harisenbon_0.xnb</Output>
+      <Time>2013-12-24T17:10:22+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\hitode.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\hitode_0.xml</Output>
+      <Time>2013-10-01T15:50:36+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\hitode\hitode_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\hitode\hitode_M_Take_001_0.xml</Output>
+      <Time>2013-10-08T18:34:28+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\hitode\hitode_M_Take_001_1.xml</Key>
+        <Value>2014-01-21T13:48:34.8671393+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\hitode\hitode_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\hitode\hitode_M_Take_001_1.xml</Output>
+      <Time>2013-10-08T18:34:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_hitode.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_hitode_0.xnb</Output>
+      <Time>2013-12-24T17:10:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kani.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kani_0.xml</Output>
+      <Time>2013-10-29T15:31:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kani\kani_M_attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\kani\kani_M_attack_0.xml</Output>
+      <Time>2013-10-29T15:29:24+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kani\kani_M_attack_1.xml</Key>
+        <Value>2014-01-21T13:48:35.2415321+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\kani\kani_M_attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kani\kani_M_attack_1.xml</Output>
+      <Time>2013-10-29T15:29:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_kani.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kani_0.xnb</Output>
+      <Time>2013-12-24T17:10:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kurage.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kurage_0.xml</Output>
+      <Time>2013-11-12T16:47:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kurage\kurage_M_Rotation.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\kurage\kurage_M_Rotation_0.xml</Output>
+      <Time>2013-12-10T20:38:10+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kurage\kurage_M_Rotation_1.xml</Key>
+        <Value>2014-01-21T13:48:36.2283131+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\kurage\kurage_M_Rotation.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kurage\kurage_M_Rotation_1.xml</Output>
+      <Time>2013-12-10T20:38:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_kurage.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kurage_0.xnb</Output>
+      <Time>2013-12-24T17:10:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player_0.xml</Output>
+      <Time>2013-10-15T18:32:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M1_2_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\player\player_M1_2_Take_001_0.xml</Output>
+      <Time>2014-01-17T01:20:06+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M1_2_Take_001_1.xml</Key>
+        <Value>2014-01-21T13:48:37.2110946+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M1_2_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player\player_M1_2_Take_001_1.xml</Output>
+      <Time>2014-01-17T01:20:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Left.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\player\player_M2_Left_0.xml</Output>
+      <Time>2013-10-22T16:38:24+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M2_Left_1.xml</Key>
+        <Value>2014-01-21T13:48:37.3670916+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Left.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player\player_M2_Left_1.xml</Output>
+      <Time>2013-10-22T16:38:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Right.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\player\player_M2_Right_0.xml</Output>
+      <Time>2013-10-22T16:38:40+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M2_Right_1.xml</Key>
+        <Value>2014-01-21T13:48:37.5074889+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Right.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player\player_M2_Right_1.xml</Output>
+      <Time>2013-10-22T16:38:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\Player_M4_Dead.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\player\Player_M4_Dead_0.xml</Output>
+      <Time>2013-12-10T16:13:10+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\Player_M4_Dead_1.xml</Key>
+        <Value>2014-01-21T13:48:37.7414844+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\Player_M4_Dead.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player\Player_M4_Dead_1.xml</Output>
+      <Time>2013-12-10T16:13:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M5_top.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\player\player_M5_top_0.xml</Output>
+      <Time>2013-12-25T18:27:48+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player\player_M5_top_1.xml</Key>
+        <Value>2014-01-21T13:48:37.870282+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M5_top.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player\player_M5_top_1.xml</Output>
+      <Time>2013-12-25T18:27:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_Player.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Player_0.xnb</Output>
+      <Time>2013-12-24T17:10:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\atari_0.xml</Output>
+      <Time>2014-01-16T19:09:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\back.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\back_0.xml</Output>
+      <Time>2014-01-18T16:21:18+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\back.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\back_0.xnb</Output>
+      <Time>2014-01-18T16:50:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\BackScreen.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\BackScreen_0.xml</Output>
+      <Time>2013-12-10T11:00:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage1_0.xml</Output>
+      <Time>2013-12-10T11:00:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\wall.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\wall_0.xnb</Output>
+      <Time>2013-10-01T16:26:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage2_0.xml</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage3_0.xml</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage4_0.xml</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage5_0.xml</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage6.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage6_0.xml</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage7.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage7_0.xml</Output>
+      <Time>2013-12-10T11:00:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\tako.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\tako_0.xml</Output>
+      <Time>2013-10-01T15:51:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\tako\tako_M_Attack_0.xml</Output>
+      <Time>2013-11-05T15:28:10+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\tako\tako_M_Attack_1.xml</Key>
+        <Value>2014-01-21T13:48:43.666282+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\tako\tako_M_Attack_1.xml</Output>
+      <Time>2013-11-05T15:28:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Screw.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\tako\tako_M_Screw_0.xml</Output>
+      <Time>2013-11-14T19:18:52+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\tako\tako_M_Screw_1.xml</Key>
+        <Value>2014-01-21T13:48:43.868282+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Screw.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\tako\tako_M_Screw_1.xml</Output>
+      <Time>2013-11-14T19:18:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_Tako.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Tako_0.xnb</Output>
+      <Time>2013-12-24T17:10:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\togesenbon_0.xml</Output>
+      <Time>2013-11-05T15:56:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon\togesenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\togesenbon\togesenbon_M_Take_001_0.xml</Output>
+      <Time>2013-10-15T15:47:10+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\togesenbon\togesenbon_M_Take_001_1.xml</Key>
+        <Value>2014-01-21T13:48:44.516079+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon\togesenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\togesenbon\togesenbon_M_Take_001_1.xml</Output>
+      <Time>2013-10-15T15:47:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_togesenbon.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_togesenbon_0.xnb</Output>
+      <Time>2013-12-24T17:11:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\stage_0.xml</Output>
+      <Time>2013-10-29T17:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\wall.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\wall_0.xnb</Output>
+      <Time>2013-10-01T16:26:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\back.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\back_0.xnb</Output>
+      <Time>2013-09-11T15:31:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kurage_core.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kurage_core_0.xml</Output>
+      <Time>2013-11-05T17:11:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\hani.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\hani_0.xml</Output>
+      <Time>2014-01-18T21:48:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\hani.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\hani_0.xnb</Output>
+      <Time>2013-11-15T16:58:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_title.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\stage_title_0.xml</Output>
+      <Time>2013-10-29T17:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kujira.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kujira_0.xml</Output>
+      <Time>2013-12-10T15:35:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kujira\kujira_M1_Bite.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\kujira\kujira_M1_Bite_0.xml</Output>
+      <Time>2013-12-10T19:45:06+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\kujira\kujira_M1_Bite_1.xml</Key>
+        <Value>2014-01-21T13:48:47.324025+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\kujira\kujira_M1_Bite.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\kujira\kujira_M1_Bite_1.xml</Output>
+      <Time>2013-12-10T19:45:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_kujira.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_kujira_0.xnb</Output>
+      <Time>2013-12-10T08:55:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\same.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\same_0.xml</Output>
+      <Time>2013-12-10T15:36:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\same\Same_M1_Bite.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\same\Same_M1_Bite_0.xml</Output>
+      <Time>2013-12-10T20:21:38+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\Same_M1_Bite_1.xml</Key>
+        <Value>2014-01-21T13:48:48.3380055+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\same\Same_M1_Bite.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\same\Same_M1_Bite_1.xml</Output>
+      <Time>2013-12-10T20:21:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\same\same_M2_bite2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\same\same_M2_bite2_0.xml</Output>
+      <Time>2013-12-25T16:51:52+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\same_M2_bite2_1.xml</Key>
+        <Value>2014-01-21T13:48:48.4316037+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\same\same_M2_bite2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\same\same_M2_bite2_1.xml</Output>
+      <Time>2013-12-25T16:51:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\same\same_M3_CloseSwim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\same\same_M3_CloseSwim_0.xml</Output>
+      <Time>2013-12-25T17:23:52+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\same_M3_CloseSwim_1.xml</Key>
+        <Value>2014-01-21T13:48:48.5408016+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\same\same_M3_CloseSwim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\same\same_M3_CloseSwim_1.xml</Output>
+      <Time>2013-12-25T17:23:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\same\same_M4_OpenSwim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\same\same_M4_OpenSwim_0.xml</Output>
+      <Time>2013-12-25T17:24:14+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\same\same_M4_OpenSwim_1.xml</Key>
+        <Value>2014-01-21T13:48:48.6655992+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\same\same_M4_OpenSwim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\same\same_M4_OpenSwim_1.xml</Output>
+      <Time>2013-12-25T17:24:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_same.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_same_0.xnb</Output>
+      <Time>2013-12-10T16:36:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\whole.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\whole_0.xml</Output>
+      <Time>2013-12-09T00:53:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\whole.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\whole_0.xnb</Output>
+      <Time>2013-12-24T17:11:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\kujira_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\kujira_atari_0.xml</Output>
+      <Time>2013-12-10T20:46:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\stage8.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Stage\stage8_0.xml</Output>
+      <Time>2013-12-10T20:48:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\tainai.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\tainai_0.xnb</Output>
+      <Time>2013-12-10T18:03:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Stage\main_kujira.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Stage\main_kujira_0.xnb</Output>
+      <Time>2013-12-10T08:55:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_1_0.xml</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\wall.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\wall_0.xnb</Output>
+      <Time>2014-01-16T21:31:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_2_0.xml</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_3_0.xml</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_4_0.xml</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_5_0.xml</Output>
+      <Time>2013-12-10T16:26:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_atari_1_0.xml</Output>
+      <Time>2014-01-18T01:02:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_atari_2_0.xml</Output>
+      <Time>2014-01-18T01:02:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_atari_3_0.xml</Output>
+      <Time>2014-01-18T01:03:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_atari_4_0.xml</Output>
+      <Time>2014-01-18T01:03:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\obj_atari_5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\obj_atari_5_0.xml</Output>
+      <Time>2014-01-18T01:04:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\OldShip.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\OldShip_0.xml</Output>
+      <Time>2013-12-10T16:14:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\main_OldShip.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_OldShip_0.xnb</Output>
+      <Time>2013-12-10T08:32:06+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\OldShip_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\OldShip_atari_0.xml</Output>
+      <Time>2013-12-24T18:26:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Gaia.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\Gaia_0.xml</Output>
+      <Time>2014-01-07T13:56:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Gaia.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\Gaia_0.xnb</Output>
+      <Time>2014-01-07T13:56:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\fish1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\fish1_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\main_fishes.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_fishes_0.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\fish2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\fish2_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\fish3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\fish3_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\fish4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\fish4_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\fish5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\fish5_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\fish6.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\fish6_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\sango.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\object\sango_0.xml</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\object\main_sango.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\object\main_sango_0.xnb</Output>
+      <Time>2014-01-15T17:58:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\BoneFish.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\BoneFish_0.xml</Output>
+      <Time>2014-01-07T15:40:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\BoneFish\BoneFish_M_swim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\BoneFish\BoneFish_M_swim_0.xml</Output>
+      <Time>2014-01-07T15:39:38+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\BoneFish\BoneFish_M_swim_1.xml</Key>
+        <Value>2014-01-21T13:48:59.3031503+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\BoneFish\BoneFish_M_swim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\BoneFish\BoneFish_M_swim_1.xml</Output>
+      <Time>2014-01-07T15:39:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_Bfish.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\main_Bfish_0.xnb</Output>
+      <Time>2014-01-16T17:25:36+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\TitleObject.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\TitleObject_0.xml</Output>
+      <Time>2014-01-16T16:34:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\title_logo.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\Model\title_logo_0.xnb</Output>
+      <Time>2014-01-17T20:50:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player_load.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player_load_0.xml</Output>
+      <Time>2013-10-15T18:32:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player_load\player_M1_2_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\x86\Release\Model\player_load\player_M1_2_Take_001_0.xml</Output>
+      <Time>2014-01-17T01:20:06+09:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Model\player_load\player_M1_2_Take_001_1.xml</Key>
+        <Value>2014-01-21T13:49:00.7821503+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player_load\player_M1_2_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Model\player_load\player_M1_2_Take_001_1.xml</Output>
+      <Time>2014-01-17T01:20:06+09:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLateContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLate\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll</Key>
+        <Value>2014-01-19T01:44:16+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2014-01-21T13:47:19.0250657+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-18T16:49:05.3496752+09:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

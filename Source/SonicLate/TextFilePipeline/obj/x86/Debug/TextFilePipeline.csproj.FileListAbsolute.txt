@@ -1,0 +1,53 @@
+C:\Users\Shu\MyFiles\Workspace\SonicForce 13-12-14\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 13-12-14\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 13-12-14\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 13-12-14\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 13-12-14\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicForce 13-12-22\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicForce 13-12-22\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicForce 13-12-22\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicForce 13-12-22\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-07\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-07\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-07\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-07\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicForce 14-01-15\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicForce 14-01-15\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicForce 14-01-15\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicForce 14-01-15\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicForce 14-01-15\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+D:\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+D:\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+D:\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+D:\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-15\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-15\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-15\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-15\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+D:\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-15\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-21\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-21\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-21\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-21\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-21\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-24\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-24\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-24\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-24\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-24\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\g1227067\Desktop\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\g1227067\Desktop\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.dll
+C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.pdb
+C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\TextFilePipeline\obj\x86\Debug\TextFilePipeline.csprojResolveAssemblyReference.cache

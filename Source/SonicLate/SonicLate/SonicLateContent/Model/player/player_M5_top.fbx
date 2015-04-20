@@ -1,0 +1,3716 @@
+; FBX 7.3.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7300
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2013
+		Month: 12
+		Day: 25
+		Hour: 18
+		Minute: 27
+		Second: 47
+		Millisecond: 122
+	}
+	Creator: "FBX SDK/FBX Plugins version 2013.0"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "E:\A_team\SONIC LATE\3D_Model\MAYA_Project\a_team\Motion_Date\player_M5_top.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "E:\A_team\SONIC LATE\3D_Model\MAYA_Project\a_team\Motion_Date\player_M5_top.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "Original|ApplicationName", "KString", "", "", "MotionBuilder"
+			P: "Original|ApplicationVersion", "KString", "", "", "2013"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "25/12/2013 09:27:47.058"
+			P: "Original|FileName", "KString", "", "", ""
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "LastSaved|ApplicationName", "KString", "", "", "MotionBuilder"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "2013"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "25/12/2013 09:27:47.058"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",3
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",7697693000
+		P: "CustomFrameRate", "double", "Number", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 672303840, "KFbxScene", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", "top"
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 157
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "MotionBuilder_System" {
+		Count: 22
+	}
+	ObjectType: "Model" {
+		Count: 33
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 33
+		PropertyTemplate: "FbxCamera" {
+			Properties70:  {
+				P: "Position", "Vector", "", "A",0,0,-50
+				P: "UpVector", "Vector", "", "A",0,1,0
+				P: "InterestPosition", "Vector", "", "A",0,0,0
+				P: "Roll", "Roll", "", "A",0
+				P: "OpticalCenterX", "OpticalCenterX", "", "A",0
+				P: "OpticalCenterY", "OpticalCenterY", "", "A",0
+				P: "BackgroundColor", "Color", "", "A",0.63,0.63,0.63
+				P: "TurnTable", "Number", "", "A",0
+				P: "DisplayTurnTableIcon", "bool", "", "",0
+				P: "UseMotionBlur", "bool", "", "",0
+				P: "UseRealTimeMotionBlur", "bool", "", "",1
+				P: "Motion Blur Intensity", "Number", "", "A",1
+				P: "AspectRatioMode", "enum", "", "",0
+				P: "AspectWidth", "double", "Number", "",320
+				P: "AspectHeight", "double", "Number", "",200
+				P: "PixelAspectRatio", "double", "Number", "",1
+				P: "FilmOffsetX", "Number", "", "A",0
+				P: "FilmOffsetY", "Number", "", "A",0
+				P: "FilmWidth", "double", "Number", "",0.816
+				P: "FilmHeight", "double", "Number", "",0.612
+				P: "FilmAspectRatio", "double", "Number", "",1.33333333333333
+				P: "FilmSqueezeRatio", "double", "Number", "",1
+				P: "FilmFormatIndex", "enum", "", "",0
+				P: "PreScale", "Number", "", "A",1
+				P: "FilmTranslateX", "Number", "", "A",0
+				P: "FilmTranslateY", "Number", "", "A",0
+				P: "FilmRollPivotX", "Number", "", "A",0
+				P: "FilmRollPivotY", "Number", "", "A",0
+				P: "FilmRollValue", "Number", "", "A",0
+				P: "FilmRollOrder", "enum", "", "",0
+				P: "ApertureMode", "enum", "", "",2
+				P: "GateFit", "enum", "", "",0
+				P: "FieldOfView", "FieldOfView", "", "A",25.1149997711182
+				P: "FieldOfViewX", "FieldOfViewX", "", "A",40
+				P: "FieldOfViewY", "FieldOfViewY", "", "A",40
+				P: "FocalLength", "Number", "", "A",34.8932762167263
+				P: "CameraFormat", "enum", "", "",0
+				P: "UseFrameColor", "bool", "", "",0
+				P: "FrameColor", "ColorRGB", "Color", "",0.3,0.3,0.3
+				P: "ShowName", "bool", "", "",1
+				P: "ShowInfoOnMoving", "bool", "", "",1
+				P: "ShowGrid", "bool", "", "",1
+				P: "ShowOpticalCenter", "bool", "", "",0
+				P: "ShowAzimut", "bool", "", "",1
+				P: "ShowTimeCode", "bool", "", "",0
+				P: "ShowAudio", "bool", "", "",0
+				P: "AudioColor", "Vector3D", "Vector", "",0,1,0
+				P: "NearPlane", "double", "Number", "",10
+				P: "FarPlane", "double", "Number", "",4000
+				P: "AutoComputeClipPanes", "bool", "", "",0
+				P: "ViewCameraToLookAt", "bool", "", "",1
+				P: "ViewFrustumNearFarPlane", "bool", "", "",0
+				P: "ViewFrustumBackPlaneMode", "enum", "", "",2
+				P: "BackPlaneDistance", "Number", "", "A",4000
+				P: "BackPlaneDistanceMode", "enum", "", "",1
+				P: "ViewFrustumFrontPlaneMode", "enum", "", "",2
+				P: "FrontPlaneDistance", "Number", "", "A",10
+				P: "FrontPlaneDistanceMode", "enum", "", "",1
+				P: "LockMode", "bool", "", "",0
+				P: "LockInterestNavigation", "bool", "", "",0
+				P: "BackPlateFitImage", "bool", "", "",0
+				P: "BackPlateCrop", "bool", "", "",0
+				P: "BackPlateCenter", "bool", "", "",1
+				P: "BackPlateKeepRatio", "bool", "", "",1
+				P: "BackgroundAlphaTreshold", "double", "Number", "",0.5
+				P: "ShowBackplate", "bool", "", "",1
+				P: "BackPlaneOffsetX", "Number", "", "A",0
+				P: "BackPlaneOffsetY", "Number", "", "A",0
+				P: "BackPlaneRotation", "Number", "", "A",0
+				P: "BackPlaneScaleX", "Number", "", "A",1
+				P: "BackPlaneScaleY", "Number", "", "A",1
+				P: "Background Texture", "object", "", ""
+				P: "FrontPlateFitImage", "bool", "", "",1
+				P: "FrontPlateCrop", "bool", "", "",0
+				P: "FrontPlateCenter", "bool", "", "",1
+				P: "FrontPlateKeepRatio", "bool", "", "",1
+				P: "Foreground Opacity", "double", "Number", "",1
+				P: "ShowFrontplate", "bool", "", "",1
+				P: "FrontPlaneOffsetX", "Number", "", "A",0
+				P: "FrontPlaneOffsetY", "Number", "", "A",0
+				P: "FrontPlaneRotation", "Number", "", "A",0
+				P: "FrontPlaneScaleX", "Number", "", "A",1
+				P: "FrontPlaneScaleY", "Number", "", "A",1
+				P: "Foreground Texture", "object", "", ""
+				P: "DisplaySafeArea", "bool", "", "",0
+				P: "DisplaySafeAreaOnRender", "bool", "", "",0
+				P: "SafeAreaDisplayStyle", "enum", "", "",1
+				P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+				P: "Use2DMagnifierZoom", "bool", "", "",0
+				P: "2D Magnifier Zoom", "Number", "", "A",100
+				P: "2D Magnifier X", "Number", "", "A",50
+				P: "2D Magnifier Y", "Number", "", "A",50
+				P: "CameraProjectionType", "enum", "", "",0
+				P: "OrthoZoom", "double", "Number", "",1
+				P: "UseRealTimeDOFAndAA", "bool", "", "",0
+				P: "UseDepthOfField", "bool", "", "",0
+				P: "FocusSource", "enum", "", "",0
+				P: "FocusAngle", "double", "Number", "",3.5
+				P: "FocusDistance", "double", "Number", "",200
+				P: "UseAntialiasing", "bool", "", "",0
+				P: "AntialiasingIntensity", "double", "Number", "",0.77777
+				P: "AntialiasingMethod", "enum", "", "",0
+				P: "UseAccumulationBuffer", "bool", "", "",0
+				P: "FrameSamplingCount", "int", "Integer", "",7
+				P: "FrameSamplingType", "enum", "", "",1
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+			}
+		}
+	}
+	ObjectType: "MotionBuilder_Generic" {
+		Count: 2
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationCurveNode" {
+		Count: 16
+	}
+	ObjectType: "AnimationCurve" {
+		Count: 48
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 681156784, "NodeAttribute::Producer Perspective", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,145,300
+			P: "InterestPosition", "Vector", "", "A",3.36777869765522e-015,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,145,300
+		Up: 0,1,0
+		LookAt: 3.36777869765522e-015,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 681160656, "NodeAttribute::Producer Front", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,90,15000
+			P: "InterestPosition", "Vector", "", "A",0,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",30000
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,90,15000
+		Up: 0,1,0
+		LookAt: 0,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 681164528, "NodeAttribute::Producer Back", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,90,-15000
+			P: "InterestPosition", "Vector", "", "A",0,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",30000
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,90,-15000
+		Up: 0,1,0
+		LookAt: 0,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 678381184, "NodeAttribute::Producer Right", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",15000,90,0
+			P: "InterestPosition", "Vector", "", "A",0,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",30000
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 15000,90,0
+		Up: 0,1,0
+		LookAt: 0,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 678385056, "NodeAttribute::Producer Left", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",-15000,90,0
+			P: "InterestPosition", "Vector", "", "A",0,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",30000
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: -15000,90,0
+		Up: 0,1,0
+		LookAt: 0,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 678388928, "NodeAttribute::Producer Top", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,15090,0
+			P: "UpVector", "Vector", "", "A",0,0,-1
+			P: "InterestPosition", "Vector", "", "A",0,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",30000
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,15090,0
+		Up: 0,0,-1
+		LookAt: 0,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 678392800, "NodeAttribute::Producer Bottom", "Camera" {
+		Properties70:  {
+			P: "Position", "Vector", "", "A",0,-14910,0
+			P: "UpVector", "Vector", "", "A",-0,-0,1
+			P: "InterestPosition", "Vector", "", "A",0,90,0
+			P: "BackgroundColor", "Color", "", "A",0.16,0.16,0.16
+			P: "DisplayTurnTableIcon", "bool", "", "",1
+			P: "FilmFormatIndex", "enum", "", "",4
+			P: "FieldOfView", "FieldOfView", "", "A",40
+			P: "FocalLength", "Number", "", "A",21.3544940948486
+			P: "NearPlane", "double", "Number", "",1
+			P: "FarPlane", "double", "Number", "",30000
+			P: "SafeAreaAspectRatio", "double", "Number", "",1.33333333333333
+			P: "2D Magnifier Zoom", "Number", "", "A",0
+			P: "2D Magnifier X", "Number", "", "A",0
+			P: "2D Magnifier Y", "Number", "", "A",0
+			P: "CameraProjectionType", "enum", "", "",1
+		}
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 0,-14910,0
+		Up: -0,-0,1
+		LookAt: 0,90,0
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+	}
+	NodeAttribute: 565305664, "NodeAttribute::Camera Switcher", "CameraSwitcher" {
+		Properties70:  {
+			P: "Camera Index", "Integer", "", "A",0
+		}
+		Version: 101
+		Name: "Model::Camera Switcher"
+		CameraId: 0
+		CameraName: 100
+		CameraIndexName: 
+	}
+	NodeAttribute: 684028896, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684026320, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684028560, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684023296, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684027216, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684033600, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041328, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684042112, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684042000, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684029008, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684022848, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684023184, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041664, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041888, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684020496, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684040880, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684020272, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684020160, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041552, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041440, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041104, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684040432, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 684041216, "NodeAttribute::", "LimbNode" {
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 677855376, "NodeAttribute::", "Null" {
+		Properties70:  {
+			P: "Look", "enum", "", "",0
+		}
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 677818416, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 681154848, "Model::Producer Perspective", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,145,300
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,79.6111421845304,-90
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 681158720, "Model::Producer Front", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,90,15000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,90,0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 681162592, "Model::Producer Back", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,90,-15000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-90,0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 681166464, "Model::Producer Right", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",15000,90,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",180,-0,180
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 678383120, "Model::Producer Left", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-15000,90,0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 678386992, "Model::Producer Top", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,15090,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-90,-0,-90
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 678390864, "Model::Producer Bottom", "Camera" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,-14910,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90,-0,90
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+			P: "ResolutionMode", "enum", "", "",0
+			P: "AspectW", "double", "Number", "",1
+			P: "AspectH", "double", "Number", "",1
+			P: "FitImage", "bool", "", "",1
+			P: "Crop", "bool", "", "",0
+			P: "Center", "bool", "", "",1
+			P: "KeepRatio", "bool", "", "",1
+			P: "ForegroundTransparent", "bool", "", "",1
+			P: "Display2DMagnifierFrame", "bool", "", "",1
+			P: "ResetCamera", "Action", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 678394736, "Model::Camera Switcher", "CameraSwitcher" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMin", "Vector3D", "Vector", "",1,1,1
+			P: "Show", "bool", "", "",0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 681211120, "Model::body", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,-1.16540002822876,6.88740015029907
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681213056, "Model::bone10", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681214992, "Model::RightHire", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-1.46755611896515,-0.191576957702637,-3.29971408843994
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681216928, "Model::bone11", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-4.31541013717651,-0.973111867904663,-2.48797464370728
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681218864, "Model::bone8", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681220800, "Model::Lefthire", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1.46755611896515,-0.191576957702637,-3.29971408843994
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681222736, "Model::bone9", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",4.31541013717651,-0.973111867904663,-2.48797464370728
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 681224672, "Model::bone4", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,-0.882499933242798,4.24989938735962
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684002880, "Model::bone3", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684004816, "Model::tail1", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0.415800034999847,-3.54720020294189
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684006752, "Model::tail2", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0.0845999717712402,-4.73120021820068
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684008688, "Model::tail3", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0.0282000303268433,-3.45199990272522
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684010624, "Model::bone7", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,2.18219995498657,-4.4810004234314
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684012560, "Model::bone2", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684014496, "Model::RightWing1", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",-2.33640003204346,0.0770000219345093,0.423699855804443
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",-0.839999973773956,-18.2199993133545,-8.47999954223633
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 684016432, "Model::RightWing2", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",-5.03879976272583,0.192700028419495,0.145899772644043
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",-0.839999973773956,-18.2199993133545,-8.47999954223633
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682709344, "Model::RightWing3", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",-5.48969984054565,0.120299994945526,0.759400367736816
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",-0.839999973773956,-18.2199993133545,-8.47999954223633
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682711280, "Model::bone6", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",-4.47460079193115,-0.0480999946594238,1.48680019378662
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",0,0,0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682713216, "Model::bone1", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",0,0,0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682715152, "Model::LeftWing1", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",2.33640003204346,0.0770000219345093,0.423699855804443
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",0.844703137874603,18.2199478149414,8.47523212432861
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682717088, "Model::LeftWing2", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",5.03879976272583,0.192700028419495,0.145899772644043
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",0.844703137874603,18.2199478149414,8.47523212432861
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682719024, "Model::LeftWing3", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",5.48969984054565,0.120299994945526,0.759400367736816
+			P: "Lcl Rotation", "Lcl Rotation", "", "A+",0.844703137874603,18.2199478149414,8.47523212432861
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682720960, "Model::bone5", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",4.47460079193115,-0.0480999946594238,1.48680019378662
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 682722896, "Model::Mesh", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Model: 683838816, "Model::main", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "MultiTake", "int", "Integer", "",1
+			P: "ManipulationMode", "enum", "", "",0
+			P: "ScalingPivotUpdateOffset", "Vector3D", "Vector", "",0,0,0
+			P: "SetPreferedAngle", "Action", "", "",0
+			P: "PivotsVisibility", "enum", "", "",1
+			P: "RotationLimitsVisibility", "bool", "", "",0
+			P: "LocalTranslationRefVisibility", "bool", "", "",0
+			P: "RotationRefVisibility", "bool", "", "",0
+			P: "RotationAxisVisibility", "bool", "", "",0
+			P: "ScalingRefVisibility", "bool", "", "",0
+			P: "HierarchicalCenterVisibility", "bool", "", "",0
+			P: "GeometricCenterVisibility", "bool", "", "",0
+			P: "ReferentialSize", "double", "Number", "",12
+			P: "DefaultKeyingGroup", "int", "Integer", "",0
+			P: "DefaultKeyingGroupEnum", "enum", "", "",0
+			P: "Pickable", "bool", "", "",1
+			P: "Transformable", "bool", "", "",1
+			P: "CullingMode", "enum", "", "",0
+			P: "ShowTrajectories", "bool", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	AnimationStack: 678264592, "AnimStack::top", "" {
+		Properties70:  {
+			P: "LocalStop", "KTime", "Time", "",7697693000
+			P: "ReferenceStop", "KTime", "Time", "",7697693000
+		}
+	}
+	AnimationLayer: 683015536, "AnimLayer::top:BaseAnimation", "" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.611764705882353,0,0.16078431372549
+			P: "BlendModeBypass", "ULongLong", "", "",131584
+			P: "MultiTake", "int", "Integer", "",0
+			P: "mLayerID", "int", "Integer", "",0
+			P: "MutedForSolo", "bool", "", "",0
+			P: "MutedByParent", "bool", "", "",0
+			P: "LockedByParent", "bool", "", "",0
+			P: "ParentCollapseVisibility", "bool", "", "",1
+			P: "Empty", "bool", "", "",0
+		}
+	}
+	AnimationCurveNode: 678054496, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-2.33640003204346
+			P: "d|Y", "Number", "", "A",0.0770000219345093
+			P: "d|Z", "Number", "", "A",0.423699855804443
+		}
+	}
+	AnimationCurveNode: 678062176, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-0.839999973773956
+			P: "d|Y", "Number", "", "A",-18.2199993133545
+			P: "d|Z", "Number", "", "A",-8.47999954223633
+		}
+	}
+	AnimationCurveNode: 678063328, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-5.03879976272583
+			P: "d|Y", "Number", "", "A",0.192700028419495
+			P: "d|Z", "Number", "", "A",0.145899772644043
+		}
+	}
+	AnimationCurveNode: 678057696, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-0.839999973773956
+			P: "d|Y", "Number", "", "A",-18.2199993133545
+			P: "d|Z", "Number", "", "A",-8.47999954223633
+		}
+	}
+	AnimationCurveNode: 676869600, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-5.48969984054565
+			P: "d|Y", "Number", "", "A",0.120299994945526
+			P: "d|Z", "Number", "", "A",0.759400367736816
+		}
+	}
+	AnimationCurveNode: 565646096, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-0.839999973773956
+			P: "d|Y", "Number", "", "A",-18.2199993133545
+			P: "d|Z", "Number", "", "A",-8.47999954223633
+		}
+	}
+	AnimationCurveNode: 683906016, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",-4.47460079193115
+			P: "d|Y", "Number", "", "A",-0.0480999946594238
+			P: "d|Z", "Number", "", "A",1.48680019378662
+		}
+	}
+	AnimationCurveNode: 683907808, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",0
+			P: "d|Y", "Number", "", "A",0
+			P: "d|Z", "Number", "", "A",0
+		}
+	}
+	AnimationCurveNode: 683909600, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",0
+			P: "d|Y", "Number", "", "A",0
+			P: "d|Z", "Number", "", "A",0
+		}
+	}
+	AnimationCurveNode: 683911392, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",0
+			P: "d|Y", "Number", "", "A",0
+			P: "d|Z", "Number", "", "A",0
+		}
+	}
+	AnimationCurveNode: 683913184, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",2.33640003204346
+			P: "d|Y", "Number", "", "A",0.0770000219345093
+			P: "d|Z", "Number", "", "A",0.423699855804443
+		}
+	}
+	AnimationCurveNode: 683914976, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",0.844703137874603
+			P: "d|Y", "Number", "", "A",18.2199478149414
+			P: "d|Z", "Number", "", "A",8.47523212432861
+		}
+	}
+	AnimationCurveNode: 683916768, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",5.03879976272583
+			P: "d|Y", "Number", "", "A",0.192700028419495
+			P: "d|Z", "Number", "", "A",0.145899772644043
+		}
+	}
+	AnimationCurveNode: 683918560, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",0.844703137874603
+			P: "d|Y", "Number", "", "A",18.2199478149414
+			P: "d|Z", "Number", "", "A",8.47523212432861
+		}
+	}
+	AnimationCurveNode: 683920352, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",5.48969984054565
+			P: "d|Y", "Number", "", "A",0.120299994945526
+			P: "d|Z", "Number", "", "A",0.759400367736816
+		}
+	}
+	AnimationCurveNode: 682784608, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d", "Compound", "", ""
+			P: "d|X", "Number", "", "A",0.844703137874603
+			P: "d|Y", "Number", "", "A",18.2199478149414
+			P: "d|Z", "Number", "", "A",8.47523212432861
+		}
+	}
+	AnimationCurve: 677795472, "AnimCurve::", "" {
+		Default: -2.33640003204346
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -2.3364,-2.3364,-2.3364
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 677796192, "AnimCurve::", "" {
+		Default: 0.0770000219345093
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.07700002,0.07700002,0.07700002
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681653984, "AnimCurve::", "" {
+		Default: 0.423699855804443
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.4236999,0.4236999,0.4236999
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656384, "AnimCurve::", "" {
+		Default: -0.839999973773956
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -0.84,-0.47,-0.84
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656304, "AnimCurve::", "" {
+		Default: -18.2199993133545
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -18.22,-18.23,-18.22
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655904, "AnimCurve::", "" {
+		Default: -8.47999954223633
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -8.48,-7.29,-8.48
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655984, "AnimCurve::", "" {
+		Default: -5.03879976272583
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -5.0388,-5.0388,-5.0388
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656064, "AnimCurve::", "" {
+		Default: 0.192700028419495
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.1927,0.1927,0.1927
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655584, "AnimCurve::", "" {
+		Default: 0.145899772644043
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.1458998,0.1458998,0.1458998
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655504, "AnimCurve::", "" {
+		Default: -0.839999973773956
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -0.84,-0.47,-0.84
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655744, "AnimCurve::", "" {
+		Default: -18.2199993133545
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -18.22,-18.23,-18.22
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655824, "AnimCurve::", "" {
+		Default: -8.47999954223633
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -8.48,-7.29,-8.48
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681654704, "AnimCurve::", "" {
+		Default: -5.48969984054565
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -5.4897,-5.4897,-5.4897
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655104, "AnimCurve::", "" {
+		Default: 0.120299994945526
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.1203,0.1203,0.1203
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655344, "AnimCurve::", "" {
+		Default: 0.759400367736816
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.7594004,0.7594004,0.7594004
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655424, "AnimCurve::", "" {
+		Default: -0.839999973773956
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -0.84,-0.47,-0.84
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655184, "AnimCurve::", "" {
+		Default: -18.2199993133545
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -18.22,-18.23,-18.22
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681655264, "AnimCurve::", "" {
+		Default: -8.47999954223633
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: -8.48,-7.29,-8.48
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656224, "AnimCurve::", "" {
+		Default: -4.47460079193115
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 3848846500
+		} 
+		KeyValueFloat: *1 {
+			a: -4.474601
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681656144, "AnimCurve::", "" {
+		Default: -0.0480999946594238
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 3848846500
+		} 
+		KeyValueFloat: *1 {
+			a: -0.04809999
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654784, "AnimCurve::", "" {
+		Default: 1.48680019378662
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 3848846500
+		} 
+		KeyValueFloat: *1 {
+			a: 1.4868
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654944, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 3848846500
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681655024, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 3848846500
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654864, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 3848846500
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681655664, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 0
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681653824, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 0
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654304, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 0
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654544, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 0
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654624, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 0
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654384, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4008
+		KeyTime: *1 {
+			a: 0
+		} 
+		KeyValueFloat: *1 {
+			a: 0
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 1
+		} 
+	}
+	AnimationCurve: 681654464, "AnimCurve::", "" {
+		Default: 2.33640003204346
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 2.3364,2.3364,2.3364
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681653904, "AnimCurve::", "" {
+		Default: 0.0770000219345093
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.07700002,0.07700002,0.07700002
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681654144, "AnimCurve::", "" {
+		Default: 0.423699855804443
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.4236999,0.4236999,0.4236999
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681654224, "AnimCurve::", "" {
+		Default: 0.844703137874603
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.8447031,0.4733239,0.8447031
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681654064, "AnimCurve::", "" {
+		Default: 18.2199478149414
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 18.21995,18.23292,18.21995
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656624, "AnimCurve::", "" {
+		Default: 8.47523212432861
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 8.475232,7.287895,8.475232
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656704, "AnimCurve::", "" {
+		Default: 5.03879976272583
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 5.0388,5.0388,5.0388
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656784, "AnimCurve::", "" {
+		Default: 0.192700028419495
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.1927,0.1927,0.1927
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656464, "AnimCurve::", "" {
+		Default: 0.145899772644043
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.1458998,0.1458998,0.1458998
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656544, "AnimCurve::", "" {
+		Default: 0.844703137874603
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.8447031,0.4733239,0.8447031
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656864, "AnimCurve::", "" {
+		Default: 18.2199478149414
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 18.21995,18.23292,18.21995
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681656944, "AnimCurve::", "" {
+		Default: 8.47523212432861
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 8.475232,7.287895,8.475232
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681657024, "AnimCurve::", "" {
+		Default: 5.48969984054565
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 5.4897,5.4897,5.4897
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681657104, "AnimCurve::", "" {
+		Default: 0.120299994945526
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.1203,0.1203,0.1203
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681657184, "AnimCurve::", "" {
+		Default: 0.759400367736816
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.7594004,0.7594004,0.7594004
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681657264, "AnimCurve::", "" {
+		Default: 0.844703137874603
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 0.8447031,0.4733239,0.8447031
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681657344, "AnimCurve::", "" {
+		Default: 18.2199478149414
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 18.21995,18.23292,18.21995
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	AnimationCurve: 681657424, "AnimCurve::", "" {
+		Default: 8.47523212432861
+		KeyVer: 4008
+		KeyTime: *3 {
+			a: 0,3848846500,7697693000
+		} 
+		KeyValueFloat: *3 {
+			a: 8.475232,7.287895,8.475232
+		} 
+		;KeyAttrFlags: Cubic|TangeantAuto|GenericClamp|GenericTimeIndependent|GenericClampProgressive
+		KeyAttrFlags: *1 {
+			a: 28936
+		} 
+		;KeyAttrDataFloat: RightAuto:0, NextLeftAuto:0
+		KeyAttrDataFloat: *4 {
+			a: 0,0,218434821,0
+		} 
+		KeyAttrRefCount: *1 {
+			a: 3
+		} 
+	}
+	MotionBuilder_System: 565302208, "KTimeWarpManager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Box"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "KTimeWarpManager"
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_Generic: 565302592, "Video Output 1", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Video"
+			P: "MoBuSubTypeName", "KString", "", "", "Output"
+			P: "MoBuObjectFullName", "KString", "", "", "Video::Video Output 1"
+			P: "DrawMode", "enum", "", "",0
+			P: "MoBuAttrBlindData", "KString", "", "", "UseMipMap: 0&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565305568, "KVideoRenderer", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Object"
+			P: "MoBuSubTypeName", "KString", "", "", "KVideoRenderer"
+			P: "MoBuObjectFullName", "KString", "", "", "KVideoRenderer"
+			P: "MoBuAttrBlindData", "KString", "", "", "&lf;;Renderer Tool Options&lf;; ----------------------------------------------------&lf;RendererTools:  {&lf;    Version: 103&lf;    StartTime: &quot;0&quot;&lf;    StopTime: &quot;0&quot;&lf;    StepTime: &quot;1&quot;&lf;    OutputFormat: &quot;AVI&quot;&lf;    OutputPath: &quot;c:\temp\Output.avi&quot;&lf;    Format: &quot;From Camera&quot;&lf;    FieldMode: 0&lf;    Quality: 24&lf;    RendererAntialing: 0&lf;    ModelsOnly: 1&lf;    ViewingMode: 1&lf;    StereoDisplayMode: 10&lf;    RenderAudio: 0&lf;    AudioFormat: 2098178&lf;    ShowCameraLabel: 0&lf;    ShowTimeCode: 0&lf;    ShowSafeArea: 0&lf;    GlobalViewingMode: 2&lf;    GlobalStereoDisplayMode: 0&lf;}&lf;&lf;"
+             
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565301728, "KSerialManager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "KSerialManager"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "KSerialManager"
+			P: "MoBuAttrBlindData", "KString", "", "", "&lf;; Serial Manager Section &lf;; ----------------------------------------------------&lf;SerialManager:  {&lf;    Port: 1 {&lf;        TCPPort: 0&lf;        InternalPort: 0&lf;        BaudRate: 9600&lf;        UseHardwareFC: 0&lf;    }&lf;}&lf;"
+             
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565301344, "KCharacterHelper", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Tool"
+			P: "MoBuSubTypeName", "KString", "", "", "Character"
+			P: "MoBuObjectFullName", "KString", "", "", "KCharacterHelper"
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", "CHARACTER_TOOL:  {&lf;    KEYING_MODE: 1&lf;    IK_MANIP: 0&lf;    SYMETRY_EDIT: 1&lf;    MARKERSET_VISIBILITY: 1&lf;    FLOOR_CONTACT_VISIBILITY: 1&lf;    FINGER_TIPS_VISIBILITY: 0&lf;    REACH_OVERRIDE: 1&lf;    RESIST_OVERRIDE: 1&lf;}&lf;"
+             
+		}
+	}
+	MotionBuilder_System: 565220512, "KNLEManager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "KNLEManager"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "KNLEManager"
+			P: "MoBuAttrBlindData", "KString", "", "", "GlobalNLE:  {&lf;    Version: 7&lf;}&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565300096, "Constraints", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Folder"
+			P: "MoBuSubTypeName", "KString", "", "", "Category"
+			P: "MoBuObjectFullName", "KString", "", "", "Folder::Constraints"
+			P: "MoBuAttrBlindData", "KString", "", "", "FolderType: &quot;Constraints&quot;&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565292800, "KAudioManager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "KAudioManager"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "KAudioManager"
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565301440, "KMotionTriggerManager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "KMotionTriggerManager"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "KMotionTriggerManager"
+			P: "MoBuAttrBlindData", "KString", "", "", "KEEPACTIVE: 0&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565301152, "Story root", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "TimelineX"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "Timeline::Story root"
+			P: "Muted", "bool", "", "",0
+			P: "Soloed", "bool", "", "",0
+			P: "RecordClipPath", "charptr", "", "", ""
+			P: "Tracks", "object", "", ""
+			P: "Timelines", "object", "", ""
+			P: "MoBuAttrBlindData", "KString", "", "", "&quot;Display Time Span&quot;: 0,0&lf;&quot;Vertical Scroll Position&quot;: 0&lf;State: 0&lf;ViewMinimized: 0&lf;IsEdit: 0&lf;TimelineHeight: 0&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565219648, "Edit root", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "TimelineX"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "Timeline::Edit root"
+			P: "Muted", "bool", "", "",0
+			P: "Soloed", "bool", "", "",0
+			P: "RecordClipPath", "charptr", "", "", ""
+			P: "Tracks", "object", "", ""
+			P: "Timelines", "object", "", ""
+			P: "MoBuAttrBlindData", "KString", "", "", "&quot;Display Time Span&quot;: 0,0&lf;&quot;Vertical Scroll Position&quot;: 0&lf;State: 0&lf;ViewMinimized: 0&lf;IsEdit: 1&lf;TimelineHeight: 0&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565200160, "KTimelineXManager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "KTimelineXManager"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "KTimelineXManager"
+			P: "MoBuAttrBlindData", "KString", "", "", "; TimelineX section&lf;; ----------------------------------------------------&lf;&lf;GlobalTimelineX:  {&lf;    Mute: 0&lf;    TimeDiscontinuity: 1&lf;    TimeReferential: 0&lf;    EditStartEnd: 0,230930790000&lf;    EditZoomStartEnd: 0,230930790000&lf;}&lf;"
+             
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565219840, "Poses", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Folder"
+			P: "MoBuSubTypeName", "KString", "", "", "Category"
+			P: "MoBuObjectFullName", "KString", "", "", "Folder::Poses"
+			P: "MoBuAttrBlindData", "KString", "", "", "FolderType: &quot;Poses&quot;&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565302688, "Takes", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Folder"
+			P: "MoBuSubTypeName", "KString", "", "", "Category"
+			P: "MoBuObjectFullName", "KString", "", "", "Folder::Takes"
+			P: "MoBuAttrBlindData", "KString", "", "", "FolderType: &quot;Takes&quot;&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565220800, "Global Light", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "GlobalShading"
+			P: "MoBuSubTypeName", "KString", "", "", "Light"
+			P: "MoBuObjectFullName", "KString", "", "", "Global Light"
+			P: "Ambient Color", "Color", "", "A",0,0,0
+			P: "Fog Color", "Color", "", "A",1,1,1
+			P: "Fog Begin", "Number", "", "A",0.300000011920929
+			P: "Fog End", "Number", "", "A",1000
+			P: "Fog Density", "Number", "", "A",4
+			P: "FogMode", "enum", "", "",0
+			P: "FogEnable", "bool", "", "",0
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565201600, "Renderer", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "Renderer"
+			P: "MoBuSubTypeName", "KString", "", "", "Default"
+			P: "MoBuObjectFullName", "KString", "", "", "Renderer::Renderer"
+			P: "FrustumCulling", "bool", "", "",1
+			P: "DisplayNormal", "bool", "", "",0
+			P: "DisplayBoundingBox", "bool", "", "",0
+			P: "DisplayHierarchicalBoundingBox", "bool", "", "",0
+			P: "IDBufferPicking", "bool", "", "",0
+			P: "IDBufferPickingAlpha", "double", "Number", "",0.5
+			P: "IDBufferDisplay", "bool", "", "",0
+			P: "SelectionOverride", "bool", "", "",0
+			P: "SelectionOverrideTransparency", "double", "Number", "",0.25
+			P: "SelectionOverrideColor", "ColorRGB", "Color", "",0.05,0.5,0.05
+			P: "CurrentCallbackIndex", "int", "Integer", "",-1
+			P: "AdvancedMaterialMode", "bool", "", "",0
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565219552, "Python Tool Manager", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "__FBTool"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "Python Tool Manager"
+			P: "Caption", "charptr", "", "", ""
+			P: "Enabled", "bool", "", "",1
+			P: "ReadOnly", "bool", "", "",0
+			P: "Visible", "bool", "", "",1
+			P: "Left", "int", "Integer", "",0
+			P: "Top", "int", "Integer", "",0
+			P: "Width", "int", "Integer", "",1
+			P: "Height", "int", "Integer", "",1
+			P: "Anchors", "int", "Integer", "",0
+			P: "SkinContext", "enum", "", "",0
+			P: "Hint", "charptr", "", "", ""
+			P: "HintMouse", "charptr", "", "", ""
+			P: "HintMouseLeft", "int", "Integer", "",-1
+			P: "HintMouseTop", "int", "Integer", "",-1
+			P: "HintMouseWidth", "int", "Integer", "",-1
+			P: "HintMouseHeight", "int", "Integer", "",-1
+			P: "HintIsTextCompletion", "bool", "", "",0
+			P: "Active", "bool", "", "",0
+			P: "ActiveControl", "object", "", ""
+			P: "BackgroundBrush", "enum", "", "",4
+			P: "BorderStyle", "int", "Integer", "",0
+			P: "Position", "int", "Integer", "",0
+			P: "StartWSize", "int", "Integer", "",200
+			P: "StartHSize", "int", "Integer", "",200
+			P: "MaxWSize", "int", "Integer", "",-1
+			P: "MaxHSize", "int", "Integer", "",-1
+			P: "MinWSize", "int", "Integer", "",140
+			P: "MinHSize", "int", "Integer", "",-1
+			P: "StartXPos", "int", "Integer", "",-1
+			P: "StartYPos", "int", "Integer", "",-1
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565299808, "Batch Tool (scripted)", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "__FBTool"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "Batch Tool (scripted)"
+			P: "Caption", "charptr", "", "", ""
+			P: "Enabled", "bool", "", "",1
+			P: "ReadOnly", "bool", "", "",0
+			P: "Visible", "bool", "", "",1
+			P: "Left", "int", "Integer", "",0
+			P: "Top", "int", "Integer", "",0
+			P: "Width", "int", "Integer", "",1
+			P: "Height", "int", "Integer", "",1
+			P: "Anchors", "int", "Integer", "",0
+			P: "SkinContext", "enum", "", "",0
+			P: "Hint", "charptr", "", "", ""
+			P: "HintMouse", "charptr", "", "", ""
+			P: "HintMouseLeft", "int", "Integer", "",-1
+			P: "HintMouseTop", "int", "Integer", "",-1
+			P: "HintMouseWidth", "int", "Integer", "",-1
+			P: "HintMouseHeight", "int", "Integer", "",-1
+			P: "HintIsTextCompletion", "bool", "", "",0
+			P: "Active", "bool", "", "",0
+			P: "ActiveControl", "object", "", ""
+			P: "BackgroundBrush", "enum", "", "",4
+			P: "BorderStyle", "int", "Integer", "",0
+			P: "Position", "int", "Integer", "",0
+			P: "StartWSize", "int", "Integer", "",535
+			P: "StartHSize", "int", "Integer", "",365
+			P: "MaxWSize", "int", "Integer", "",-1
+			P: "MaxHSize", "int", "Integer", "",-1
+			P: "MinWSize", "int", "Integer", "",140
+			P: "MinHSize", "int", "Integer", "",-1
+			P: "StartXPos", "int", "Integer", "",-1
+			P: "StartYPos", "int", "Integer", "",-1
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 565293184, "Character Selection/Key Controls", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "__FBTool"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "Character Selection/Key Controls"
+			P: "Caption", "charptr", "", "", ""
+			P: "Enabled", "bool", "", "",1
+			P: "ReadOnly", "bool", "", "",0
+			P: "Visible", "bool", "", "",1
+			P: "Left", "int", "Integer", "",0
+			P: "Top", "int", "Integer", "",0
+			P: "Width", "int", "Integer", "",1
+			P: "Height", "int", "Integer", "",1
+			P: "Anchors", "int", "Integer", "",0
+			P: "SkinContext", "enum", "", "",0
+			P: "Hint", "charptr", "", "", ""
+			P: "HintMouse", "charptr", "", "", ""
+			P: "HintMouseLeft", "int", "Integer", "",-1
+			P: "HintMouseTop", "int", "Integer", "",-1
+			P: "HintMouseWidth", "int", "Integer", "",-1
+			P: "HintMouseHeight", "int", "Integer", "",-1
+			P: "HintIsTextCompletion", "bool", "", "",0
+			P: "Active", "bool", "", "",0
+			P: "ActiveControl", "object", "", ""
+			P: "BackgroundBrush", "enum", "", "",4
+			P: "BorderStyle", "int", "Integer", "",0
+			P: "Position", "int", "Integer", "",0
+			P: "StartWSize", "int", "Integer", "",242
+			P: "StartHSize", "int", "Integer", "",120
+			P: "MaxWSize", "int", "Integer", "",-1
+			P: "MaxHSize", "int", "Integer", "",-1
+			P: "MinWSize", "int", "Integer", "",140
+			P: "MinHSize", "int", "Integer", "",-1
+			P: "StartXPos", "int", "Integer", "",-1
+			P: "StartYPos", "int", "Integer", "",-1
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 677842032, "FBX Export", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "__FBTool"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "FBX Export"
+			P: "Caption", "charptr", "", "", ""
+			P: "Enabled", "bool", "", "",1
+			P: "ReadOnly", "bool", "", "",0
+			P: "Visible", "bool", "", "",1
+			P: "Left", "int", "Integer", "",0
+			P: "Top", "int", "Integer", "",0
+			P: "Width", "int", "Integer", "",1
+			P: "Height", "int", "Integer", "",1
+			P: "Anchors", "int", "Integer", "",0
+			P: "SkinContext", "enum", "", "",0
+			P: "Hint", "charptr", "", "", ""
+			P: "HintMouse", "charptr", "", "", ""
+			P: "HintMouseLeft", "int", "Integer", "",-1
+			P: "HintMouseTop", "int", "Integer", "",-1
+			P: "HintMouseWidth", "int", "Integer", "",-1
+			P: "HintMouseHeight", "int", "Integer", "",-1
+			P: "HintIsTextCompletion", "bool", "", "",0
+			P: "Active", "bool", "", "",0
+			P: "ActiveControl", "object", "", ""
+			P: "BackgroundBrush", "enum", "", "",4
+			P: "BorderStyle", "int", "Integer", "",0
+			P: "Position", "int", "Integer", "",0
+			P: "StartWSize", "int", "Integer", "",350
+			P: "StartHSize", "int", "Integer", "",170
+			P: "MaxWSize", "int", "Integer", "",-1
+			P: "MaxHSize", "int", "Integer", "",-1
+			P: "MinWSize", "int", "Integer", "",140
+			P: "MinHSize", "int", "Integer", "",-1
+			P: "StartXPos", "int", "Integer", "",-1
+			P: "StartYPos", "int", "Integer", "",-1
+			P: "MoBuAttrBlindData", "KString", "", "", ""
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 677821296, "HierarchyView", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "KtHierarchyView"
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "HierarchyView"
+			P: "MoBuAttrBlindData", "Blob", "", "",3130 {
+				BinaryData: "cC0MAAAAAAAAAAAAAA1IaWVyYXJjaHlWaWV3NQAAAAEAAAAFAAAACFNob3dHcmlkSQEAAAAgDAAAAAAAAAAAAAART2JqZWN0c0F0dHJpYnV0ZXPJAAAAAQAAABAAAAAETmFtZVMLAAAAYm9keQABTW9kZWyLAAAAAQAAAAkAAAABWEQAAAAAAABZQKIAAAABAAAACQAAAAFZRAAAAAAAoHBAvAAAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAQQEAAAEAAAASAAAABE5hbWVTDQAAAGJvbmUxMAABTW9kZWwDAQAAAQAAAAkAAAABWEQAAAAAAABWwBoBAAABAAAACQAAAAFZRAAAAAAAwHNANAEAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAvAEAAAEAAAAVAAAABE5hbWVTEAAAAFJpZ2h0SGlyZQABTW9kZWx+AQAAAQAAAAkAAAABWEQAAAAAAABWwJUBAAABAAAACQAAAAFZRAAAAAAA4HZArwEAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAANAIAAAEAAAASAAAABE5hbWVTDQAAAGJvbmUxMQABTW9kZWz2AQAAAQAAAAkAAAABWEQAAAAAAABWwA0CAAABAAAACQAAAAFZRAAAAAAAAHpAJwIAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAqwIAAAEAAAARAAAABE5hbWVTDAAAAGJvbmU4AAFNb2RlbG0CAAABAAAACQAAAAFYRAAAAAAAACrAhAIAAAEAAAAJAAAAAVlEAAAAAADAdECeAgAAAQAAAAUAAAAIRXhwYW5kZWRJBAAAAAAAAAAAAAAAAAAAAAAlAwAAAQAAABQAAAAETmFtZVMPAAAATGVmdGhpcmUAAU1vZGVs5wIAAAEAAAAJAAAAAVhEAAAAAAAAKsD+AgAAAQAAAAkAAAABWUQAAAAAAOB3QBgDAAABAAAABQAAAAhFeHBhbmRlZEkEAAAAAAAAAAAAAAAAAAAAAJwDAAABAAAAEQAAAAROYW1lUwwAAABib25lOQABTW9kZWxeAwAAAQAAAAkAAAABWEQAAAAAAAAqwHUDAAABAAAACQAAAAFZRAAAAAAAAHtAjwMAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAEwQAAAEAAAARAAAABE5hbWVTDAAAAGJvbmU0AAFNb2RlbNUDAAABAAAACQAAAAFYRAAAAAAAAE9A7AMAAAEAAAAJAAAAAVlEAAAAAADAc0AGBAAAAQAAAAUAAAAIRXhwYW5kZWRJBAAAAAAAAAAAAAAAAAAAAACKBAAAAQAAABEAAAAETmFtZVMMAAAAYm9uZTMAAU1vZGVsTAQAAAEAAAAJAAAAAVhEAAAAAAAgYUBjBAAAAQAAAAkAAAABWUQAAAAAAMB0QH0EAAABAAAABQAAAAhFeHBhbmRlZEkEAAAAAAAAAAAAAAAAAAAAAAEFAAABAAAAEQAAAAROYW1lUwwAAAB0YWlsMQABTW9kZWzDBAAAAQAAAAkAAAABWEQAAAAAACBhQNoEAAABAAAACQAAAAFZRAAAAAAA4HdA9AQAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAeAUAAAEAAAARAAAABE5hbWVTDAAAAHRhaWwyAAFNb2RlbDoFAAABAAAACQAAAAFYRAAAAAAAIGFAUQUAAAEAAAAJAAAAAVlEAAAAAAAAe0BrBQAAAQAAAAUAAAAIRXhwYW5kZWRJBAAAAAAAAAAAAAAAAAAAAADvBQAAAQAAABEAAAAETmFtZVMMAAAAdGFpbDMAAU1vZGVssQUAAAEAAAAJAAAAAVhEAAAAAAAgYUDIBQAAAQAAAAkAAAABWUQAAAAAACB+QOIFAAABAAAABQAAAAhFeHBhbmRlZEkEAAAAAAAAAAAAAAAAAAAAAGYGAAABAAAAEQAAAAROYW1lUwwAAABib25lNwABTW9kZWwoBgAAAQAAAAkAAAABWEQAAAAAACBhQD8GAAABAAAACQAAAAFZRAAAAAAAoIBAWQYAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAA3QYAAAEAAAARAAAABE5hbWVTDAAAAGJvbmUyAAFNb2RlbJ8GAAABAAAACQAAAAFYRAAAAAAAgGpAtgYAAAEAAAAJAAAAAVlEAAAAAADAc0DQBgAAAQAAAAUAAAAIRXhwYW5kZWRJBAAAAAAAAAAAAAAAAAAAAABZBwAAAQAAABYAAAAETmFtZVMRAAAAUmlnaHRXaW5nMQABTW9kZWwbBwAAAQAAAAkAAAABWEQAAAAAAIBqQDIHAAABAAAACQAAAAFZRAAAAAAA4HZATAcAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAA1QcAAAEAAAAWAAAABE5hbWVTEQAAAFJpZ2h0V2luZzIAAU1vZGVslwcAAAEAAAAJAAAAAVhEAAAAAACAakCuBwAAAQAAAAkAAAABWUQAAAAAAAB6QMgHAAABAAAABQAAAAhFeHBhbmRlZEkEAAAAAAAAAAAAAAAAAAAAAFEIAAABAAAAFgAAAAROYW1lUxEAAABSaWdodFdpbmczAAFNb2RlbBMIAAABAAAACQAAAAFYRAAAAAAAgGpAKggAAAEAAAAJAAAAAVlEAAAAAAAgfUBECAAAAQAAAAUAAAAIRXhwYW5kZWRJBAAAAAAAAAAAAAAAAAAAAADICAAAAQAAABEAAAAETmFtZVMMAAAAYm9uZTYAAU1vZGVsiggAAAEAAAAJAAAAAVhEAAAAAACAakChCAAAAQAAAAkAAAABWUQAAAAAACCAQLsIAAABAAAABQAAAAhFeHBhbmRlZEkEAAAAAAAAAAAAAAAAAAAAAD8JAAABAAAAEQAAAAROYW1lUwwAAABib25lMQABTW9kZWwBCQAAAQAAAAkAAAABWEQAAAAAAPBxQBgJAAABAAAACQAAAAFZRAAAAAAAwHRAMgkAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAugkAAAEAAAAVAAAABE5hbWVTEAAAAExlZnRXaW5nMQABTW9kZWx8CQAAAQAAAAkAAAABWEQAAAAAAPBxQJMJAAABAAAACQAAAAFZRAAAAAAA4HdArQkAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAANQoAAAEAAAAVAAAABE5hbWVTEAAAAExlZnRXaW5nMgABTW9kZWz3CQAAAQAAAAkAAAABWEQAAAAAAPBxQA4KAAABAAAACQAAAAFZRAAAAAAAAHtAKAoAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAsAoAAAEAAAAVAAAABE5hbWVTEAAAAExlZnRXaW5nMwABTW9kZWxyCgAAAQAAAAkAAAABWEQAAAAAAPBxQIkKAAABAAAACQAAAAFZ",
+ "RAAAAAAAIH5AowoAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAJwsAAAEAAAARAAAABE5hbWVTDAAAAGJvbmU1AAFNb2RlbOkKAAABAAAACQAAAAFYRAAAAAAA8HFAAAsAAAEAAAAJAAAAAVlEAAAAAACggEAaCwAAAQAAAAUAAAAIRXhwYW5kZWRJBAAAAAAAAAAAAAAAAAAAAACdCwAAAQAAABAAAAAETmFtZVMLAAAATWVzaAABTW9kZWxfCwAAAQAAAAkAAAABWEQAAAAAAABfQHYLAAABAAAACQAAAAFZRAAAAAAA8IhAkAsAAAEAAAAFAAAACEV4cGFuZGVkSQQAAAAAAAAAAAAAAAAAAAAAEwwAAAEAAAAQAAAABE5hbWVTCwAAAG1haW4AAU1vZGVs1QsAAAEAAAAJAAAAAVhEAAAAAAAAX0DsCwAAAQAAAAkAAAABWUQAAAAAAICKQAYMAAABAAAABQAAAAhFeHBhbmRlZEkEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			}
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 677871888, "Transport", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", ""
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "Transport"
+			P: "Caption", "charptr", "", "", ""
+			P: "Enabled", "bool", "", "",1
+			P: "ReadOnly", "bool", "", "",0
+			P: "Visible", "bool", "", "",1
+			P: "Left", "int", "Integer", "",0
+			P: "Top", "int", "Integer", "",0
+			P: "Width", "int", "Integer", "",0
+			P: "Height", "int", "Integer", "",0
+			P: "Anchors", "int", "Integer", "",0
+			P: "SkinContext", "enum", "", "",0
+			P: "Hint", "charptr", "", "", ""
+			P: "HintMouse", "charptr", "", "", ""
+			P: "HintMouseLeft", "int", "Integer", "",-1
+			P: "HintMouseTop", "int", "Integer", "",-1
+			P: "HintMouseWidth", "int", "Integer", "",-1
+			P: "HintMouseHeight", "int", "Integer", "",-1
+			P: "HintIsTextCompletion", "bool", "", "",0
+			P: "Active", "bool", "", "",0
+			P: "ActiveControl", "object", "", ""
+			P: "BackgroundBrush", "enum", "", "",3
+			P: "BorderStyle", "int", "Integer", "",0
+			P: "Position", "int", "Integer", "",0
+			P: "MoBuAttrBlindData", "KString", "", "", "&quot;Transport Tool Settings&quot;:  {&lf;    &quot;ZoomBar Settings&quot;:  {&lf;        top:  {&lf;            ZoomWindowMode: 1&lf;            ZoomWindowTime: 0,230930790000&lf;        }&lf;    }&lf;    &quot;Audio Display Settings&quot;:  {&lf;        AudioDisplay: 1&lf;        AudioClipName: &quot;&quot;&lf;        AudioTrackName: &quot;&quot;&lf;        AudioLeftChannelActive: 1&lf;        AudioRightChannelActive: 1&lf;    }&lf;    Settings:  {&lf;        TimeFormat: 1&lf;        SnapOnFrames: 1&lf;        ReferenceTimeIndex: -1&lf;    }&lf;}&lf;"
+             
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_System: 677852784, "FCurve", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", ""
+			P: "MoBuSubTypeName", "KString", "", "", ""
+			P: "MoBuObjectFullName", "KString", "", "", "FCurve"
+			P: "Caption", "charptr", "", "", ""
+			P: "Enabled", "bool", "", "",1
+			P: "ReadOnly", "bool", "", "",0
+			P: "Visible", "bool", "", "",1
+			P: "Left", "int", "Integer", "",0
+			P: "Top", "int", "Integer", "",1
+			P: "Width", "int", "Integer", "",0
+			P: "Height", "int", "Integer", "",0
+			P: "Anchors", "int", "Integer", "",0
+			P: "SkinContext", "enum", "", "",0
+			P: "Hint", "charptr", "", "", ""
+			P: "HintMouse", "charptr", "", "", ""
+			P: "HintMouseLeft", "int", "Integer", "",-1
+			P: "HintMouseTop", "int", "Integer", "",-1
+			P: "HintMouseWidth", "int", "Integer", "",-1
+			P: "HintMouseHeight", "int", "Integer", "",-1
+			P: "HintIsTextCompletion", "bool", "", "",0
+			P: "Active", "bool", "", "",0
+			P: "ActiveControl", "object", "", ""
+			P: "BackgroundBrush", "enum", "", "",3
+			P: "BorderStyle", "int", "Integer", "",0
+			P: "Position", "int", "Integer", "",0
+			P: "MoBuAttrBlindData", "KString", "", "", "&quot;FCurve Tool Settings&quot;:  {&lf;    &quot;FCurve Editor Settings&quot;:  {&lf;        &quot;Audio Display Settings&quot;:  {&lf;            AudioDisplay: 1&lf;            AudioClipName: &quot;&quot;&lf;            AudioTrackName: &quot;&quot;&lf;            AudioLeftChannelActive: 1&lf;            AudioRightChannelActive: 1&lf;        }&lf;    }&lf;}&lf;"
+             
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+	MotionBuilder_Generic: 677852592, "GlobalInfo", "" {
+		Properties70:  {
+			P: "MoBuTypeName", "KString", "", "", "SceneInfo"
+			P: "MoBuSubTypeName", "KString", "", "", "UserData"
+			P: "MoBuObjectFullName", "KString", "", "", "SceneInfo::GlobalInfo"
+			P: "MoBuAttrBlindData", "KString", "", "", "Version: 100&lf;MetaData:  {&lf;    Version: 100&lf;    Title: &quot;&quot;&lf;    Subject: &quot;&quot;&lf;    Author: &quot;&quot;&lf;    Keywords: &quot;&quot;&lf;    Revision: &quot;&quot;&lf;    Comment: &quot;&quot;&lf;}&lf;"
+			P: "MoBuRelationBlindData", "KString", "", "", ""
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::body, Model::RootNode
+	C: "OO",681211120,0
+	
+	;Model::Mesh, Model::RootNode
+	C: "OO",682722896,0
+	
+	;NodeAttribute::Producer Perspective, Model::Producer Perspective
+	C: "OO",681156784,681154848
+	
+	;NodeAttribute::Producer Front, Model::Producer Front
+	C: "OO",681160656,681158720
+	
+	;NodeAttribute::Producer Back, Model::Producer Back
+	C: "OO",681164528,681162592
+	
+	;NodeAttribute::Producer Right, Model::Producer Right
+	C: "OO",678381184,681166464
+	
+	;NodeAttribute::Producer Left, Model::Producer Left
+	C: "OO",678385056,678383120
+	
+	;NodeAttribute::Producer Top, Model::Producer Top
+	C: "OO",678388928,678386992
+	
+	;NodeAttribute::Producer Bottom, Model::Producer Bottom
+	C: "OO",678392800,678390864
+	
+	;NodeAttribute::Camera Switcher, Model::Camera Switcher
+	C: "OO",565305664,678394736
+	
+	;AnimStack::top, Takes
+	C: "OO",678264592,565302688
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",678054496,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",678062176,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",678063328,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",678057696,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",676869600,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",565646096,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",683906016,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",683907808,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",683909600,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",683911392,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",683913184,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",683914976,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",683916768,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",683918560,683015536
+	
+	;AnimCurveNode::T, AnimLayer::top:BaseAnimation
+	C: "OO",683920352,683015536
+	
+	;AnimCurveNode::R, AnimLayer::top:BaseAnimation
+	C: "OO",682784608,683015536
+	
+	;NodeAttribute::, Model::body
+	C: "OO",684028896,681211120
+	
+	;Model::bone10, Model::body
+	C: "OO",681213056,681211120
+	
+	;Model::bone8, Model::body
+	C: "OO",681218864,681211120
+	
+	;Model::bone4, Model::body
+	C: "OO",681224672,681211120
+	
+	;Model::bone3, Model::body
+	C: "OO",684002880,681211120
+	
+	;Model::bone2, Model::body
+	C: "OO",684012560,681211120
+	
+	;Model::bone1, Model::body
+	C: "OO",682713216,681211120
+	
+	;NodeAttribute::, Model::bone10
+	C: "OO",684026320,681213056
+	
+	;Model::RightHire, Model::bone10
+	C: "OO",681214992,681213056
+	
+	;NodeAttribute::, Model::RightHire
+	C: "OO",684028560,681214992
+	
+	;Model::bone11, Model::RightHire
+	C: "OO",681216928,681214992
+	
+	;NodeAttribute::, Model::bone11
+	C: "OO",684023296,681216928
+	
+	;NodeAttribute::, Model::bone8
+	C: "OO",684027216,681218864
+	
+	;Model::Lefthire, Model::bone8
+	C: "OO",681220800,681218864
+	
+	;NodeAttribute::, Model::Lefthire
+	C: "OO",684033600,681220800
+	
+	;Model::bone9, Model::Lefthire
+	C: "OO",681222736,681220800
+	
+	;NodeAttribute::, Model::bone9
+	C: "OO",684041328,681222736
+	
+	;NodeAttribute::, Model::bone4
+	C: "OO",684042112,681224672
+	
+	;NodeAttribute::, Model::bone3
+	C: "OO",684042000,684002880
+	
+	;Model::tail1, Model::bone3
+	C: "OO",684004816,684002880
+	
+	;NodeAttribute::, Model::tail1
+	C: "OO",684029008,684004816
+	
+	;Model::tail2, Model::tail1
+	C: "OO",684006752,684004816
+	
+	;NodeAttribute::, Model::tail2
+	C: "OO",684022848,684006752
+	
+	;Model::tail3, Model::tail2
+	C: "OO",684008688,684006752
+	
+	;NodeAttribute::, Model::tail3
+	C: "OO",684023184,684008688
+	
+	;Model::bone7, Model::tail3
+	C: "OO",684010624,684008688
+	
+	;NodeAttribute::, Model::bone7
+	C: "OO",684041664,684010624
+	
+	;NodeAttribute::, Model::bone2
+	C: "OO",684041888,684012560
+	
+	;Model::RightWing1, Model::bone2
+	C: "OO",684014496,684012560
+	
+	;NodeAttribute::, Model::RightWing1
+	C: "OO",684020496,684014496
+	
+	;Model::RightWing2, Model::RightWing1
+	C: "OO",684016432,684014496
+	
+	;AnimCurveNode::T, Model::RightWing1
+	C: "OP",678054496,684014496, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::RightWing1
+	C: "OP",678062176,684014496, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::RightWing2
+	C: "OO",684040880,684016432
+	
+	;Model::RightWing3, Model::RightWing2
+	C: "OO",682709344,684016432
+	
+	;AnimCurveNode::T, Model::RightWing2
+	C: "OP",678063328,684016432, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::RightWing2
+	C: "OP",678057696,684016432, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::RightWing3
+	C: "OO",684020272,682709344
+	
+	;Model::bone6, Model::RightWing3
+	C: "OO",682711280,682709344
+	
+	;AnimCurveNode::T, Model::RightWing3
+	C: "OP",676869600,682709344, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::RightWing3
+	C: "OP",565646096,682709344, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::bone6
+	C: "OO",684020160,682711280
+	
+	;AnimCurveNode::T, Model::bone6
+	C: "OP",683906016,682711280, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::bone6
+	C: "OP",683907808,682711280, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::bone1
+	C: "OO",684041552,682713216
+	
+	;Model::LeftWing1, Model::bone1
+	C: "OO",682715152,682713216
+	
+	;AnimCurveNode::T, Model::bone1
+	C: "OP",683909600,682713216, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::bone1
+	C: "OP",683911392,682713216, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::LeftWing1
+	C: "OO",684041440,682715152
+	
+	;Model::LeftWing2, Model::LeftWing1
+	C: "OO",682717088,682715152
+	
+	;AnimCurveNode::T, Model::LeftWing1
+	C: "OP",683913184,682715152, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::LeftWing1
+	C: "OP",683914976,682715152, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::LeftWing2
+	C: "OO",684041104,682717088
+	
+	;Model::LeftWing3, Model::LeftWing2
+	C: "OO",682719024,682717088
+	
+	;AnimCurveNode::T, Model::LeftWing2
+	C: "OP",683916768,682717088, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::LeftWing2
+	C: "OP",683918560,682717088, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::LeftWing3
+	C: "OO",684040432,682719024
+	
+	;Model::bone5, Model::LeftWing3
+	C: "OO",682720960,682719024
+	
+	;AnimCurveNode::T, Model::LeftWing3
+	C: "OP",683920352,682719024, "Lcl Translation"
+	
+	;AnimCurveNode::R, Model::LeftWing3
+	C: "OP",682784608,682719024, "Lcl Rotation"
+	
+	;NodeAttribute::, Model::bone5
+	C: "OO",684041216,682720960
+	
+	;NodeAttribute::, Model::Mesh
+	C: "OO",677855376,682722896
+	
+	;Model::main, Model::Mesh
+	C: "OO",683838816,682722896
+	
+	;NodeAttribute::, Model::main
+	C: "OO",677818416,683838816
+	
+	;AnimLayer::top:BaseAnimation, AnimStack::top
+	C: "OO",683015536,678264592
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",677795472,678054496, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",677796192,678054496, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681653984,678054496, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681656384,678062176, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681656304,678062176, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655904,678062176, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681655984,678063328, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681656064,678063328, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681655584,678063328, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655504,678057696, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655744,678057696, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655824,678057696, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681654704,676869600, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681655104,676869600, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681655344,676869600, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655424,565646096, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655184,565646096, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655264,565646096, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681656224,683906016, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681656144,683906016, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681654784,683906016, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654944,683907808, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681655024,683907808, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654864,683907808, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681655664,683909600, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681653824,683909600, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681654304,683909600, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654544,683911392, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654624,683911392, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654384,683911392, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681654464,683913184, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681653904,683913184, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681654144,683913184, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654224,683914976, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681654064,683914976, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681656624,683914976, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681656704,683916768, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681656784,683916768, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681656464,683916768, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681656544,683918560, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681656864,683918560, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681656944,683918560, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681657024,683920352, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681657104,683920352, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",681657184,683920352, "d|Z"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681657264,682784608, "d|X"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681657344,682784608, "d|Y"
+	
+	;AnimCurve::, AnimCurveNode::R
+	C: "OP",681657424,682784608, "d|Z"
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: "top"
+	Take: "top" {
+		FileName: "top.tak"
+		LocalTime: 0,7697693000
+		ReferenceTime: 0,7697693000
+	}
+}

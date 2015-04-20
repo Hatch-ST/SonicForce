@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>D:\SonicLate\SonicLate\SonicLateContent\Model\player\player_M2_Right.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>Mesh</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>main</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:BoneContent">
+        <Name>body</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -1.1654 6.8874 1</Transform>
+        <Children>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone10</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>RightHire</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -1.467556 -0.191576958 -3.299714 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>bone11</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -4.31541 -0.973111868 -2.487975 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone8</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>Lefthire</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 1.467556 -0.191576958 -3.299714 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>bone9</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 4.31541 -0.973111868 -2.487975 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -0.882499933 4.24989843 1</Transform>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>tail1</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.415799975 -3.5472 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>tail2</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.08459997 -4.7312 1</Transform>
+                    <Children>
+                      <Child Type="Graphics:BoneContent">
+                        <Name>tail3</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.02820003 -3.452 1</Transform>
+                        <Children>
+                          <Child Type="Graphics:BoneContent">
+                            <Name>bone7</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 2.1822 -4.48099947 1</Transform>
+                          </Child>
+                        </Children>
+                      </Child>
+                    </Children>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>RightWing1</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -2.3364 0.07700002 0.423699856 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>RightWing2</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -5.0388 0.192700028 0.145899773 1</Transform>
+                    <Children>
+                      <Child Type="Graphics:BoneContent">
+                        <Name>RightWing3</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -5.4897 0.120299995 0.759400368 1</Transform>
+                        <Children>
+                          <Child Type="Graphics:BoneContent">
+                            <Name>bone6</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -4.474601 -0.0480999947 1.48680019 1</Transform>
+                          </Child>
+                        </Children>
+                      </Child>
+                    </Children>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>LeftWing1</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 2.3364 0.07700002 0.423699856 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>LeftWing2</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 5.0388 0.192700028 0.145899773 1</Transform>
+                    <Children>
+                      <Child Type="Graphics:BoneContent">
+                        <Name>LeftWing3</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 5.4897 0.120299995 0.759400368 1</Transform>
+                        <Children>
+                          <Child Type="Graphics:BoneContent">
+                            <Name>bone5</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 4.474601 -0.0480999947 1.48680019 1</Transform>
+                          </Child>
+                        </Children>
+                      </Child>
+                    </Children>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+        </Children>
+        <Animations>
+          <Animation Key="Right">
+            <Name>Right</Name>
+            <Duration>PT0.167S</Duration>
+            <Channels>
+              <Channel Key="tail1">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>0.9999437 0 -0.0106114037 0 0 1 0 0 0.0106114037 0 0.9999437 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>0.9997748 0 -0.02122161 0 0 1 0 0 0.02122161 0 0.9997748 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>0.9994933 0 -0.0318294279 0 0 1 0 0 0.0318294279 0 0.9994933 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>0.9990993 0 -0.04243366 0 0 1 0 0 0.04243366 0 0.9990993 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>0.998592734 0 -0.0530331172 0 0 1 0 0 0.0530331172 0 0.998592734 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>0.9979738 0 -0.0636266 0 0 1 0 0 0.0636266 0 0.9979738 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>0.9972424 0 -0.07421292 0 0 1 0 0 0.07421292 0 0.9972424 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1333333S</Time>
+                  <Transform>0.996398747 0 -0.08479088 0 0 1 0 0 0.08479088 0 0.996398747 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.15S</Time>
+                  <Transform>0.9954429 0 -0.0953592956 0 0 1 0 0 0.0953592956 0 0.9954429 0 0 0.415799975 -3.5472 1</Transform>
+                </Keyframe>
+              </Channel>
+              <Channel Key="tail2">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>0.998245 0 -0.05921927 0 0 1 0 0 0.05921927 0 0.998245 0 -2.56720556E-09 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>0.992986143 0 -0.118230656 0 0 1 0 0 0.118230656 0 0.992986143 0 4.02502831E-09 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>0.9842419 0 -0.176827088 0 0 1 0 0 0.176827088 0 0.9842419 0 -9.707031E-10 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>0.972043 0 -0.234802842 0 0 1 0 0 0.234802842 0 0.972043 0 -2.01829113E-08 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>0.9564323 0 -0.291954458 0 0 1 0 0 0.291954458 0 0.9564323 0 -1.45074486E-08 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>0.937464356 0 -0.348081231 0 0 1 0 0 0.348081231 0 0.937464356 0 5.34522826E-09 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>0.9152061 0 -0.4029863 0 0 1 0 0 0.4029863 0 0.9152061 0 3.31003527E-08 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1333333S</Time>
+                  <Transform>0.889735341 0 -0.4564769 0 0 1 0 0 0.4564769 0 0.889735341 0 -8.918192E-09 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.15S</Time>
+                  <Transform>0.861141562 0 -0.5083652 0 0 1 0 0 0.5083652 0 0.861141562 0 1.0243971E-08 0.08459997 -4.7312 1</Transform>
+                </Keyframe>
+              </Channel>
+              <Channel Key="tail3">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.02820003 -3.452 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>0.9991604 0 -0.0409688577 0 0 1 0 0 0.0409688577 0 0.9991604 0 1.65925869E-08 0.02820003 -3.45199966 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>0.996643066 0 -0.08186893 0 0 1 0 0 0.08186893 0 0.996643066 0 3.148631E-08 0.02820003 -3.45199966 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>0.9924523 0 -0.122631527 0 0 1 0 0 0.122631527 0 0.9924523 0 8.42409946E-08 0.02820003 -3.45200014 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>0.986595 0 -0.163188189 0 0 1 0 0 0.163188189 0 0.986595 0 1.51715653E-08 0.02820003 -3.452 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>0.979081 0 -0.203470871 0 0 1 0 0 0.203470871 0 0.979081 0 -5.246835E-08 0.02820003 -3.45199966 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>0.9699231 0 -0.243411884 0 0 1 0 0 0.243411884 0 0.9699231 0 -5.05181035E-08 0.02820003 -3.45200014 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>0.9591364 0 -0.282944173 0 0 1 0 0 0.282944173 0 0.9591364 0 -1.79854069E-08 0.02820003 -3.45200014 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1333333S</Time>
+                  <Transform>0.946739256 0 -0.322001338 0 0 1 0 0 0.322001338 0 0.946739256 0 -2.1092859E-08 0.02820003 -3.452 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.15S</Time>
+                  <Transform>0.9327523 0 -0.36051783 0 0 1 0 0 0.36051783 0 0.9327523 0 -3.28054341E-07 0.02820003 -3.452 1</Transform>
+                </Keyframe>
+              </Channel>
+            </Channels>
+          </Animation>
+        </Animations>
+      </Child>
+    </Children>
+  </Asset>
+</XnaContent>

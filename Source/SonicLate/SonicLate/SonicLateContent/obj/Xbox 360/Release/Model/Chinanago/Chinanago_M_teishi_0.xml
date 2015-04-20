@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLateContent\Model\Chinanago\Chinanago_M_teishi.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>Mesh</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>main</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>hire</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:BoneContent">
+        <Name>body1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 -63.8039 1</Transform>
+        <Children>
+          <Child Type="Graphics:BoneContent">
+            <Name>body2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 29.8872 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>body3</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 36.3751 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>body4</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 29.7249985 1</Transform>
+                    <Children>
+                      <Child Type="Graphics:BoneContent">
+                        <Name>bone1</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 27.6166039 1</Transform>
+                      </Child>
+                    </Children>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+        </Children>
+      </Child>
+    </Children>
+  </Asset>
+</XnaContent>

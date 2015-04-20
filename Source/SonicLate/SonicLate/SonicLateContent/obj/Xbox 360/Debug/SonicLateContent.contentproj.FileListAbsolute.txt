@@ -1,0 +1,6 @@
+C:\Users\g1227009\Desktop\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Debug\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Debug\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicLate\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Debug\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Debug\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\WorkSpace\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+D:\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Debug\SonicLateContent.contentprojResolveAssemblyReference.cache

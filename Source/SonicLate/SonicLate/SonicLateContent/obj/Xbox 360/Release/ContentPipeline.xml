@@ -1,0 +1,1262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Image\ZoneEffect_1.png</Source>
+      <Name>Image\ZoneEffect_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_1.xnb</Output>
+      <Time>2013-11-05T07:39:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_10.png</Source>
+      <Name>Image\ZoneEffect_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_10.xnb</Output>
+      <Time>2013-11-05T07:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_11.png</Source>
+      <Name>Image\ZoneEffect_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_11.xnb</Output>
+      <Time>2013-11-05T07:39:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_12.png</Source>
+      <Name>Image\ZoneEffect_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_12.xnb</Output>
+      <Time>2013-11-05T07:39:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_13.png</Source>
+      <Name>Image\ZoneEffect_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_13.xnb</Output>
+      <Time>2013-11-05T07:39:30+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_14.png</Source>
+      <Name>Image\ZoneEffect_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_14.xnb</Output>
+      <Time>2013-11-05T07:39:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_15.png</Source>
+      <Name>Image\ZoneEffect_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_15.xnb</Output>
+      <Time>2013-11-05T07:39:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_16.png</Source>
+      <Name>Image\ZoneEffect_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_16.xnb</Output>
+      <Time>2013-11-05T07:39:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_17.png</Source>
+      <Name>Image\ZoneEffect_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_17.xnb</Output>
+      <Time>2013-11-05T07:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_18.png</Source>
+      <Name>Image\ZoneEffect_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_18.xnb</Output>
+      <Time>2013-11-05T07:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_19.png</Source>
+      <Name>Image\ZoneEffect_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_19.xnb</Output>
+      <Time>2013-11-05T07:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_2.png</Source>
+      <Name>Image\ZoneEffect_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_2.xnb</Output>
+      <Time>2013-11-05T07:39:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_20.png</Source>
+      <Name>Image\ZoneEffect_20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_20.xnb</Output>
+      <Time>2013-11-05T07:39:36+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_3.png</Source>
+      <Name>Image\ZoneEffect_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_3.xnb</Output>
+      <Time>2013-11-05T07:39:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_4.png</Source>
+      <Name>Image\ZoneEffect_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_4.xnb</Output>
+      <Time>2013-11-05T07:39:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_5.png</Source>
+      <Name>Image\ZoneEffect_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_5.xnb</Output>
+      <Time>2013-11-05T07:39:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_6.png</Source>
+      <Name>Image\ZoneEffect_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_6.xnb</Output>
+      <Time>2013-11-05T07:39:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_7.png</Source>
+      <Name>Image\ZoneEffect_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_7.xnb</Output>
+      <Time>2013-11-05T07:39:26+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_8.png</Source>
+      <Name>Image\ZoneEffect_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_8.xnb</Output>
+      <Time>2013-11-05T07:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\ZoneEffect_9.png</Source>
+      <Name>Image\ZoneEffect_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\ZoneEffect_9.xnb</Output>
+      <Time>2013-11-05T07:39:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\texture.png</Source>
+      <Name>Image\texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\texture.xnb</Output>
+      <Time>2013-09-27T17:17:44+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_1.png</Source>
+      <Name>Image\awa_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\awa_1.xnb</Output>
+      <Time>2013-10-29T18:01:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_2.png</Source>
+      <Name>Image\awa_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\awa_2.xnb</Output>
+      <Time>2013-10-29T18:01:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_3.png</Source>
+      <Name>Image\awa_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\awa_3.xnb</Output>
+      <Time>2013-10-29T17:59:56+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\awa_4.png</Source>
+      <Name>Image\awa_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Image\awa_4.xnb</Output>
+      <Time>2013-10-29T18:02:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago.fbx</Source>
+      <Name>Model\Chinanago</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\Chinanago.xnb</Output>
+      <Time>2013-10-01T15:49:52+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\Chinanago_0.xml</Key>
+        <Value>2013-11-14T17:33:14.6797249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_Take_001_0.xml</Key>
+        <Value>2013-11-14T17:33:14.7733249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_teishi_0.xml</Key>
+        <Value>2013-11-14T17:33:14.8357249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_chinanago_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon.fbx</Source>
+      <Name>Model\harisenbon</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\harisenbon.xnb</Output>
+      <Time>2013-10-15T15:33:12+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\harisenbon_0.xml</Key>
+        <Value>2013-11-14T17:33:15.5065249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\harisenbon\harisenbon_M_Take_001_0.xml</Key>
+        <Value>2013-11-14T17:33:15.5845249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_harisenbon_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\hitode.fbx</Source>
+      <Name>Model\hitode</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\hitode.xnb</Output>
+      <Time>2013-10-01T15:50:36+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\hitode_0.xml</Key>
+        <Value>2013-11-14T17:33:16.1461249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\hitode\hitode_M_Take_001_0.xml</Key>
+        <Value>2013-11-14T17:33:16.2085249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_hitode_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\kani.fbx</Source>
+      <Name>Model\kani</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\kani.xnb</Output>
+      <Time>2013-10-29T15:31:00+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kani_0.xml</Key>
+        <Value>2013-11-14T17:33:16.8013249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kani\kani_M_attack_0.xml</Key>
+        <Value>2013-11-14T17:33:16.8793249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_kani_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\player.fbx</Source>
+      <Name>Model\player</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\player.xnb</Output>
+      <Time>2013-10-15T18:32:40+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player_0.xml</Key>
+        <Value>2013-11-14T17:33:17.4409249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player\player_M1_2_Take_001_0.xml</Key>
+        <Value>2013-11-14T17:33:17.5969249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player\player_M2_Left_0.xml</Key>
+        <Value>2013-11-14T17:33:17.7061249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player\player_M2_Right_0.xml</Key>
+        <Value>2013-11-14T17:33:17.8153249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_Player_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\tako.fbx</Source>
+      <Name>Model\tako</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\tako.xnb</Output>
+      <Time>2013-10-01T15:51:14+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\tako_0.xml</Key>
+        <Value>2013-11-14T17:33:18.5485249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\tako\tako_M_Attack_0.xml</Key>
+        <Value>2013-11-14T17:33:18.6265249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\tako\tako_M_Screw_0.xml</Key>
+        <Value>2013-11-14T17:33:18.7201249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_Tako_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon.fbx</Source>
+      <Name>Model\togesenbon</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\togesenbon.xnb</Output>
+      <Time>2013-11-05T15:56:02+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\togesenbon_0.xml</Key>
+        <Value>2013-11-14T17:33:19.3597249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\togesenbon\togesenbon_M_Take_001_0.xml</Key>
+        <Value>2013-11-14T17:33:19.4377249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_togesenbon_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage.fbx</Source>
+      <Name>Model\stage</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage.xnb</Output>
+      <Time>2013-10-29T17:39:34+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_0.xml</Key>
+        <Value>2013-11-14T17:33:20.2645249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_collision.fbx</Source>
+      <Name>Model\stage_collision</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_collision.xnb</Output>
+      <Time>2013-10-29T17:05:54+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_collision_0.xml</Key>
+        <Value>2013-11-14T17:33:21.3409249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\stage_rasen.fbx</Source>
+      <Name>Model\stage_rasen</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_rasen.xnb</Output>
+      <Time>2013-11-12T15:22:28+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_rasen_0.xml</Key>
+        <Value>2013-11-14T17:33:21.6061249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\kurage_core.fbx</Source>
+      <Name>Model\kurage_core</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\kurage_core.xnb</Output>
+      <Time>2013-11-05T17:11:54+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kurage_core_0.xml</Key>
+        <Value>2013-11-14T17:33:21.6685249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_kurage_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_rasen_atari.fbx</Source>
+      <Name>Model\stage_rasen_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_rasen_atari.xnb</Output>
+      <Time>2013-11-12T20:28:02+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_rasen_atari_0.xml</Key>
+        <Value>2013-11-14T17:33:22.2301249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\kurage.fbx</Source>
+      <Name>Model\kurage</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\kurage.xnb</Output>
+      <Time>2013-11-12T16:47:08+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kurage_0.xml</Key>
+        <Value>2013-11-14T17:33:22.3861249+09:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kurage\kurage_M_Rotation_0.xml</Key>
+        <Value>2013-11-14T18:14:06.909163+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_kurage_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_L_atari.fbx</Source>
+      <Name>Model\stage_curve_L_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_curve_L_atari.xnb</Output>
+      <Time>2013-11-12T20:28:02+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_curve_L_atari_0.xml</Key>
+        <Value>2013-11-14T17:33:22.6201249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_R_atari.fbx</Source>
+      <Name>Model\stage_curve_R_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_curve_R_atari.xnb</Output>
+      <Time>2013-11-12T20:28:02+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_curve_R_atari_0.xml</Key>
+        <Value>2013-11-14T17:33:22.6825249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_over_atari.fbx</Source>
+      <Name>Model\stage_suicyoku_over_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_suicyoku_over_atari.xnb</Output>
+      <Time>2013-11-12T20:28:22+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_suicyoku_over_atari_0.xml</Key>
+        <Value>2013-11-14T17:33:22.7137249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_under_atari.fbx</Source>
+      <Name>Model\stage_suicyoku_under_atari</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_suicyoku_under_atari.xnb</Output>
+      <Time>2013-11-12T20:28:32+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_suicyoku_under_atari_0.xml</Key>
+        <Value>2013-11-14T17:33:22.7605249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_L.fbx</Source>
+      <Name>Model\stage_curve_L</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_curve_L.xnb</Output>
+      <Time>2013-11-12T15:21:04+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_curve_L_0.xml</Key>
+        <Value>2013-11-14T17:33:22.9165249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_R.fbx</Source>
+      <Name>Model\stage_curve_R</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_curve_R.xnb</Output>
+      <Time>2013-11-12T15:21:46+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_curve_R_0.xml</Key>
+        <Value>2013-11-14T17:33:23.1037249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_over.fbx</Source>
+      <Name>Model\stage_suicyoku_over</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_suicyoku_over.xnb</Output>
+      <Time>2013-11-12T18:15:48+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_suicyoku_over_0.xml</Key>
+        <Value>2013-11-14T17:33:23.2753249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_under.fbx</Source>
+      <Name>Model\stage_suicyoku_under</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\stage_suicyoku_under.xnb</Output>
+      <Time>2013-11-12T18:15:48+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\stage_suicyoku_under_0.xml</Key>
+        <Value>2013-11-14T17:33:23.4625249+09:00</Value>
+      </Dependency>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Request>
+      <Request>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Audio\bgm.mp3</Source>
+      <Name>Audio\bgm</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Audio\bgm.xnb</Output>
+      <Extra>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Audio\bgm.wma</Extra>
+      <Time>2013-10-29T17:13:38+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\se.wav</Source>
+      <Name>Audio\se</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Audio\se.xnb</Output>
+      <Time>2011-07-11T20:23:50+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Basic.fx</Source>
+      <Name>Effect\Basic</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\Basic.xnb</Output>
+      <Time>2013-11-10T04:01:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Board.fx</Source>
+      <Name>Effect\Board</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\Board.xnb</Output>
+      <Time>2013-10-02T22:13:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Phong.fx</Source>
+      <Name>Effect\Phong</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\Phong.xnb</Output>
+      <Time>2013-10-31T05:51:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Sprite.fx</Source>
+      <Name>Effect\Sprite</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\Sprite.xnb</Output>
+      <Time>2013-11-14T06:24:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\WrappedDiffuse.fx</Source>
+      <Name>Effect\WrappedDiffuse</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\WrappedDiffuse.xnb</Output>
+      <Time>2013-11-03T12:44:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Fog.fx</Source>
+      <Name>Effect\Fog</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\Fog.xnb</Output>
+      <Time>2013-11-10T04:37:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\DepthMap.fx</Source>
+      <Name>Effect\DepthMap</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\DepthMap.xnb</Output>
+      <Time>2013-11-10T04:25:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\DepthShadow.fx</Source>
+      <Name>Effect\DepthShadow</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Effect\DepthShadow.xnb</Output>
+      <Time>2013-11-12T18:52:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>enemyData.xml</Source>
+      <Name>enemyData</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\enemyData.xnb</Output>
+      <Time>2013-11-14T17:04:15.9432791+09:00</Time>
+    </Item>
+    <Item>
+      <Source>cameraData.xml</Source>
+      <Name>cameraData</Name>
+      <Importer>TextFileImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\cameraData.xnb</Output>
+      <Time>2013-11-14T08:58:42+09:00</Time>
+    </Item>
+    <Item>
+      <Source>spritefont.spritefont</Source>
+      <Name>spritefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\spritefont.xnb</Output>
+      <Time>2013-11-14T17:00:02.706958+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\Chinanago_0.xml</Output>
+      <Time>2013-10-01T15:49:52+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_Take_001_0.xml</Output>
+      <Time>2013-10-08T18:30:48+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_Take_001_1.xml</Key>
+        <Value>2013-11-14T17:33:14.7577249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_Take_001_1.xml</Output>
+      <Time>2013-10-08T18:30:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_teishi.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_teishi_0.xml</Output>
+      <Time>2013-11-12T11:46:58+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_teishi_1.xml</Key>
+        <Value>2013-11-14T17:33:14.8357249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\Chinanago\Chinanago_M_teishi.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\Chinanago\Chinanago_M_teishi_1.xml</Output>
+      <Time>2013-11-12T11:46:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_chinanago.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_chinanago_0.xnb</Output>
+      <Time>2013-09-19T12:42:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\harisenbon_0.xml</Output>
+      <Time>2013-10-15T15:33:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon\harisenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\harisenbon\harisenbon_M_Take_001_0.xml</Output>
+      <Time>2013-10-15T15:57:10+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\harisenbon\harisenbon_M_Take_001_1.xml</Key>
+        <Value>2013-11-14T17:33:15.5689249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\harisenbon\harisenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\harisenbon\harisenbon_M_Take_001_1.xml</Output>
+      <Time>2013-10-15T15:57:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_harisenbon.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_harisenbon_0.xnb</Output>
+      <Time>2013-10-02T21:17:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\hitode.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\hitode_0.xml</Output>
+      <Time>2013-10-01T15:50:36+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\hitode\hitode_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\hitode\hitode_M_Take_001_0.xml</Output>
+      <Time>2013-10-08T18:34:28+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\hitode\hitode_M_Take_001_1.xml</Key>
+        <Value>2013-11-14T17:33:16.2085249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\hitode\hitode_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\hitode\hitode_M_Take_001_1.xml</Output>
+      <Time>2013-10-08T18:34:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_hitode.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_hitode_0.xnb</Output>
+      <Time>2013-09-19T12:42:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kani.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\kani_0.xml</Output>
+      <Time>2013-10-29T15:31:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kani\kani_M_attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\kani\kani_M_attack_0.xml</Output>
+      <Time>2013-10-29T15:29:24+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kani\kani_M_attack_1.xml</Key>
+        <Value>2013-11-14T17:33:16.8637249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\kani\kani_M_attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\kani\kani_M_attack_1.xml</Output>
+      <Time>2013-10-29T15:29:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_kani.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_kani_0.xnb</Output>
+      <Time>2013-10-22T15:41:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\player_0.xml</Output>
+      <Time>2013-10-15T18:32:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M1_2_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\player\player_M1_2_Take_001_0.xml</Output>
+      <Time>2013-10-22T16:15:40+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player\player_M1_2_Take_001_1.xml</Key>
+        <Value>2013-11-14T17:33:17.5813249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M1_2_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\player\player_M1_2_Take_001_1.xml</Output>
+      <Time>2013-10-22T16:15:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Left.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\player\player_M2_Left_0.xml</Output>
+      <Time>2013-10-22T16:38:24+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player\player_M2_Left_1.xml</Key>
+        <Value>2013-11-14T17:33:17.7061249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Left.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\player\player_M2_Left_1.xml</Output>
+      <Time>2013-10-22T16:38:24+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Right.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\player\player_M2_Right_0.xml</Output>
+      <Time>2013-10-22T16:38:40+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\player\player_M2_Right_1.xml</Key>
+        <Value>2013-11-14T17:33:17.8153249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\player\player_M2_Right.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\player\player_M2_Right_1.xml</Output>
+      <Time>2013-10-22T16:38:40+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_Player.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_Player_0.xnb</Output>
+      <Time>2013-09-19T12:42:12+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\tako.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\tako_0.xml</Output>
+      <Time>2013-10-01T15:51:14+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\tako\tako_M_Attack_0.xml</Output>
+      <Time>2013-11-05T15:28:10+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\tako\tako_M_Attack_1.xml</Key>
+        <Value>2013-11-14T17:33:18.6265249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Attack.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\tako\tako_M_Attack_1.xml</Output>
+      <Time>2013-11-05T15:28:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Screw.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\tako\tako_M_Screw_0.xml</Output>
+      <Time>2013-11-05T15:26:58+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\tako\tako_M_Screw_1.xml</Key>
+        <Value>2013-11-14T17:33:18.7045249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\tako\tako_M_Screw.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\tako\tako_M_Screw_1.xml</Output>
+      <Time>2013-11-05T15:26:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_Tako.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_Tako_0.xnb</Output>
+      <Time>2013-09-19T12:42:16+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\togesenbon_0.xml</Output>
+      <Time>2013-11-05T15:56:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon\togesenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\togesenbon\togesenbon_M_Take_001_0.xml</Output>
+      <Time>2013-10-15T15:47:10+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\togesenbon\togesenbon_M_Take_001_1.xml</Key>
+        <Value>2013-11-14T17:33:19.4377249+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\togesenbon\togesenbon_M_Take_001.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\togesenbon\togesenbon_M_Take_001_1.xml</Output>
+      <Time>2013-10-15T15:47:10+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_togesenbon.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_togesenbon_0.xnb</Output>
+      <Time>2013-10-02T22:10:20+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_0.xml</Output>
+      <Time>2013-10-29T17:39:34+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\wall.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\wall_0.xnb</Output>
+      <Time>2013-10-01T16:26:00+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\back.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\back_0.xnb</Output>
+      <Time>2013-09-11T15:31:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_collision.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_collision_0.xml</Output>
+      <Time>2013-10-29T17:05:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_rasen.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_rasen_0.xml</Output>
+      <Time>2013-11-12T15:22:28+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kurage_core.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\kurage_core_0.xml</Output>
+      <Time>2013-11-05T17:11:54+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\main_kurage.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\Model\main_kurage_0.xnb</Output>
+      <Time>2013-11-05T18:49:58+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_rasen_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_rasen_atari_0.xml</Output>
+      <Time>2013-11-12T20:28:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kurage.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\kurage_0.xml</Output>
+      <Time>2013-11-12T16:47:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\kurage\kurage_M_Rotation.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile</Options>
+      <Output>obj\Xbox 360\Release\Model\kurage\kurage_M_Rotation_0.xml</Output>
+      <Time>2013-11-14T17:22:08+09:00</Time>
+      <Dependency>
+        <Key>obj\Xbox 360\Release\Model\kurage\kurage_M_Rotation_1.xml</Key>
+        <Value>2013-11-14T18:14:06.7461467+09:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Model\kurage\kurage_M_Rotation.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\kurage\kurage_M_Rotation_1.xml</Output>
+      <Time>2013-11-14T17:22:08+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_L_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_curve_L_atari_0.xml</Output>
+      <Time>2013-11-12T20:28:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_R_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_curve_R_atari_0.xml</Output>
+      <Time>2013-11-12T20:28:02+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_over_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_suicyoku_over_atari_0.xml</Output>
+      <Time>2013-11-12T20:28:22+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_under_atari.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_suicyoku_under_atari_0.xml</Output>
+      <Time>2013-11-12T20:28:32+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_L.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_curve_L_0.xml</Output>
+      <Time>2013-11-12T15:21:04+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_curve_R.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_curve_R_0.xml</Output>
+      <Time>2013-11-12T15:21:46+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_over.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_suicyoku_over_0.xml</Output>
+      <Time>2013-11-12T18:15:48+09:00</Time>
+    </Item>
+    <Item>
+      <Source>Model\stage_suicyoku_under.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\Xbox 360\Release\Model\stage_suicyoku_under_0.xml</Output>
+      <Time>2013-11-12T18:15:48+09:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLateContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLateContent\obj\Xbox 360\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLate\bin\Xbox 360\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\g1227067\Desktop\SonicLate\SonicLate\TextFilePipeline\bin\x86\Debug\TextFilePipeline.dll</Key>
+        <Value>2013-11-14T15:20:43.5954264+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\g1227067\Desktop\SonicLate\SonicLate\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2013-11-14T17:32:19.9757249+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+09:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-04T17:09:42.6213271+09:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

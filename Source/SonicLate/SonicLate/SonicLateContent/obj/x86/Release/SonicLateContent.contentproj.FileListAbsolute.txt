@@ -1,0 +1,7 @@
+C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 13-12-14\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-15\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\g1227067\Desktop\SonicForce 14-01-20\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce 14-01-21\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache
+C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\SonicLate\SonicLateContent\obj\x86\Release\SonicLateContent.contentprojResolveAssemblyReference.cache

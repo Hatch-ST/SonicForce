@@ -1,0 +1,5 @@
+D:\SonicLate\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+D:\SonicLate\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+D:\SonicLate\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\SonicLate\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+D:\SonicLate\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb

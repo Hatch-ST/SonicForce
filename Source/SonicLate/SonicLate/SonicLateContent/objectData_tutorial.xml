@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--type="オブジェクトの種類" position="オブジェクトの出現位置" angle="オブジェクトの初期角度(省略可)-->
+<ObjectData>
+  <checkPoint />
+  <item id="1" type="object_1" position="394.8158, -5088, 119513" angle="0, 3.115413, 0" />
+  <item id="2" type="object_1" position="-124.99976, -5088, 119495" angle="0, 3.141593, 0" />
+  <item id="3" type="object_1" position="453.3044, -5101.355, 118648" angle="0.2069032, -2.05951, 0" />
+  <item id="4" type="object_1" position="4.564031, -5088, 118562" angle="0, 3.115413, 0" />
+  <item id="5" type="object_5" position="653.9921, -5010.589, 116317.3" angle="-0.1311395, -3.080507, 0" />
+  <item id="6" type="object_5" position="319.7053, -5156.187, 116255.5" angle="-0.1311395, -3.080507, 0" />
+  <item id="7" type="object_5" position="-50.62994, -5302.889, 116156.2" angle="-0.06119943, -3.080508, 0" />
+  <item id="8" type="object_2" position="-23.82131, -5189.361, 113996.8" angle="-0.1311395, -3.080507, 0" />
+  <item id="9" type="object_2" position="527.8709, -5173.67, 113844" angle="-0.1311395, -3.080507, 0" />
+  <item id="10" type="object_1" position="232.4816, -5234.115, 111059.6" angle="-0.1311395, -3.080507, 0" />
+  <item id="11" type="object_1" position="732.6555, -5121.672, 110640.9" angle="-0.1311395, -3.080507, 0" />
+  <item id="12" type="object_1" position="-70.36494, -5148.787, 110206.5" angle="-0.1311395, -3.080507, 0" />
+</ObjectData>

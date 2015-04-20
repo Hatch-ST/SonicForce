@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\SonicLate\SonicLateContent\Model\same\same_M2_bite2.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>Mesh</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>ue_ago</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>shita_ago</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>main</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>hire</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>eyes</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:BoneContent">
+        <Name>spine_1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 34.741 618.8105 1</Transform>
+        <Children>
+          <Child Type="Graphics:BoneContent">
+            <Name>spine_2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 51.2969 -488.144073 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>spine_3</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -37.5851021 -195.0392 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>spine_4</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -23.2591 -194.581375 1</Transform>
+                    <Children>
+                      <Child Type="Graphics:BoneContent">
+                        <Name>spine_5</Name>
+                        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -16.2514 -153.979645 1</Transform>
+                        <Children>
+                          <Child Type="Graphics:BoneContent">
+                            <Name>spine_6</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -15.6272993 -121.481476 1</Transform>
+                            <Children>
+                              <Child Type="Graphics:BoneContent">
+                                <Name>tail</Name>
+                                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -5.54229927 -133.304932 1</Transform>
+                                <Children>
+                                  <Child Type="Graphics:BoneContent">
+                                    <Name>endbone_4</Name>
+                                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 18.1506 -151.645874 1</Transform>
+                                  </Child>
+                                </Children>
+                              </Child>
+                            </Children>
+                          </Child>
+                        </Children>
+                      </Child>
+                    </Children>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone_4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>Right_Fin</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -187.0159 -158.299 -213.452972 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>endbone_2</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -115.668915 -127.429 -212.175812 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone_3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>Left_Fin</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 187.0159 -158.299 -213.452972 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>endbone_1</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 115.668915 -127.429 -212.175812 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone_2</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>over_Chin</Name>
+                <Transform>1 0 0 0 0 0.58047545 -0.814277768 0 0 0.814277768 0.58047545 0 0 -8.9363 23.6568 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>bone_1</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -63.0942841 224.047211 1</Transform>
+                    <Children>
+                      <Child Type="Graphics:BoneContent">
+                        <Name>under_Chin</Name>
+                        <Transform>1 0 0 0 0 -0.0467108451 0.99890846 0 0 -0.99890846 -0.0467108451 0 0 -2.68620062 -206.28537 1</Transform>
+                        <Children>
+                          <Child Type="Graphics:BoneContent">
+                            <Name>endbone_3</Name>
+                            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -108.345505 219.699417 1</Transform>
+                          </Child>
+                        </Children>
+                      </Child>
+                    </Children>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+        </Children>
+        <Animations>
+          <Animation Key="bite2">
+            <Name>bite2</Name>
+            <Duration>PT0.133S</Duration>
+            <Channels>
+              <Channel Key="over_Chin">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 0.58047545 -0.814277768 0 0 0.814277768 0.58047545 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>1 0 0 0 0 0.672993 -0.7396488 0 0 0.7396488 0.672993 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>1 0 0 0 0 0.7560019 -0.6545694 0 0 0.6545694 0.7560019 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>1 0 0 0 0 0.828329265 -0.5602416 0 0 0.5602416 0.828329265 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>1 0 0 0 0 0.888953149 -0.457998127 0 0 0.457998127 0.888953149 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>1 0 0 0 0 0.937017 -0.3492836 0 0 0.3492836 0.937017 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>1 0 0 0 0 0.9718419 -0.2356341 0 0 0.2356341 0.9718419 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>1 0 0 0 0 0.9929355 -0.118655287 0 0 0.118655287 0.9929355 0 0 -8.9363 23.6568 1</Transform>
+                </Keyframe>
+              </Channel>
+              <Channel Key="bone_1">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>1 0 0 0 0 1 -5.551115E-17 0 0 5.551115E-17 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>1 0 0 0 0 1 -5.551115E-17 0 0 5.551115E-17 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>1 0 0 0 0 1 -1.38777878E-17 0 0 1.38777878E-17 1 0 0 -63.0943 224.0472 1</Transform>
+                </Keyframe>
+              </Channel>
+              <Channel Key="under_Chin">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 -0.0467108227 0.99890846 0 0 -0.99890846 -0.0467108227 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>1 0 0 0 0 0.154837355 0.987939954 0 0 -0.987939954 0.154837355 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>1 0 0 0 0 0.3500769 0.936720967 0 0 -0.936720967 0.3500769 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>1 0 0 0 0 0.5310538 0.8473381 0 0 -0.8473381 0.5310538 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>1 0 0 0 0 0.6903945 0.7234331 0 0 -0.7234331 0.6903945 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>1 0 0 0 0 0.821607232 0.570054 0 0 -0.570054 0.821607232 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>1 0 0 0 0 0.9193461 0.3934498 0 0 -0.3934498 0.9193461 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>1 0 0 0 0 0.97962904 0.200815722 0 0 -0.200815722 0.97962904 0 0 -2.686199 -206.2854 1</Transform>
+                </Keyframe>
+              </Channel>
+            </Channels>
+          </Animation>
+        </Animations>
+      </Child>
+    </Children>
+  </Asset>
+</XnaContent>

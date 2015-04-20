@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--type="敵の種類" position="敵の出現位置" angle="敵の初期角度(省略可)-->
+<EnemyData>
+  <checkPoint />
+  <item id="1" type="jellyfish" position="104.5453, -5103, 119452.8" angle="0, -0.253147, 0" />
+  <item id="2" type="jellyfish" position="272.097, -5023, 117646.9" angle="0, -0.2531469, 0" />
+  <item id="3" type="jellyfish" position="575.8599, -5283, 115793.6" angle="0, -0.2531469, 0" />
+  <item id="4" type="jellyfish" position="556.142, -5258, 113753.1" angle="0, -0.2531469, 0" />
+  <item id="5" type="jellyfish" position="496.9305, -5253, 111945.1" angle="0, -0.253147, 0" />
+  <item id="6" type="jellyfish" position="581.0334, -5283, 109962.3" angle="0, -0.2531469, 0" />
+  <item id="7" type="jellyfish" position="509.9208, -5153, 107681" angle="0, -0.253147, 0" />
+  <item id="8" type="jellyfish" position="500.3156, -5298, 105441.6" angle="0, -0.2531469, 0" />
+  <item id="9" type="jellyfish" position="598.962, -5188, 103163" angle="0, -0.2531469, 0" />
+  <item id="10" type="jellyfish" position="134.242, -5208, 100965.9" angle="0, -0.253147, 0" />
+</EnemyData>

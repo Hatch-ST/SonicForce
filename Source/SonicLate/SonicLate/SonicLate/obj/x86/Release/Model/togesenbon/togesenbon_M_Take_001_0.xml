@@ -1,0 +1,1559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Shu\MyFiles\Workspace\SonicForce\SonicLate\SonicLate\SonicLateContent\Model\togesenbon\togesenbon_M_Take_001.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>Mesh</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>kuchi</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>main</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>hire</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+          <Child>
+            <Name>toge</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:BoneContent">
+        <Name>body</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Children>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone5</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>R_hire</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -12.7664 -0.6707 7.4547 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>bone7</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -3.58750057 -0.255199969 -5.2758 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone4</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>L_hire</Name>
+                <Transform>1 0 0 0 0 1 0 0 0 0 1 0 12.7664 -0.6707 7.4547 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>bone6</Name>
+                    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 3.58750057 -0.255199969 -5.2758 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone3</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+            <Children>
+              <Child Type="Graphics:BoneContent">
+                <Name>tail</Name>
+                <Transform>0.9848077 0 -0.173648179 0 0 1 0 0 0.173648179 0 0.9848077 0 0 0.5644 -10.7953 1</Transform>
+                <Children>
+                  <Child Type="Graphics:BoneContent">
+                    <Name>bone2</Name>
+                    <Transform>1 0 4.32454073E-09 0 0 1 0 0 -4.32454073E-09 0 1 0 1.49955639E-08 0.155600011 -7.66450071 1</Transform>
+                  </Child>
+                </Children>
+              </Child>
+            </Children>
+          </Child>
+          <Child Type="Graphics:BoneContent">
+            <Name>bone1</Name>
+            <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0.1756 16.9256 1</Transform>
+          </Child>
+        </Children>
+        <Animations>
+          <Animation Key="Take 001">
+            <Name>Take 001</Name>
+            <Duration>PT2S</Duration>
+            <Channels>
+              <Channel Key="R_hire">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>0.999960661 0 -0.00886955 0 0 1 0 0 0.00886955 0 0.999960661 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>0.9998377 0 -0.0180147029 0 0 1 0 0 0.0180147029 0 0.9998377 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>0.999624 0 -0.0274200477 0 0 1 0 0 0.0274200477 0 0.999624 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>0.9993127 0 -0.0370700546 0 0 1 0 0 0.0370700546 0 0.9993127 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>0.9988973 0 -0.0469490625 0 0 1 0 0 0.0469490625 0 0.9988973 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>0.99837184 0 -0.0570412874 0 0 1 0 0 0.0570412874 0 0.99837184 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>0.997730732 0 -0.06733085 0 0 1 0 0 0.06733085 0 0.997730732 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1333333S</Time>
+                  <Transform>0.996968865 0 -0.07780177 0 0 1 0 0 0.07780177 0 0.996968865 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.15S</Time>
+                  <Transform>0.9960817 0 -0.08843795 0 0 1 0 0 0.08843795 0 0.9960817 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1666666S</Time>
+                  <Transform>0.9950652 0 -0.09922326 0 0 1 0 0 0.09922326 0 0.9950652 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1833333S</Time>
+                  <Transform>0.9939159 0 -0.1101415 0 0 1 0 0 0.1101415 0 0.9939159 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1999999S</Time>
+                  <Transform>0.992631 0 -0.121176384 0 0 1 0 0 0.121176384 0 0.992631 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2166666S</Time>
+                  <Transform>0.991208136 0 -0.132311657 0 0 1 0 0 0.132311657 0 0.991208136 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2333333S</Time>
+                  <Transform>0.989645839 0 -0.14353101 0 0 1 0 0 0.14353101 0 0.989645839 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2499999S</Time>
+                  <Transform>0.987943 0 -0.154818162 0 0 1 0 0 0.154818162 0 0.987943 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2666666S</Time>
+                  <Transform>0.986099362 0 -0.166156843 0 0 1 0 0 0.166156843 0 0.986099362 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2833333S</Time>
+                  <Transform>0.984115243 0 -0.177530855 0 0 1 0 0 0.177530855 0 0.984115243 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3S</Time>
+                  <Transform>0.9819917 0 -0.188924059 0 0 1 0 0 0.188924059 0 0.9819917 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3166666S</Time>
+                  <Transform>0.9797304 0 -0.200320378 0 0 1 0 0 0.200320378 0 0.9797304 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3333333S</Time>
+                  <Transform>0.977333844 0 -0.211703867 0 0 1 0 0 0.211703867 0 0.977333844 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.35S</Time>
+                  <Transform>0.974805 0 -0.223058715 0 0 1 0 0 0.223058715 0 0.974805 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3666666S</Time>
+                  <Transform>0.972147644 0 -0.234369233 0 0 1 0 0 0.234369233 0 0.972147644 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3833333S</Time>
+                  <Transform>0.9693662 0 -0.245619908 0 0 1 0 0 0.245619908 0 0.9693662 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3999999S</Time>
+                  <Transform>0.9664658 0 -0.256795436 0 0 1 0 0 0.256795436 0 0.9664658 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4166666S</Time>
+                  <Transform>0.9634521 0 -0.2678807 0 0 1 0 0 0.2678807 0 0.9634521 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4333333S</Time>
+                  <Transform>0.960331559 0 -0.278860748 0 0 1 0 0 0.278860748 0 0.960331559 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.45S</Time>
+                  <Transform>0.9571112 0 -0.289720923 0 0 1 0 0 0.289720923 0 0.9571112 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4666666S</Time>
+                  <Transform>0.953798532 0 -0.300446868 0 0 1 0 0 0.300446868 0 0.953798532 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4833333S</Time>
+                  <Transform>0.950401962 0 -0.3110243 0 0 1 0 0 0.3110243 0 0.950401962 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4999999S</Time>
+                  <Transform>0.9469301 0 -0.321439475 0 0 1 0 0 0.321439475 0 0.9469301 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5166666S</Time>
+                  <Transform>0.9433924 0 -0.331678659 0 0 1 0 0 0.331678659 0 0.9433924 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5333333S</Time>
+                  <Transform>0.9397987 0 -0.341728538 0 0 1 0 0 0.341728538 0 0.9397987 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.55S</Time>
+                  <Transform>0.9361593 0 -0.351576149 0 0 1 0 0 0.351576149 0 0.9361593 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5666666S</Time>
+                  <Transform>0.932485 0 -0.361208677 0 0 1 0 0 0.361208677 0 0.932485 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5833333S</Time>
+                  <Transform>0.9287871 0 -0.370613724 0 0 1 0 0 0.370613724 0 0.9287871 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6S</Time>
+                  <Transform>0.9250772 0 -0.3797791 0 0 1 0 0 0.3797791 0 0.9250772 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6166666S</Time>
+                  <Transform>0.921367347 0 -0.388692945 0 0 1 0 0 0.388692945 0 0.921367347 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6333333S</Time>
+                  <Transform>0.9176699 0 -0.397343636 0 0 1 0 0 0.397343636 0 0.9176699 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.65S</Time>
+                  <Transform>0.9139975 0 -0.4057199 0 0 1 0 0 0.4057199 0 0.9139975 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6666666S</Time>
+                  <Transform>0.910362959 0 -0.41381073 0 0 1 0 0 0.41381073 0 0.910362959 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6833333S</Time>
+                  <Transform>0.906779468 0 -0.4216052 0 0 1 0 0 0.4216052 0 0.906779468 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7S</Time>
+                  <Transform>0.9032604 0 -0.4290928 0 0 1 0 0 0.4290928 0 0.9032604 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7166666S</Time>
+                  <Transform>0.899819136 0 -0.4362631 0 0 1 0 0 0.4362631 0 0.899819136 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7333333S</Time>
+                  <Transform>0.896469235 0 -0.443105936 0 0 1 0 0 0.443105936 0 0.896469235 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.75S</Time>
+                  <Transform>0.8932243 0 -0.449611336 0 0 1 0 0 0.449611336 0 0.8932243 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7666666S</Time>
+                  <Transform>0.8900979 0 -0.45576933 0 0 1 0 0 0.45576933 0 0.8900979 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7833333S</Time>
+                  <Transform>0.887103736 0 -0.461570144 0 0 1 0 0 0.461570144 0 0.887103736 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8S</Time>
+                  <Transform>0.8842552 0 -0.4670041 0 0 1 0 0 0.4670041 0 0.8842552 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8166666S</Time>
+                  <Transform>0.88156563 0 -0.472061455 0 0 1 0 0 0.472061455 0 0.88156563 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8333333S</Time>
+                  <Transform>0.879048347 0 -0.476732641 0 0 1 0 0 0.476732641 0 0.879048347 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.85S</Time>
+                  <Transform>0.876716256 0 -0.481007874 0 0 1 0 0 0.481007874 0 0.876716256 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8666666S</Time>
+                  <Transform>0.8745821 0 -0.4848775 0 0 1 0 0 0.4848775 0 0.8745821 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8833333S</Time>
+                  <Transform>0.872658253 0 -0.488331467 0 0 1 0 0 0.488331467 0 0.872658253 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9S</Time>
+                  <Transform>0.870956659 0 -0.49135986 0 0 1 0 0 0.49135986 0 0.870956659 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9166666S</Time>
+                  <Transform>0.869488955 0 -0.4939524 0 0 1 0 0 0.4939524 0 0.869488955 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9333333S</Time>
+                  <Transform>0.868266165 0 -0.496098667 0 0 1 0 0 0.496098667 0 0.868266165 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.95S</Time>
+                  <Transform>0.867298841 0 -0.4977878 0 0 1 0 0 0.4977878 0 0.867298841 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9666666S</Time>
+                  <Transform>0.866596937 0 -0.4990088 0 0 1 0 0 0.4990088 0 0.866596937 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9833333S</Time>
+                  <Transform>0.866169631 0 -0.499750137 0 0 1 0 0 0.499750137 0 0.866169631 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1S</Time>
+                  <Transform>0.8660254 0 -0.5 0 0 1 0 0 0.5 0 0.8660254 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0166666S</Time>
+                  <Transform>0.866169631 0 -0.499750137 0 0 1 0 0 0.499750137 0 0.866169631 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0333333S</Time>
+                  <Transform>0.866596937 0 -0.4990088 0 0 1 0 0 0.4990088 0 0.866596937 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.05S</Time>
+                  <Transform>0.867298841 0 -0.4977878 0 0 1 0 0 0.4977878 0 0.867298841 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0666666S</Time>
+                  <Transform>0.868266165 0 -0.496098667 0 0 1 0 0 0.496098667 0 0.868266165 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0833333S</Time>
+                  <Transform>0.869488955 0 -0.4939524 0 0 1 0 0 0.4939524 0 0.869488955 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1S</Time>
+                  <Transform>0.870956659 0 -0.49135986 0 0 1 0 0 0.49135986 0 0.870956659 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1166666S</Time>
+                  <Transform>0.872658253 0 -0.488331467 0 0 1 0 0 0.488331467 0 0.872658253 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1333333S</Time>
+                  <Transform>0.8745821 0 -0.4848775 0 0 1 0 0 0.4848775 0 0.8745821 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.15S</Time>
+                  <Transform>0.876716256 0 -0.481007874 0 0 1 0 0 0.481007874 0 0.876716256 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1666666S</Time>
+                  <Transform>0.879048347 0 -0.476732641 0 0 1 0 0 0.476732641 0 0.879048347 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1833333S</Time>
+                  <Transform>0.88156563 0 -0.472061455 0 0 1 0 0 0.472061455 0 0.88156563 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2S</Time>
+                  <Transform>0.8842552 0 -0.4670041 0 0 1 0 0 0.4670041 0 0.8842552 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2166666S</Time>
+                  <Transform>0.887103736 0 -0.461570144 0 0 1 0 0 0.461570144 0 0.887103736 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2333333S</Time>
+                  <Transform>0.8900979 0 -0.45576933 0 0 1 0 0 0.45576933 0 0.8900979 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.25S</Time>
+                  <Transform>0.8932243 0 -0.449611336 0 0 1 0 0 0.449611336 0 0.8932243 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2666666S</Time>
+                  <Transform>0.896469235 0 -0.443105936 0 0 1 0 0 0.443105936 0 0.896469235 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2833333S</Time>
+                  <Transform>0.899819136 0 -0.4362631 0 0 1 0 0 0.4362631 0 0.899819136 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3S</Time>
+                  <Transform>0.9032604 0 -0.4290928 0 0 1 0 0 0.4290928 0 0.9032604 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3166666S</Time>
+                  <Transform>0.906779468 0 -0.4216052 0 0 1 0 0 0.4216052 0 0.906779468 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3333333S</Time>
+                  <Transform>0.910362959 0 -0.41381073 0 0 1 0 0 0.41381073 0 0.910362959 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.35S</Time>
+                  <Transform>0.9139975 0 -0.4057199 0 0 1 0 0 0.4057199 0 0.9139975 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3666666S</Time>
+                  <Transform>0.9176699 0 -0.397343636 0 0 1 0 0 0.397343636 0 0.9176699 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3833333S</Time>
+                  <Transform>0.921367347 0 -0.388692945 0 0 1 0 0 0.388692945 0 0.921367347 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4S</Time>
+                  <Transform>0.9250772 0 -0.3797791 0 0 1 0 0 0.3797791 0 0.9250772 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4166666S</Time>
+                  <Transform>0.9287871 0 -0.370613724 0 0 1 0 0 0.370613724 0 0.9287871 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4333333S</Time>
+                  <Transform>0.932485 0 -0.361208677 0 0 1 0 0 0.361208677 0 0.932485 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4499999S</Time>
+                  <Transform>0.9361593 0 -0.351576149 0 0 1 0 0 0.351576149 0 0.9361593 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4666666S</Time>
+                  <Transform>0.9397987 0 -0.341728538 0 0 1 0 0 0.341728538 0 0.9397987 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4833333S</Time>
+                  <Transform>0.9433924 0 -0.331678659 0 0 1 0 0 0.331678659 0 0.9433924 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4999999S</Time>
+                  <Transform>0.9469301 0 -0.321439475 0 0 1 0 0 0.321439475 0 0.9469301 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5166666S</Time>
+                  <Transform>0.950401962 0 -0.3110243 0 0 1 0 0 0.3110243 0 0.950401962 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5333333S</Time>
+                  <Transform>0.953798532 0 -0.300446868 0 0 1 0 0 0.300446868 0 0.953798532 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5499999S</Time>
+                  <Transform>0.9571112 0 -0.289720923 0 0 1 0 0 0.289720923 0 0.9571112 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5666666S</Time>
+                  <Transform>0.960331559 0 -0.278860748 0 0 1 0 0 0.278860748 0 0.960331559 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5833333S</Time>
+                  <Transform>0.9634521 0 -0.2678807 0 0 1 0 0 0.2678807 0 0.9634521 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5999999S</Time>
+                  <Transform>0.9664658 0 -0.256795436 0 0 1 0 0 0.256795436 0 0.9664658 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6166666S</Time>
+                  <Transform>0.9693662 0 -0.245619908 0 0 1 0 0 0.245619908 0 0.9693662 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6333333S</Time>
+                  <Transform>0.972147644 0 -0.234369233 0 0 1 0 0 0.234369233 0 0.972147644 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6499999S</Time>
+                  <Transform>0.974805 0 -0.223058715 0 0 1 0 0 0.223058715 0 0.974805 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6666666S</Time>
+                  <Transform>0.977333844 0 -0.211703867 0 0 1 0 0 0.211703867 0 0.977333844 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6833333S</Time>
+                  <Transform>0.9797304 0 -0.200320378 0 0 1 0 0 0.200320378 0 0.9797304 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6999999S</Time>
+                  <Transform>0.9819917 0 -0.188924059 0 0 1 0 0 0.188924059 0 0.9819917 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7166666S</Time>
+                  <Transform>0.984115243 0 -0.177530855 0 0 1 0 0 0.177530855 0 0.984115243 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7333333S</Time>
+                  <Transform>0.986099362 0 -0.166156843 0 0 1 0 0 0.166156843 0 0.986099362 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7499999S</Time>
+                  <Transform>0.987943 0 -0.154818162 0 0 1 0 0 0.154818162 0 0.987943 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7666666S</Time>
+                  <Transform>0.989645839 0 -0.14353101 0 0 1 0 0 0.14353101 0 0.989645839 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7833333S</Time>
+                  <Transform>0.991208136 0 -0.132311657 0 0 1 0 0 0.132311657 0 0.991208136 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7999999S</Time>
+                  <Transform>0.992631 0 -0.121176384 0 0 1 0 0 0.121176384 0 0.992631 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8166666S</Time>
+                  <Transform>0.9939159 0 -0.1101415 0 0 1 0 0 0.1101415 0 0.9939159 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8333333S</Time>
+                  <Transform>0.9950652 0 -0.09922326 0 0 1 0 0 0.09922326 0 0.9950652 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8499999S</Time>
+                  <Transform>0.9960817 0 -0.08843795 0 0 1 0 0 0.08843795 0 0.9960817 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8666666S</Time>
+                  <Transform>0.996968865 0 -0.07780177 0 0 1 0 0 0.07780177 0 0.996968865 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8833333S</Time>
+                  <Transform>0.997730732 0 -0.06733085 0 0 1 0 0 0.06733085 0 0.997730732 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8999999S</Time>
+                  <Transform>0.99837184 0 -0.0570412874 0 0 1 0 0 0.0570412874 0 0.99837184 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9166666S</Time>
+                  <Transform>0.9988973 0 -0.0469490625 0 0 1 0 0 0.0469490625 0 0.9988973 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9333333S</Time>
+                  <Transform>0.9993127 0 -0.0370700546 0 0 1 0 0 0.0370700546 0 0.9993127 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9499999S</Time>
+                  <Transform>0.999624 0 -0.0274200477 0 0 1 0 0 0.0274200477 0 0.999624 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9666666S</Time>
+                  <Transform>0.9998377 0 -0.0180147029 0 0 1 0 0 0.0180147029 0 0.9998377 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9833333S</Time>
+                  <Transform>0.999960661 0 -0.00886955 0 0 1 0 0 0.00886955 0 0.999960661 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9999999S</Time>
+                  <Transform>1 0 -1.133672E-11 0 0 1 0 0 1.133672E-11 0 1 0 -12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+              </Channel>
+              <Channel Key="L_hire">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>1 0 0 0 0 1 0 0 0 0 1 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>0.999960661 0 0.00886955 0 0 1 0 0 -0.00886955 0 0.999960661 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>0.9998377 0 0.0180147029 0 0 1 0 0 -0.0180147029 0 0.9998377 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>0.999624 0 0.0274200477 0 0 1 0 0 -0.0274200477 0 0.999624 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>0.9993127 0 0.0370700546 0 0 1 0 0 -0.0370700546 0 0.9993127 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>0.9988973 0 0.0469490625 0 0 1 0 0 -0.0469490625 0 0.9988973 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>0.99837184 0 0.0570412874 0 0 1 0 0 -0.0570412874 0 0.99837184 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>0.997730732 0 0.06733085 0 0 1 0 0 -0.06733085 0 0.997730732 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1333333S</Time>
+                  <Transform>0.996968865 0 0.07780177 0 0 1 0 0 -0.07780177 0 0.996968865 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.15S</Time>
+                  <Transform>0.9960817 0 0.08843795 0 0 1 0 0 -0.08843795 0 0.9960817 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1666666S</Time>
+                  <Transform>0.9950652 0 0.09922326 0 0 1 0 0 -0.09922326 0 0.9950652 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1833333S</Time>
+                  <Transform>0.9939159 0 0.1101415 0 0 1 0 0 -0.1101415 0 0.9939159 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1999999S</Time>
+                  <Transform>0.992631 0 0.121176384 0 0 1 0 0 -0.121176384 0 0.992631 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2166666S</Time>
+                  <Transform>0.991208136 0 0.132311657 0 0 1 0 0 -0.132311657 0 0.991208136 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2333333S</Time>
+                  <Transform>0.989645839 0 0.14353101 0 0 1 0 0 -0.14353101 0 0.989645839 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2499999S</Time>
+                  <Transform>0.987943 0 0.154818162 0 0 1 0 0 -0.154818162 0 0.987943 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2666666S</Time>
+                  <Transform>0.986099362 0 0.166156843 0 0 1 0 0 -0.166156843 0 0.986099362 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2833333S</Time>
+                  <Transform>0.984115243 0 0.177530855 0 0 1 0 0 -0.177530855 0 0.984115243 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3S</Time>
+                  <Transform>0.9819917 0 0.188924059 0 0 1 0 0 -0.188924059 0 0.9819917 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3166666S</Time>
+                  <Transform>0.9797304 0 0.200320378 0 0 1 0 0 -0.200320378 0 0.9797304 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3333333S</Time>
+                  <Transform>0.977333844 0 0.211703867 0 0 1 0 0 -0.211703867 0 0.977333844 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.35S</Time>
+                  <Transform>0.974805 0 0.223058715 0 0 1 0 0 -0.223058715 0 0.974805 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3666666S</Time>
+                  <Transform>0.972147644 0 0.234369233 0 0 1 0 0 -0.234369233 0 0.972147644 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3833333S</Time>
+                  <Transform>0.9693662 0 0.245619908 0 0 1 0 0 -0.245619908 0 0.9693662 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3999999S</Time>
+                  <Transform>0.9664658 0 0.256795436 0 0 1 0 0 -0.256795436 0 0.9664658 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4166666S</Time>
+                  <Transform>0.9634521 0 0.2678807 0 0 1 0 0 -0.2678807 0 0.9634521 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4333333S</Time>
+                  <Transform>0.960331559 0 0.278860748 0 0 1 0 0 -0.278860748 0 0.960331559 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.45S</Time>
+                  <Transform>0.9571112 0 0.289720923 0 0 1 0 0 -0.289720923 0 0.9571112 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4666666S</Time>
+                  <Transform>0.953798532 0 0.300446868 0 0 1 0 0 -0.300446868 0 0.953798532 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4833333S</Time>
+                  <Transform>0.950401962 0 0.3110243 0 0 1 0 0 -0.3110243 0 0.950401962 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4999999S</Time>
+                  <Transform>0.9469301 0 0.321439475 0 0 1 0 0 -0.321439475 0 0.9469301 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5166666S</Time>
+                  <Transform>0.9433924 0 0.331678659 0 0 1 0 0 -0.331678659 0 0.9433924 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5333333S</Time>
+                  <Transform>0.9397987 0 0.341728538 0 0 1 0 0 -0.341728538 0 0.9397987 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.55S</Time>
+                  <Transform>0.9361593 0 0.351576149 0 0 1 0 0 -0.351576149 0 0.9361593 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5666666S</Time>
+                  <Transform>0.932485 0 0.361208677 0 0 1 0 0 -0.361208677 0 0.932485 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5833333S</Time>
+                  <Transform>0.9287871 0 0.370613724 0 0 1 0 0 -0.370613724 0 0.9287871 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6S</Time>
+                  <Transform>0.9250772 0 0.3797791 0 0 1 0 0 -0.3797791 0 0.9250772 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6166666S</Time>
+                  <Transform>0.921367347 0 0.388692945 0 0 1 0 0 -0.388692945 0 0.921367347 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6333333S</Time>
+                  <Transform>0.9176699 0 0.397343636 0 0 1 0 0 -0.397343636 0 0.9176699 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.65S</Time>
+                  <Transform>0.9139975 0 0.4057199 0 0 1 0 0 -0.4057199 0 0.9139975 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6666666S</Time>
+                  <Transform>0.910362959 0 0.41381073 0 0 1 0 0 -0.41381073 0 0.910362959 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6833333S</Time>
+                  <Transform>0.906779468 0 0.4216052 0 0 1 0 0 -0.4216052 0 0.906779468 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7S</Time>
+                  <Transform>0.9032604 0 0.4290928 0 0 1 0 0 -0.4290928 0 0.9032604 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7166666S</Time>
+                  <Transform>0.899819136 0 0.4362631 0 0 1 0 0 -0.4362631 0 0.899819136 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7333333S</Time>
+                  <Transform>0.896469235 0 0.443105936 0 0 1 0 0 -0.443105936 0 0.896469235 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.75S</Time>
+                  <Transform>0.8932243 0 0.449611336 0 0 1 0 0 -0.449611336 0 0.8932243 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7666666S</Time>
+                  <Transform>0.8900979 0 0.45576933 0 0 1 0 0 -0.45576933 0 0.8900979 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7833333S</Time>
+                  <Transform>0.887103736 0 0.461570144 0 0 1 0 0 -0.461570144 0 0.887103736 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8S</Time>
+                  <Transform>0.8842552 0 0.4670041 0 0 1 0 0 -0.4670041 0 0.8842552 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8166666S</Time>
+                  <Transform>0.88156563 0 0.472061455 0 0 1 0 0 -0.472061455 0 0.88156563 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8333333S</Time>
+                  <Transform>0.879048347 0 0.476732641 0 0 1 0 0 -0.476732641 0 0.879048347 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.85S</Time>
+                  <Transform>0.876716256 0 0.481007874 0 0 1 0 0 -0.481007874 0 0.876716256 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8666666S</Time>
+                  <Transform>0.8745821 0 0.4848775 0 0 1 0 0 -0.4848775 0 0.8745821 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8833333S</Time>
+                  <Transform>0.872658253 0 0.488331467 0 0 1 0 0 -0.488331467 0 0.872658253 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9S</Time>
+                  <Transform>0.870956659 0 0.49135986 0 0 1 0 0 -0.49135986 0 0.870956659 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9166666S</Time>
+                  <Transform>0.869488955 0 0.4939524 0 0 1 0 0 -0.4939524 0 0.869488955 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9333333S</Time>
+                  <Transform>0.868266165 0 0.496098667 0 0 1 0 0 -0.496098667 0 0.868266165 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.95S</Time>
+                  <Transform>0.867298841 0 0.4977878 0 0 1 0 0 -0.4977878 0 0.867298841 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9666666S</Time>
+                  <Transform>0.866596937 0 0.4990088 0 0 1 0 0 -0.4990088 0 0.866596937 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9833333S</Time>
+                  <Transform>0.866169631 0 0.499750137 0 0 1 0 0 -0.499750137 0 0.866169631 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1S</Time>
+                  <Transform>0.8660254 0 0.5 0 0 1 0 0 -0.5 0 0.8660254 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0166666S</Time>
+                  <Transform>0.866169631 0 0.499750137 0 0 1 0 0 -0.499750137 0 0.866169631 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0333333S</Time>
+                  <Transform>0.866596937 0 0.4990088 0 0 1 0 0 -0.4990088 0 0.866596937 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.05S</Time>
+                  <Transform>0.867298841 0 0.4977878 0 0 1 0 0 -0.4977878 0 0.867298841 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0666666S</Time>
+                  <Transform>0.868266165 0 0.496098667 0 0 1 0 0 -0.496098667 0 0.868266165 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0833333S</Time>
+                  <Transform>0.869488955 0 0.4939524 0 0 1 0 0 -0.4939524 0 0.869488955 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1S</Time>
+                  <Transform>0.870956659 0 0.49135986 0 0 1 0 0 -0.49135986 0 0.870956659 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1166666S</Time>
+                  <Transform>0.872658253 0 0.488331467 0 0 1 0 0 -0.488331467 0 0.872658253 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1333333S</Time>
+                  <Transform>0.8745821 0 0.4848775 0 0 1 0 0 -0.4848775 0 0.8745821 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.15S</Time>
+                  <Transform>0.876716256 0 0.481007874 0 0 1 0 0 -0.481007874 0 0.876716256 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1666666S</Time>
+                  <Transform>0.879048347 0 0.476732641 0 0 1 0 0 -0.476732641 0 0.879048347 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1833333S</Time>
+                  <Transform>0.88156563 0 0.472061455 0 0 1 0 0 -0.472061455 0 0.88156563 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2S</Time>
+                  <Transform>0.8842552 0 0.4670041 0 0 1 0 0 -0.4670041 0 0.8842552 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2166666S</Time>
+                  <Transform>0.887103736 0 0.461570144 0 0 1 0 0 -0.461570144 0 0.887103736 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2333333S</Time>
+                  <Transform>0.8900979 0 0.45576933 0 0 1 0 0 -0.45576933 0 0.8900979 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.25S</Time>
+                  <Transform>0.8932243 0 0.449611336 0 0 1 0 0 -0.449611336 0 0.8932243 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2666666S</Time>
+                  <Transform>0.896469235 0 0.443105936 0 0 1 0 0 -0.443105936 0 0.896469235 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2833333S</Time>
+                  <Transform>0.899819136 0 0.4362631 0 0 1 0 0 -0.4362631 0 0.899819136 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3S</Time>
+                  <Transform>0.9032604 0 0.4290928 0 0 1 0 0 -0.4290928 0 0.9032604 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3166666S</Time>
+                  <Transform>0.906779468 0 0.4216052 0 0 1 0 0 -0.4216052 0 0.906779468 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3333333S</Time>
+                  <Transform>0.910362959 0 0.41381073 0 0 1 0 0 -0.41381073 0 0.910362959 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.35S</Time>
+                  <Transform>0.9139975 0 0.4057199 0 0 1 0 0 -0.4057199 0 0.9139975 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3666666S</Time>
+                  <Transform>0.9176699 0 0.397343636 0 0 1 0 0 -0.397343636 0 0.9176699 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3833333S</Time>
+                  <Transform>0.921367347 0 0.388692945 0 0 1 0 0 -0.388692945 0 0.921367347 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4S</Time>
+                  <Transform>0.9250772 0 0.3797791 0 0 1 0 0 -0.3797791 0 0.9250772 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4166666S</Time>
+                  <Transform>0.9287871 0 0.370613724 0 0 1 0 0 -0.370613724 0 0.9287871 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4333333S</Time>
+                  <Transform>0.932485 0 0.361208677 0 0 1 0 0 -0.361208677 0 0.932485 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4499999S</Time>
+                  <Transform>0.9361593 0 0.351576149 0 0 1 0 0 -0.351576149 0 0.9361593 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4666666S</Time>
+                  <Transform>0.9397987 0 0.341728538 0 0 1 0 0 -0.341728538 0 0.9397987 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4833333S</Time>
+                  <Transform>0.9433924 0 0.331678659 0 0 1 0 0 -0.331678659 0 0.9433924 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4999999S</Time>
+                  <Transform>0.9469301 0 0.321439475 0 0 1 0 0 -0.321439475 0 0.9469301 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5166666S</Time>
+                  <Transform>0.950401962 0 0.3110243 0 0 1 0 0 -0.3110243 0 0.950401962 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5333333S</Time>
+                  <Transform>0.953798532 0 0.300446868 0 0 1 0 0 -0.300446868 0 0.953798532 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5499999S</Time>
+                  <Transform>0.9571112 0 0.289720923 0 0 1 0 0 -0.289720923 0 0.9571112 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5666666S</Time>
+                  <Transform>0.960331559 0 0.278860748 0 0 1 0 0 -0.278860748 0 0.960331559 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5833333S</Time>
+                  <Transform>0.9634521 0 0.2678807 0 0 1 0 0 -0.2678807 0 0.9634521 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5999999S</Time>
+                  <Transform>0.9664658 0 0.256795436 0 0 1 0 0 -0.256795436 0 0.9664658 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6166666S</Time>
+                  <Transform>0.9693662 0 0.245619908 0 0 1 0 0 -0.245619908 0 0.9693662 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6333333S</Time>
+                  <Transform>0.972147644 0 0.234369233 0 0 1 0 0 -0.234369233 0 0.972147644 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6499999S</Time>
+                  <Transform>0.974805 0 0.223058715 0 0 1 0 0 -0.223058715 0 0.974805 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6666666S</Time>
+                  <Transform>0.977333844 0 0.211703867 0 0 1 0 0 -0.211703867 0 0.977333844 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6833333S</Time>
+                  <Transform>0.9797304 0 0.200320378 0 0 1 0 0 -0.200320378 0 0.9797304 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6999999S</Time>
+                  <Transform>0.9819917 0 0.188924059 0 0 1 0 0 -0.188924059 0 0.9819917 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7166666S</Time>
+                  <Transform>0.984115243 0 0.177530855 0 0 1 0 0 -0.177530855 0 0.984115243 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7333333S</Time>
+                  <Transform>0.986099362 0 0.166156843 0 0 1 0 0 -0.166156843 0 0.986099362 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7499999S</Time>
+                  <Transform>0.987943 0 0.154818162 0 0 1 0 0 -0.154818162 0 0.987943 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7666666S</Time>
+                  <Transform>0.989645839 0 0.14353101 0 0 1 0 0 -0.14353101 0 0.989645839 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7833333S</Time>
+                  <Transform>0.991208136 0 0.132311657 0 0 1 0 0 -0.132311657 0 0.991208136 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7999999S</Time>
+                  <Transform>0.992631 0 0.121176384 0 0 1 0 0 -0.121176384 0 0.992631 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8166666S</Time>
+                  <Transform>0.9939159 0 0.1101415 0 0 1 0 0 -0.1101415 0 0.9939159 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8333333S</Time>
+                  <Transform>0.9950652 0 0.09922326 0 0 1 0 0 -0.09922326 0 0.9950652 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8499999S</Time>
+                  <Transform>0.9960817 0 0.08843795 0 0 1 0 0 -0.08843795 0 0.9960817 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8666666S</Time>
+                  <Transform>0.996968865 0 0.07780177 0 0 1 0 0 -0.07780177 0 0.996968865 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8833333S</Time>
+                  <Transform>0.997730732 0 0.06733085 0 0 1 0 0 -0.06733085 0 0.997730732 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8999999S</Time>
+                  <Transform>0.99837184 0 0.0570412874 0 0 1 0 0 -0.0570412874 0 0.99837184 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9166666S</Time>
+                  <Transform>0.9988973 0 0.0469490625 0 0 1 0 0 -0.0469490625 0 0.9988973 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9333333S</Time>
+                  <Transform>0.9993127 0 0.0370700546 0 0 1 0 0 -0.0370700546 0 0.9993127 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9499999S</Time>
+                  <Transform>0.999624 0 0.0274200477 0 0 1 0 0 -0.0274200477 0 0.999624 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9666666S</Time>
+                  <Transform>0.9998377 0 0.0180147029 0 0 1 0 0 -0.0180147029 0 0.9998377 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9833333S</Time>
+                  <Transform>0.999960661 0 0.00886955 0 0 1 0 0 -0.00886955 0 0.999960661 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9999999S</Time>
+                  <Transform>1 0 1.133672E-11 0 0 1 0 0 -1.133672E-11 0 1 0 12.7664 -0.6707 7.4547 1</Transform>
+                </Keyframe>
+              </Channel>
+              <Channel Key="tail">
+                <Keyframe>
+                  <Time>PT0S</Time>
+                  <Transform>0.9848077 0 -0.173648179 0 0 1 0 0 0.173648179 0 0.9848077 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0166666S</Time>
+                  <Transform>0.9858173 0 -0.167821914 0 0 1 0 0 0.167821914 0 0.9858173 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0333333S</Time>
+                  <Transform>0.986822248 0 -0.161807939 0 0 1 0 0 0.161807939 0 0.986822248 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.05S</Time>
+                  <Transform>0.9878177 0 -0.1556156 0 0 1 0 0 0.1556156 0 0.9878177 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0666666S</Time>
+                  <Transform>0.988798857 0 -0.1492541 0 0 1 0 0 0.1492541 0 0.988798857 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0833333S</Time>
+                  <Transform>0.989761233 0 -0.142732918 0 0 1 0 0 0.142732918 0 0.989761233 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.0999999S</Time>
+                  <Transform>0.9907004 0 -0.1360614 0 0 1 0 0 0.1360614 0 0.9907004 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1166666S</Time>
+                  <Transform>0.991612136 0 -0.129249111 0 0 1 0 0 0.129249111 0 0.991612136 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1333333S</Time>
+                  <Transform>0.9924925 0 -0.122305617 0 0 1 0 0 0.122305617 0 0.9924925 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.15S</Time>
+                  <Transform>0.993337631 0 -0.115240552 0 0 1 0 0 0.115240552 0 0.993337631 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1666666S</Time>
+                  <Transform>0.994143963 0 -0.108063631 0 0 1 0 0 0.108063631 0 0.994143963 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1833333S</Time>
+                  <Transform>0.9949083 0 -0.100784577 0 0 1 0 0 0.100784577 0 0.9949083 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.1999999S</Time>
+                  <Transform>0.9956274 0 -0.0934132561 0 0 1 0 0 0.0934132561 0 0.9956274 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2166666S</Time>
+                  <Transform>0.9962986 0 -0.08595953 0 0 1 0 0 0.08595953 0 0.9962986 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2333333S</Time>
+                  <Transform>0.996919334 0 -0.07843332 0 0 1 0 0 0.07843332 0 0.996919334 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2499999S</Time>
+                  <Transform>0.997487366 0 -0.0708446056 0 0 1 0 0 0.0708446056 0 0.997487366 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2666666S</Time>
+                  <Transform>0.9980007 0 -0.06320341 0 0 1 0 0 0.06320341 0 0.9980007 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.2833333S</Time>
+                  <Transform>0.9984576 0 -0.05551977 0 0 1 0 0 0.05551977 0 0.9984576 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3S</Time>
+                  <Transform>0.9988567 0 -0.0478037968 0 0 1 0 0 0.0478037968 0 0.9988567 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3166666S</Time>
+                  <Transform>0.999197066 0 -0.0400655866 0 0 1 0 0 0.0400655866 0 0.999197066 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3333333S</Time>
+                  <Transform>0.999477744 0 -0.032315284 0 0 1 0 0 0.032315284 0 0.999477744 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.35S</Time>
+                  <Transform>0.9996983 0 -0.024563035 0 0 1 0 0 0.024563035 0 0.9996983 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3666666S</Time>
+                  <Transform>0.999858558 0 -0.0168190151 0 0 1 0 0 0.0168190151 0 0.999858558 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3833333S</Time>
+                  <Transform>0.999958634 0 -0.009093367 0 0 1 0 0 0.009093367 0 0.999958634 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.3999999S</Time>
+                  <Transform>0.999999046 0 -0.00139626581 0 0 1 0 0 0.00139626581 0 0.999999046 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4166666S</Time>
+                  <Transform>0.9999804 0 0.00626213569 0 0 1 0 0 -0.00626213569 0 0.9999804 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4333333S</Time>
+                  <Transform>0.9999038 0 0.0138716931 0 0 1 0 0 -0.0138716931 0 0.9999038 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.45S</Time>
+                  <Transform>0.9997705 0 0.0214222763 0 0 1 0 0 -0.0214222763 0 0.9997705 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4666666S</Time>
+                  <Transform>0.9995822 0 0.0289038 0 0 1 0 0 -0.0289038 0 0.9995822 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4833333S</Time>
+                  <Transform>0.9993407 0 0.0363061763 0 0 1 0 0 -0.0363061763 0 0.9993407 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.4999999S</Time>
+                  <Transform>0.999048233 0 0.0436193831 0 0 1 0 0 -0.0436193831 0 0.999048233 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5166666S</Time>
+                  <Transform>0.9987072 0 0.05083342 0 0 1 0 0 -0.05083342 0 0.9987072 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5333333S</Time>
+                  <Transform>0.998320162 0 0.0579383224 0 0 1 0 0 -0.0579383224 0 0.998320162 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.55S</Time>
+                  <Transform>0.9978902 0 0.06492419 0 0 1 0 0 -0.06492419 0 0.9978902 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5666666S</Time>
+                  <Transform>0.99742043 0 0.0717811361 0 0 1 0 0 -0.0717811361 0 0.99742043 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.5833333S</Time>
+                  <Transform>0.996914148 0 0.07849937 0 0 1 0 0 -0.07849937 0 0.996914148 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6S</Time>
+                  <Transform>0.996375 0 0.08506913 0 0 1 0 0 -0.08506913 0 0.996375 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6166666S</Time>
+                  <Transform>0.9958069 0 0.0914807 0 0 1 0 0 -0.0914807 0 0.9958069 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6333333S</Time>
+                  <Transform>0.9952135 0 0.09772443 0 0 1 0 0 -0.09772443 0 0.9952135 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.65S</Time>
+                  <Transform>0.994599164 0 0.10379073 0 0 1 0 0 -0.10379073 0 0.994599164 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6666666S</Time>
+                  <Transform>0.99396807 0 0.109670058 0 0 1 0 0 -0.109670058 0 0.99396807 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.6833333S</Time>
+                  <Transform>0.9933246 0 0.115352921 0 0 1 0 0 -0.115352921 0 0.9933246 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7S</Time>
+                  <Transform>0.9926732 0 0.120829888 0 0 1 0 0 -0.120829888 0 0.9926732 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7166666S</Time>
+                  <Transform>0.9920186 0 0.126091555 0 0 1 0 0 -0.126091555 0 0.9920186 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7333333S</Time>
+                  <Transform>0.9913654 0 0.131128609 0 0 1 0 0 -0.131128609 0 0.9913654 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.75S</Time>
+                  <Transform>0.9907182 0 0.135931715 0 0 1 0 0 -0.135931715 0 0.9907182 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7666666S</Time>
+                  <Transform>0.990081847 0 0.140491635 0 0 1 0 0 -0.140491635 0 0.990081847 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.7833333S</Time>
+                  <Transform>0.989461064 0 0.144799143 0 0 1 0 0 -0.144799143 0 0.989461064 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8S</Time>
+                  <Transform>0.988860548 0 0.148845032 0 0 1 0 0 -0.148845032 0 0.988860548 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8166666S</Time>
+                  <Transform>0.988284945 0 0.1526201 0 0 1 0 0 -0.1526201 0 0.988284945 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8333333S</Time>
+                  <Transform>0.987738848 0 0.156115234 0 0 1 0 0 -0.156115234 0 0.987738848 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.85S</Time>
+                  <Transform>0.9872268 0 0.159321219 0 0 1 0 0 -0.159321219 0 0.9872268 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8666666S</Time>
+                  <Transform>0.986753166 0 0.162228972 0 0 1 0 0 -0.162228972 0 0.986753166 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.8833333S</Time>
+                  <Transform>0.9863221 0 0.164829239 0 0 1 0 0 -0.164829239 0 0.9863221 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9S</Time>
+                  <Transform>0.9859378 0 0.167112917 0 0 1 0 0 -0.167112917 0 0.9859378 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9166666S</Time>
+                  <Transform>0.9856039 0 0.16907078 0 0 1 0 0 -0.16907078 0 0.9856039 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9333333S</Time>
+                  <Transform>0.985324144 0 0.170693576 0 0 1 0 0 -0.170693576 0 0.985324144 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.95S</Time>
+                  <Transform>0.9851018 0 0.171972066 0 0 1 0 0 -0.171972066 0 0.9851018 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9666666S</Time>
+                  <Transform>0.984939933 0 0.172896951 0 0 1 0 0 -0.172896951 0 0.984939933 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT0.9833333S</Time>
+                  <Transform>0.9848411 0 0.173458785 0 0 1 0 0 -0.173458785 0 0.9848411 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1S</Time>
+                  <Transform>0.9848077 0 0.173648179 0 0 1 0 0 -0.173648179 0 0.9848077 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0166666S</Time>
+                  <Transform>0.9848411 0 0.173458785 0 0 1 0 0 -0.173458785 0 0.9848411 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0333333S</Time>
+                  <Transform>0.984939933 0 0.172896951 0 0 1 0 0 -0.172896951 0 0.984939933 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.05S</Time>
+                  <Transform>0.9851018 0 0.171972066 0 0 1 0 0 -0.171972066 0 0.9851018 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0666666S</Time>
+                  <Transform>0.985324144 0 0.170693576 0 0 1 0 0 -0.170693576 0 0.985324144 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.0833333S</Time>
+                  <Transform>0.9856039 0 0.16907078 0 0 1 0 0 -0.16907078 0 0.9856039 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1S</Time>
+                  <Transform>0.9859378 0 0.167112917 0 0 1 0 0 -0.167112917 0 0.9859378 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1166666S</Time>
+                  <Transform>0.9863221 0 0.164829239 0 0 1 0 0 -0.164829239 0 0.9863221 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1333333S</Time>
+                  <Transform>0.986753166 0 0.162228972 0 0 1 0 0 -0.162228972 0 0.986753166 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.15S</Time>
+                  <Transform>0.9872268 0 0.159321219 0 0 1 0 0 -0.159321219 0 0.9872268 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1666666S</Time>
+                  <Transform>0.987738848 0 0.156115234 0 0 1 0 0 -0.156115234 0 0.987738848 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.1833333S</Time>
+                  <Transform>0.988284945 0 0.1526201 0 0 1 0 0 -0.1526201 0 0.988284945 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2S</Time>
+                  <Transform>0.988860548 0 0.148845032 0 0 1 0 0 -0.148845032 0 0.988860548 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2166666S</Time>
+                  <Transform>0.989461064 0 0.144799143 0 0 1 0 0 -0.144799143 0 0.989461064 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2333333S</Time>
+                  <Transform>0.990081847 0 0.140491635 0 0 1 0 0 -0.140491635 0 0.990081847 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.25S</Time>
+                  <Transform>0.9907182 0 0.135931715 0 0 1 0 0 -0.135931715 0 0.9907182 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2666666S</Time>
+                  <Transform>0.9913654 0 0.131128609 0 0 1 0 0 -0.131128609 0 0.9913654 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.2833333S</Time>
+                  <Transform>0.9920186 0 0.126091555 0 0 1 0 0 -0.126091555 0 0.9920186 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3S</Time>
+                  <Transform>0.9926732 0 0.120829888 0 0 1 0 0 -0.120829888 0 0.9926732 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3166666S</Time>
+                  <Transform>0.9933246 0 0.115352921 0 0 1 0 0 -0.115352921 0 0.9933246 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3333333S</Time>
+                  <Transform>0.99396807 0 0.109670058 0 0 1 0 0 -0.109670058 0 0.99396807 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.35S</Time>
+                  <Transform>0.994599164 0 0.10379073 0 0 1 0 0 -0.10379073 0 0.994599164 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3666666S</Time>
+                  <Transform>0.9952135 0 0.09772443 0 0 1 0 0 -0.09772443 0 0.9952135 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.3833333S</Time>
+                  <Transform>0.9958069 0 0.0914807 0 0 1 0 0 -0.0914807 0 0.9958069 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4S</Time>
+                  <Transform>0.996375 0 0.08506913 0 0 1 0 0 -0.08506913 0 0.996375 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4166666S</Time>
+                  <Transform>0.996914148 0 0.07849937 0 0 1 0 0 -0.07849937 0 0.996914148 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4333333S</Time>
+                  <Transform>0.99742043 0 0.0717811361 0 0 1 0 0 -0.0717811361 0 0.99742043 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4499999S</Time>
+                  <Transform>0.9978902 0 0.06492419 0 0 1 0 0 -0.06492419 0 0.9978902 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4666666S</Time>
+                  <Transform>0.998320162 0 0.0579383224 0 0 1 0 0 -0.0579383224 0 0.998320162 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4833333S</Time>
+                  <Transform>0.9987072 0 0.05083342 0 0 1 0 0 -0.05083342 0 0.9987072 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.4999999S</Time>
+                  <Transform>0.999048233 0 0.0436193869 0 0 1 0 0 -0.0436193869 0 0.999048233 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5166666S</Time>
+                  <Transform>0.9993407 0 0.0363061763 0 0 1 0 0 -0.0363061763 0 0.9993407 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5333333S</Time>
+                  <Transform>0.9995822 0 0.0289038 0 0 1 0 0 -0.0289038 0 0.9995822 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5499999S</Time>
+                  <Transform>0.9997705 0 0.0214222763 0 0 1 0 0 -0.0214222763 0 0.9997705 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5666666S</Time>
+                  <Transform>0.9999038 0 0.0138716931 0 0 1 0 0 -0.0138716931 0 0.9999038 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5833333S</Time>
+                  <Transform>0.9999804 0 0.00626213569 0 0 1 0 0 -0.00626213569 0 0.9999804 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.5999999S</Time>
+                  <Transform>0.999999046 0 -0.00139626581 0 0 1 0 0 0.00139626581 0 0.999999046 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6166666S</Time>
+                  <Transform>0.999958634 0 -0.009093363 0 0 1 0 0 0.009093363 0 0.999958634 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6333333S</Time>
+                  <Transform>0.999858558 0 -0.0168190151 0 0 1 0 0 0.0168190151 0 0.999858558 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6499999S</Time>
+                  <Transform>0.9996983 0 -0.024563035 0 0 1 0 0 0.024563035 0 0.9996983 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6666666S</Time>
+                  <Transform>0.999477744 0 -0.03231528 0 0 1 0 0 0.03231528 0 0.999477744 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6833333S</Time>
+                  <Transform>0.999197066 0 -0.0400655866 0 0 1 0 0 0.0400655866 0 0.999197066 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.6999999S</Time>
+                  <Transform>0.9988567 0 -0.0478037968 0 0 1 0 0 0.0478037968 0 0.9988567 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7166666S</Time>
+                  <Transform>0.9984576 0 -0.05551977 0 0 1 0 0 0.05551977 0 0.9984576 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7333333S</Time>
+                  <Transform>0.9980007 0 -0.06320341 0 0 1 0 0 0.06320341 0 0.9980007 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7499999S</Time>
+                  <Transform>0.997487366 0 -0.0708446056 0 0 1 0 0 0.0708446056 0 0.997487366 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7666666S</Time>
+                  <Transform>0.996919334 0 -0.07843332 0 0 1 0 0 0.07843332 0 0.996919334 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7833333S</Time>
+                  <Transform>0.9962986 0 -0.08595953 0 0 1 0 0 0.08595953 0 0.9962986 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.7999999S</Time>
+                  <Transform>0.9956274 0 -0.0934132561 0 0 1 0 0 0.0934132561 0 0.9956274 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8166666S</Time>
+                  <Transform>0.9949083 0 -0.100784577 0 0 1 0 0 0.100784577 0 0.9949083 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8333333S</Time>
+                  <Transform>0.994143963 0 -0.108063631 0 0 1 0 0 0.108063631 0 0.994143963 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8499999S</Time>
+                  <Transform>0.993337631 0 -0.115240552 0 0 1 0 0 0.115240552 0 0.993337631 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8666666S</Time>
+                  <Transform>0.9924925 0 -0.122305617 0 0 1 0 0 0.122305617 0 0.9924925 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8833333S</Time>
+                  <Transform>0.991612136 0 -0.129249111 0 0 1 0 0 0.129249111 0 0.991612136 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.8999999S</Time>
+                  <Transform>0.9907004 0 -0.1360614 0 0 1 0 0 0.1360614 0 0.9907004 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9166666S</Time>
+                  <Transform>0.989761233 0 -0.142732918 0 0 1 0 0 0.142732918 0 0.989761233 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9333333S</Time>
+                  <Transform>0.988798857 0 -0.1492541 0 0 1 0 0 0.1492541 0 0.988798857 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9499999S</Time>
+                  <Transform>0.9878177 0 -0.1556156 0 0 1 0 0 0.1556156 0 0.9878177 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9666666S</Time>
+                  <Transform>0.986822248 0 -0.161807939 0 0 1 0 0 0.161807939 0 0.986822248 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9833333S</Time>
+                  <Transform>0.9858173 0 -0.167821914 0 0 1 0 0 0.167821914 0 0.9858173 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+                <Keyframe>
+                  <Time>PT1.9999999S</Time>
+                  <Transform>0.9848077 0 -0.173648179 0 0 1 0 0 0.173648179 0 0.9848077 0 0 0.5644 -10.7953 1</Transform>
+                </Keyframe>
+              </Channel>
+            </Channels>
+          </Animation>
+        </Animations>
+      </Child>
+    </Children>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8173487B-E7A8-4621-8406-AF3E5424F885}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SonicLate</RootNamespace>
+    <AssemblyName>SonicForce</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>822975f2-3e61-43fd-85c1-da90dee75921</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>icon_48.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Shu\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7E68B0A63935C15DD42D3F9A9F558A05DCEC7F79</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SonicLate_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Character\EBigHeteroconger.cs" />
+    <Compile Include="Character\EBigJellyfish.cs" />
+    <Compile Include="CheckPointImage.cs" />
+    <Compile Include="HitStar.cs" />
+    <Compile Include="Library\Effect\Diffuse.cs" />
+    <Compile Include="Library\LightBloom.cs" />
+    <Compile Include="Sequence\FullScreenWait.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BonusItems.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Config.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\Ending.cs" />
+    <Compile Include="Library\BlackOut.cs" />
+    <Compile Include="Library\BlackWhole.cs" />
+    <Compile Include="Character\EJellyfish.cs" />
+    <Compile Include="Character\ECrab.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Compliment.cs" />
+    <Compile Include="Character\EWhale.cs" />
+    <Compile Include="Library\FadeTexture.cs" />
+    <Compile Include="Library\LedBillBoard.cs" />
+    <Compile Include="Library\Interpolate.cs" />
+    <Compile Include="Library\Effect\DepthMap.cs" />
+    <Compile Include="Library\Effect\DepthShadow.cs" />
+    <Compile Include="Library\Effect\Fog.cs" />
+    <Compile Include="Library\Blur.cs" />
+    <Compile Include="Character\EBurrfish.cs" />
+    <Compile Include="Library\Interpolate3.cs" />
+    <Compile Include="Library\CollisionModel.cs" />
+    <Compile Include="Library\Curve.cs" />
+    <Compile Include="Character\EHeteroconger.cs" />
+    <Compile Include="Library\Effect\Basic.cs" />
+    <Compile Include="Library\BillBoard.cs" />
+    <Compile Include="Library\Camera.cs" />
+    <Compile Include="Library\Collision.cs" />
+    <Compile Include="Character\Enemy.cs" />
+    <Compile Include="Library\Effect\EffectManager.cs" />
+    <Compile Include="Library\Effect\EffectParent.cs" />
+    <Compile Include="Library\Particle.cs" />
+    <Compile Include="Library\Effect\Phong.cs" />
+    <Compile Include="Library\MultiTexture.cs" />
+    <Compile Include="Library\LightTrail.cs" />
+    <Compile Include="Library\LightTrailL.cs" />
+    <Compile Include="ObjectManager.cs" />
+    <Compile Include="Character\EOctopus.cs" />
+    <Compile Include="PlayScore.cs" />
+    <Compile Include="ScoreInfomation.cs" />
+    <Compile Include="Sequence\Loading.cs" />
+    <Compile Include="Sequence\Option.cs" />
+    <Compile Include="Sequence\Play\PlayStart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\Result.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="Sequence\Play\Pause.cs" />
+    <Compile Include="Sequence\Play\PlayClear.cs" />
+    <Compile Include="Sequence\GameChild.cs" />
+    <Compile Include="Library\InputManager.cs" />
+    <Compile Include="Library\HLModel.cs" />
+    <Compile Include="Library\ModelStates.cs" />
+    <Compile Include="Library\OBB.cs" />
+    <Compile Include="Sequence\Play\Play.cs" />
+    <Compile Include="Character\Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="GameMain.cs" />
+    <Compile Include="Character\EStarfish.cs" />
+    <Compile Include="Sequence\Title.cs" />
+    <Compile Include="Library\SpriteBoard.cs" />
+    <Compile Include="Library\Effect\Wrapped.cs" />
+    <Compile Include="Character\EShark.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="Stage.cs" />
+    <Compile Include="Library\TransparentModelManager.cs" />
+    <Compile Include="StaticObject.cs" />
+    <Compile Include="Sequence\Tutorial.cs" />
+    <Compile Include="UIManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GameThumbnail.png" />
+    <Content Include="icon_48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SkinnedModel\SkinnedModel.csproj">
+      <Project>{AF013B73-D404-43AB-89DA-0F230772D36A}</Project>
+      <Name>SkinnedModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonicLateContent\SonicLateContent.contentproj">
+      <Name>SonicLateContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 および x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows インストーラー 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--type="敵の種類" position="敵の出現位置" angle="敵の初期角度(省略可)-->
+<EnemyData>
+  <checkPoint/>
+  <item id="1" type="jellyfish" position="44.68777, -5188, 120842.7" angle="0, -0.2531469, 0" />
+  <item id="2" type="jellyfish" position="380.4405, -5278, 119823.7" angle="0, -0.2531469, 0" />
+  <item id="3" type="jellyfish" position="3.344808, -5223, 118925.5" angle="0, -0.2531469, 0" />
+  <item id="4" type="jellyfish" position="272.097, -5023, 117646.9" angle="0, -0.2531469, 0" />
+  <item id="5" type="jellyfish" position="171.8548, -5283, 116556.9" angle="0, -0.253147, 0" />
+  <item id="6" type="jellyfish" position="193.0818, -5038, 114997.2" angle="0, -0.253147, 0" />
+  <item id="7" type="jellyfish" position="556.142, -5258, 113753.1" angle="0, -0.2531469, 0" />
+  <item id="8" type="jellyfish" position="142.4371, -5213, 112437.2" angle="0, -0.253147, 0" />
+  <item id="9" type="jellyfish" position="156.0342, -5053, 111366.2" angle="0, -0.2531469, 0" />
+  <item id="10" type="jellyfish" position="581.0334, -5283, 109962.3" angle="0, -0.2531469, 0" />
+  <item id="11" type="jellyfish" position="106.7362, -5268, 108641.1" angle="0, -0.2531469, 0" />
+  <item id="12" type="jellyfish" position="169.7716, -5088, 107159.1" angle="0, -0.253147, 0" />
+  <item id="13" type="jellyfish" position="500.3156, -5298, 105441.6" angle="0, -0.2531469, 0" />
+  <item id="14" type="jellyfish" position="92.29308, -5258, 104023.8" angle="0, -0.2531469, 0" />
+  <item id="15" type="jellyfish" position="737.8157, -5368, 102346.4" angle="0, -0.2531469, 0" />
+  <item id="16" type="jellyfish" position="134.242, -5208, 100965.9" angle="0, -0.253147, 0" />
+  <item id="17" type="jellyfish" position="300.7097, -5078, 99144.09" angle="0, -0.2531469, 0" />
+</EnemyData>
